@@ -1,0 +1,1325 @@
+[
+  {
+    "item_id": "ITEM-20261104-001",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "招商局狮子山实验室发布具身推理模型驭物Lion-ER-35B-A3B",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "招商局先进技术研究院",
+          "招商局狮子山人工智能实验室"
+        ],
+        "action": "发布具身推理视觉语言模型「驭物™ Lion-ER-35B-A3B」，采用MoE架构，总参数约35B，每Token仅激活约3B参数，在十项主流具身相关基准上实现全部指标上涨",
+        "target_objects": [
+          "驭物™ Lion-ER-35B-A3B",
+          "具身推理视觉语言模型",
+          "MoE混合专家模型架构",
+          "具身数据引擎",
+          "能力蓝图"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "招商局先进技术研究院下属狮子山人工智能实验室发布具身推理视觉语言模型「驭物™ Lion-ER-35B-A3B」，采用MoE架构总参数约35B、每Token仅激活约3B参数，通过能力牵引的具身数据引擎而非盲目堆砌数据，在十项主流具身基准上实现全部指标上涨。团队将具身推理拆解为实体、空间、时序、物理、可供性、任务、社会、证据等8个一级领域、39项二级能力。",
+        "metrics": [
+          {
+            "metric_name": "模型总参数",
+            "value": "约35B",
+            "scope_note": "MoE混合专家架构"
+          },
+          {
+            "metric_name": "每Token激活参数",
+            "value": "约3B",
+            "scope_note": "稀疏激活"
+          },
+          {
+            "metric_name": "具身基准提升数量",
+            "value": "十项主流具身相关基准全部指标上涨",
+            "scope_note": "多项核心能力超越更大参数量主流模型"
+          },
+          {
+            "metric_name": "能力蓝图一级领域数",
+            "value": "8个",
+            "scope_note": "实体、空间、时序、物理、可供性、任务、社会、证据"
+          },
+          {
+            "metric_name": "能力蓝图二级能力数",
+            "value": "39项",
+            "scope_note": ""
+          }
+        ],
+        "entity_aliases_discovered": {
+          "驭物™ Lion-ER-35B-A3B": "招商局狮子山具身推理视觉语言模型",
+          "狮子山人工智能实验室": "招商局先进技术研究院下属机构"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "招商局先进技术研究院",
+          "招商局狮子山人工智能实验室"
+        ],
+        "targets_normalized": [
+          "招商局狮子山具身推理视觉语言模型",
+          "具身推理视觉语言模型",
+          "MoE混合专家模型架构",
+          "具身数据引擎",
+          "能力蓝图"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-04T10:08:38Z",
+    "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型"
+  },
+  {
+    "item_id": "ITEM-20261104-002",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文为超维动力在香港金融科技周的展台宣传与CEO圆桌发言，无独立信源，属企业公关通稿",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "超维动力携全栈具身智能矩阵亮相2026香港金融科技周",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "超维动力 (Kinetix AI)",
+          "恒生银行"
+        ],
+        "action": "在香港金融科技周×StartmeupHK 2026展出全栈具身智能产品矩阵，包括SMASH乒乓机器人系统、KAIBot人形机器人、KAI Hand灵巧手及KAI Halo数采头环，并联合恒生银行打造互动体验区",
+        "target_objects": [
+          "SMASH高动态人形机器人乒乓系统",
+          "KAIBot人形机器人 (117 DoF)",
+          "KAI Hand灵巧手 (37 DoF)",
+          "KAI Halo第一人称数采头环",
+          "超维动力全栈具身智能大模型"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国香港",
+        "factual_summary": "超维动力在香港金融科技周展出全栈具身智能产品矩阵，核心产品SMASH乒乓机器人可在毫秒级完成来球识别与击球规划，KAIBot搭载117个自由度与18000个触觉感知触点。CEO喻杰在圆桌论坛阐述全栈路线逻辑，认为通用人形机器人是具身智能产业终局，全栈自研可构筑技术壁垒并降低数据成本。香港商务及经济发展局局长丘应桦到场与机器人互动。",
+        "metrics": [
+          {
+            "metric_name": "KAIBot全身自由度",
+            "value": "117 DoF",
+            "scope_note": "官方宣称全球最高自由度超高拟人人形机器人"
+          },
+          {
+            "metric_name": "KAIBot触觉感知触点数量",
+            "value": "18000个",
+            "scope_note": "覆盖率80%的定制触觉皮肤，可识别低至0.1N力度"
+          },
+          {
+            "metric_name": "KAIBot机身规格",
+            "value": "173cm / 70kg",
+            "scope_note": "拟人体态设计"
+          },
+          {
+            "metric_name": "KAI Hand自由度",
+            "value": "37个（含20主动、1被动、16柔顺）",
+            "scope_note": "与真人手掌1:1尺寸还原"
+          },
+          {
+            "metric_name": "SMASH击球响应时间",
+            "value": "毫秒级",
+            "scope_note": "完成来球识别、轨迹计算与击球动作规划"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Kinetix AI": "超维动力",
+          "SMASH": "高动态人形机器人乒乓系统",
+          "KAIBot": "超高拟人人形机器人本体",
+          "KAI Hand": "超高自由度灵巧手",
+          "KAI Halo": "第一人称数采头环"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "超维动力 (Kinetix AI)",
+          "恒生银行"
+        ],
+        "targets_normalized": [
+          "SMASH高动态人形机器人乒乓系统",
+          "KAIBot人形机器人 (117 DoF)",
+          "KAI Hand灵巧手 (37 DoF)",
+          "KAI Halo第一人称数采头环",
+          "超维动力全栈具身智能大模型"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-04T08:59:57Z",
+    "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场"
+  },
+  {
+    "item_id": "ITEM-20261104-003",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文为虎鲸文娱集团「鲸锐AI」平台上线宣传稿，含CTO引言、内测用户好评、平台优势罗列，缺乏独立第三方信源，属典型企业公关软文。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "虎鲸文娱上线AI影视制作平台「鲸锐AI」",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "虎鲸文娱集团"
+        ],
+        "action": "正式上线行业首个AI影视制作与管理平台「鲸锐AI」，集成50余个主流AI视频生成模型与10余个自研模型",
+        "target_objects": [
+          "鲸锐AI平台",
+          "AI视频生成模型",
+          "自研模型",
+          "五类精控套件",
+          "35类工具",
+          "300余项精控能力",
+          "AI人脸修复",
+          "超分与HDR方案"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "虎鲸文娱集团于11月4日正式上线AI影视制作与管理平台「鲸锐AI」，集成50余个主流AI视频生成模型与10余个自研模型，支持千级节点无限画布与百人实时协同创作。平台提供五类精控套件、35类工具及300余项精控能力，宣称AI视频单分钟成本较传统方式节省30%以上，制作时长缩短40%至60%，超分直出方案可节省约65%成本。测试期间已支持百余部项目落地生产。",
+        "metrics": [
+          {
+            "metric_name": "AI视频单分钟成本节省比例",
+            "value": "30%以上",
+            "scope_note": "相较传统AI生成方式"
+          },
+          {
+            "metric_name": "视频制作时长缩短比例",
+            "value": "40%至60%",
+            "scope_note": "同一人、同场戏、同时长对比条件下用户实测"
+          },
+          {
+            "metric_name": "超分直出方案成本节省比例",
+            "value": "约65%",
+            "scope_note": "相较传统导出—后期—回传流程"
+          },
+          {
+            "metric_name": "集成主流AI视频生成模型数量",
+            "value": "50余个",
+            "scope_note": "平台集成"
+          },
+          {
+            "metric_name": "自研模型数量",
+            "value": "10余个",
+            "scope_note": "平台集成"
+          },
+          {
+            "metric_name": "精控能力数量",
+            "value": "300余项",
+            "scope_note": "覆盖镜头、表演、光影、站位、场景编辑"
+          },
+          {
+            "metric_name": "测试期间支持项目数量",
+            "value": "百余部",
+            "scope_note": "覆盖剧集、少儿、动漫、商业广告等全品类"
+          },
+          {
+            "metric_name": "前8个月全国上线微短剧数量",
+            "value": "43万部",
+            "scope_note": "国家广播电视总局数据，AI生成类占比超九成"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "鲸锐AI": "虎鲸文娱AI影视制作与管理平台"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "虎鲸文娱集团"
+        ],
+        "targets_normalized": [
+          "鲸锐AI平台",
+          "AI视频生成模型",
+          "自研模型",
+          "五类精控套件",
+          "35类工具",
+          "300余项精控能力",
+          "AI人脸修复",
+          "超分与HDR方案"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-04T08:49:12Z",
+    "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上"
+  },
+  {
+    "item_id": "ITEM-20261104-004",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "文章为openJiuwen AgentMemory产品发布通稿，缺乏独立信源验证，通篇单方面宣传产品功能与效果数据",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "openJiuwen发布AgentMemory多模态记忆能力OmniMem-Lens",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "openJiuwen"
+        ],
+        "action": "正式上线多模态记忆能力OmniMem-Lens，支持Agent按真实事件而非固定时间窗口切分长视频",
+        "target_objects": [
+          "AgentMemory",
+          "OmniMem-Lens",
+          "多模态记忆能力",
+          "长视频事件分割",
+          "Agent记忆系统"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "openJiuwen旗下AgentMemory上线OmniMem-Lens多模态记忆能力，针对现有Agent按固定时间窗口切分长视频导致记忆碎片化问题，提出按真实事件分割方案，宣称召回精度最高提升45.7%、在线问答时延最高降低97%。",
+        "metrics": [
+          {
+            "metric_name": "召回精度提升",
+            "value": "最高45.7%",
+            "scope_note": "官方宣称数据，未经第三方验证"
+          },
+          {
+            "metric_name": "在线问答时延降低",
+            "value": "最高97%",
+            "scope_note": "官方宣称数据，未经第三方验证"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "AgentMemory": "openJiuwen AgentMemory",
+          "OmniMem-Lens": "多模态记忆能力"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "openJiuwen"
+        ],
+        "targets_normalized": [
+          "openJiuwen AgentMemory",
+          "多模态记忆能力",
+          "长视频事件分割",
+          "Agent记忆系统"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-04T02:49:02Z",
+    "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落"
+  },
+  {
+    "item_id": "ITEM-20261104-005",
+    "quality_flags": [
+      "MULTI_TOPIC_DIGEST"
+    ],
+    "quality_reason": "极客早报合集，包含苹果AI测试、OpenAI搜索量、Seedance海外收入、百度世界模型、腾讯AI搜索等多个独立新闻小节",
+    "discarded_subtopics": [
+      "腾讯12.8亿用户蝉联中国互联网第一及QuestMobile秋季大报告（传统互联网用户数据）",
+      "苹果首款折叠屏手机iPhone Duo仓促提前发布致库存短缺（硬件供应链问题）",
+      "苹果新任CEO回应iPadOS和macOS系统合并（系统战略回应）",
+      "腾讯《王者荣耀》开放iPhone Duo机型120帧模式（传统游戏适配）",
+      "QuestMobile报告豆包、DeepSeek月人均使用次数数据（AI应用使用数据，非核心事件）",
+      "英特尔股价10月下跌45%（传统芯片业务财报，非AI核心）",
+      "Isomorphic Labs总裁谈AI制药未来（行业观点，无具体产品或事件）"
+    ],
+    "extracted_events": [
+      {
+        "event_title": "苹果向国行iPhone用户推送iOS 27.3开发者Beta版开放Apple智能测试",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple",
+          "Alibaba Qwen"
+        ],
+        "action": "推送iOS 27.3首个开发者Beta版，国行iPhone用户开始测试首批Apple智能功能，与阿里巴巴合作在部分体验中接入千问",
+        "target_objects": [
+          "iOS 27.3",
+          "Apple智能",
+          "千问",
+          "Siri",
+          "写作工具",
+          "视觉智能"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "苹果向开发者推送iOS 27.3首个Beta版，国行iPhone用户开始测试Apple智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行Apple智能与阿里巴巴达成合作，在部分体验中接入千问，覆盖文本与图像理解能力。正式版计划于12月推出。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "国行Apple智能": "Apple Intelligence中国大陆版",
+          "千问": "Alibaba Qwen"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Apple",
+          "Alibaba Qwen"
+        ],
+        "targets_normalized": [
+          "iOS 27.3",
+          "Apple Intelligence",
+          "Alibaba Qwen",
+          "Siri",
+          "写作工具",
+          "视觉智能",
+          "实时翻译",
+          "智绘表情"
+        ]
+      },
+      {
+        "event_title": "OpenAI将停用旧版ChatGPT Classic应用并合并聊天和工作标签页",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "宣布ChatGPT Classic将于2027年1月30日停止服务，并测试整合Chat和Work功能的统一体验",
+        "target_objects": [
+          "ChatGPT Classic",
+          "Chat标签页",
+          "Work标签页"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "OpenAI告知用户ChatGPT Classic将于2027年1月30日正式停止服务，聊天记录将迁移至新版ChatGPT应用。OpenAI正在测试整合Chat和Work功能的统一体验，总裁Greg Brockman此前承认新版界面「确实有点混乱」，希望年底前取消Work标签页。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-026"
+        ],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "ChatGPT Classic",
+          "Chat标签页",
+          "Work标签页"
+        ]
+      },
+      {
+        "event_title": "苹果开放Siri AI第三方App操作能力引入App Skills机制",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple"
+        ],
+        "action": "推送iOS 27.3 Developer Preview，进一步开放Siri AI对第三方App的操作能力，引入App Skills机制",
+        "target_objects": [
+          "Siri AI",
+          "iOS 27.3",
+          "App Skills",
+          "第三方App"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "苹果向开发者推送iOS 27.3 Developer Preview，允许开发者向Siri提供应用内操作接口。Siri可结合自然语言指令、个人上下文和屏幕内容执行任务，并引入App Skills机制让开发者把多个操作组合成可调用任务。更新也扩展了Siri对苹果自有应用的操作能力。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "App Skills": "应用技能"
+        },
+        "candidate_event_ids": [
+          "EVT-041"
+        ],
+        "actors_normalized": [
+          "Apple"
+        ],
+        "targets_normalized": [
+          "Siri AI",
+          "iOS 27.3",
+          "应用技能",
+          "第三方App"
+        ]
+      },
+      {
+        "event_title": "苹果调整App Store年龄分级要求约会及恋爱类应用最低18+",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Apple"
+        ],
+        "action": "宣布自11月16日起在App Store Connect年龄分级问卷中新增位置共享和约会与关系两项内容描述，含约会与关系功能的应用最低年龄分级为18+",
+        "target_objects": [
+          "App Store年龄分级政策",
+          "约会应用",
+          "AI伴侣应用"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "苹果发布公告，自11月16日起在App Store Connect年龄分级问卷中新增位置共享和约会与关系两项内容描述。包含约会与关系功能的应用最低年龄分级为18+，涵盖真人约会及虚拟伴侣功能。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-035"
+        ],
+        "actors_normalized": [
+          "Apple"
+        ],
+        "targets_normalized": [
+          "App Store年龄分级政策",
+          "约会应用",
+          "AI伴侣应用"
+        ]
+      },
+      {
+        "event_title": "曝字节跳动视频生成模型Seedance海外收入占比达50%",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "ByteDance",
+          "ByteDance Seedance",
+          "Tencent",
+          "Bilibili"
+        ],
+        "action": "据《智能涌现》爆料，字节跳动旗下视频生成模型Seedance海外收入占比已达50%，过去半年海外市场收入增长近5倍",
+        "target_objects": [
+          "Seedance",
+          "Seedance 2.5 4K"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "据《智能涌现》爆料，字节跳动旗下视频生成模型Seedance海外收入占比已达50%，过去半年海外市场收入增长近5倍。腾讯位列Seedance中国区客户前三，B站进入前十。10月23日火山引擎发布Seedance 2.5 4K。",
+        "metrics": [
+          {
+            "metric_name": "海外收入占比",
+            "value": "50%",
+            "scope_note": "Seedance模型整体收入"
+          },
+          {
+            "metric_name": "海外市场收入增长",
+            "value": "近5倍",
+            "scope_note": "过去半年"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Seedance": "字节跳动视频生成模型"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "ByteDance",
+          "ByteDance Seedance",
+          "Tencent",
+          "Bilibili"
+        ],
+        "targets_normalized": [
+          "字节跳动视频生成模型",
+          "Seedance 2.5 4K"
+        ]
+      },
+      {
+        "event_title": "OpenAI称ChatGPT搜索量已达谷歌的20%",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "OpenAI",
+          "Google"
+        ],
+        "action": "OpenAI消费产品负责人Adam Fry表示ChatGPT当前触发的网络搜索请求量已相当于谷歌搜索量的约20%",
+        "target_objects": [
+          "ChatGPT搜索功能",
+          "Google搜索"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "OpenAI消费产品负责人Adam Fry表示ChatGPT当前触发的网络搜索请求量已相当于谷歌搜索量的约20%。统计口径为用户问题触发实际网络检索的次数，不包括未调用搜索的普通聊天。OpenAI未完整解释用于对比的谷歌搜索数据来源，该比例属于公司自己的估算。",
+        "metrics": [
+          {
+            "metric_name": "ChatGPT搜索量占谷歌比例",
+            "value": "约20%",
+            "scope_note": "OpenAI自行估算，统计口径为触发实际网络检索的次数"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-042"
+        ],
+        "actors_normalized": [
+          "OpenAI",
+          "Google"
+        ],
+        "targets_normalized": [
+          "ChatGPT搜索功能",
+          "Google搜索"
+        ]
+      },
+      {
+        "event_title": "百度Apollo发布全模态世界模型Apollo World用于无人驾驶验证",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Baidu",
+          "Baidu Apollo"
+        ],
+        "action": "百度在AI Day·Apollo专场首次披露世界模型Apollo World，能生成供无人车测试的虚拟城市并实时生成摄像头画面和激光雷达点云",
+        "target_objects": [
+          "Apollo World",
+          "全模态世界模型",
+          "萝卜快跑"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "百度在AI Day·Apollo专场首次披露世界模型Apollo World，能生成供无人车测试的虚拟城市，车辆和行人由AI智能体控制。模型实时生成摄像头画面和激光雷达点云，让自动驾驶系统在虚拟环境中完成感知、决策和反馈循环。目前已用于萝卜快跑的测试与验证。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Apollo World": "百度全模态世界模型"
+        },
+        "candidate_event_ids": [
+          "EVT-070"
+        ],
+        "actors_normalized": [
+          "Baidu",
+          "Baidu Apollo"
+        ],
+        "targets_normalized": [
+          "全模态世界模型",
+          "百度自动驾驶出行服务"
+        ]
+      },
+      {
+        "event_title": "腾讯据报将发布面向C端用户的AI搜索引擎",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Tencent"
+        ],
+        "action": "有媒体称腾讯即将发布一款面向C端用户的AI搜索引擎，界面极简、全面AI化，强化权威信源排序",
+        "target_objects": [
+          "腾讯AI搜索引擎",
+          "元宝App",
+          "腾讯云元宝搜索API"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "有媒体称腾讯即将发布一款面向C端用户的AI搜索引擎，界面极简、全面AI化，强化权威信源排序，将AI问答与网页搜索揉在同一体验里。腾讯内部人士透露，该搜索引擎与元宝App内置搜索、腾讯云元宝搜索API共享同一套底层能力。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Tencent"
+        ],
+        "targets_normalized": [
+          "腾讯AI搜索引擎",
+          "元宝App",
+          "腾讯云元宝搜索API"
+        ]
+      }
+    ],
+    "source": "极客公园",
+    "published_at": "2026-11-04T00:28:02Z",
+    "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道"
+  },
+  {
+    "item_id": "ITEM-20261104-006",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "富士胶片因AI数据存储需求扩大磁带产能",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "富士胶片"
+        ],
+        "action": "宣布大幅扩大磁带产能以应对云服务商和数据中心对海量数据备份需求的增长",
+        "target_objects": [
+          "磁带介质",
+          "磁带备份存储",
+          "AI数据中心数据备份"
+        ],
+        "event_time": "2026-11-04",
+        "location": "日本",
+        "factual_summary": "富士胶片宣布大幅增加磁带产能，原因是大型云服务商和数据中心运营商正在扩大对磁带的使用。磁带能以相对较低成本存储海量数据，且可实现物理隔离（air-gap），为AI时代的数据备份提供最后一道防线。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "富士胶片"
+        ],
+        "targets_normalized": [
+          "磁带介质",
+          "磁带备份存储",
+          "AI数据中心数据备份"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-04T11:26:51Z",
+    "title": "富士胶片因 AI 热加大磁带产能"
+  },
+  {
+    "item_id": "ITEM-20261104-007",
+    "quality_flags": [],
+    "quality_reason": "内容客观，无标题党、广告或旧闻问题，核心事件为Nexus Mods公布AI生成内容政策。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Nexus Mods公布AI生成内容政策要求强制披露AI使用情况",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Nexus Mods"
+        ],
+        "action": "公布AI生成内容政策，要求新上传Mod强制披露是否使用AI，并引入新授权选项",
+        "target_objects": [
+          "Nexus Mods平台",
+          "AI生成模组",
+          "AI辅助模组",
+          "模组AI标签",
+          "模组授权选项"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "Nexus Mods公布AI生成内容政策，未禁止AI生成Mod但设定更严格规定：新上传Mod必须披露是否使用AI，AI辅助Mod须说明使用方式与范围，现有Mod需在2027年1月2日前合规。平台引入「需征求作者同意」等授权选项，并承诺不用用户Mod训练AI或出售给AI公司，同时严禁用生成式AI制作虚假游戏截图。",
+        "metrics": [
+          {
+            "metric_name": "现有Mod合规截止日期",
+            "value": "2027-01-02",
+            "scope_note": "现有Mod须在此日期前符合新披露要求"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-039"
+        ],
+        "actors_normalized": [
+          "Nexus Mods"
+        ],
+        "targets_normalized": [
+          "Nexus Mods平台",
+          "AI生成模组",
+          "AI辅助模组",
+          "模组AI标签",
+          "模组授权选项"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-04T10:57:52Z",
+    "title": "Nexus Mods 公布 AI 生成内容政策"
+  },
+  {
+    "item_id": "ITEM-20261104-008",
+    "quality_flags": [],
+    "quality_reason": "内容与标题一致，报道苹果在中国推出Apple Intelligence，信息明确无夸大。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "苹果在中国推出基于阿里千问模型的Apple Intelligence功能",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple",
+          "Alibaba Qwen"
+        ],
+        "action": "在中国市场通过iOS 27.3开发者Beta版推出Apple Intelligence功能，基于阿里巴巴千问模型",
+        "target_objects": [
+          "Apple Intelligence",
+          "iOS 27.3",
+          "Alibaba Qwen",
+          "Siri",
+          "实时翻译",
+          "写作工具",
+          "视觉智能",
+          "智绘表情"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "苹果从11月4日起在中国推出Apple Intelligence，基于与阿里巴巴合作的千问模型，用户可通过iOS 27.3开发者Beta版测试，正式版将于12月随iOS 27.3发布。首批功能包括实时翻译、写作工具、视觉智能、照片消除工具、Siri接入千问等。",
+        "metrics": [
+          {
+            "metric_name": "正式发布日期",
+            "value": "2026年12月",
+            "scope_note": "随iOS 27.3正式版发布"
+          },
+          {
+            "metric_name": "首批AI功能数量",
+            "value": "约18项",
+            "scope_note": "涵盖翻译、写作、视觉智能、邮件、通知、备忘录、通话等"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Apple Intelligence": "苹果AI功能",
+          "千问": "Alibaba Qwen"
+        },
+        "candidate_event_ids": [
+          "EVT-076"
+        ],
+        "actors_normalized": [
+          "Apple",
+          "Alibaba Qwen"
+        ],
+        "targets_normalized": [
+          "Apple Intelligence",
+          "iOS 27.3",
+          "Alibaba Qwen",
+          "Siri",
+          "实时翻译",
+          "写作工具",
+          "视觉智能",
+          "智绘表情"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-04T09:55:53Z",
+    "title": "苹果开始在中国推出 Apple Intelligence"
+  },
+  {
+    "item_id": "ITEM-20261104-009",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "SUSE因AI与自动化影响计划裁员约十分之一员工",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "SUSE",
+          "EQT Partners (殷拓集团)"
+        ],
+        "action": "宣布因自动化和AI降低部分岗位需求，计划裁减约十分之一员工",
+        "target_objects": [
+          "SUSE员工",
+          "SUSE组织架构",
+          "SUSE成本结构"
+        ],
+        "event_time": "2026-11-04",
+        "location": "德国",
+        "factual_summary": "德国开源软件公司SUSE现有约1900名员工，CEO Dirk-Peter van Leeuwen宣布因自动化和AI从根本上改变软件公司运营方式，计划裁减约十分之一员工。该决定在公司被瑞典私募股权殷拓集团收购后进行战略审视后做出，受影响员工将在11月4日前收到通知。",
+        "metrics": [
+          {
+            "metric_name": "计划裁员比例",
+            "value": "约10%（约190人）",
+            "scope_note": "基于现有1900名员工总数"
+          },
+          {
+            "metric_name": "现有员工总数",
+            "value": "1900人",
+            "scope_note": "SUSE全球员工数"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "殷拓集团": "EQT Partners"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "SUSE",
+          "EQT Partners (殷拓集团)"
+        ],
+        "targets_normalized": [
+          "SUSE员工",
+          "SUSE组织架构",
+          "SUSE成本结构"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-04T08:23:37Z",
+    "title": "SUSE 因 AI 而计划裁员十分之一"
+  },
+  {
+    "item_id": "ITEM-20261104-010",
+    "quality_flags": [
+      "STALE_NEWS"
+    ],
+    "quality_reason": "正文为币安官方披露的黑客攻击初步调查报告，事实清晰，无标题党或公关稿特征。；事件实际发生日(2026-06-01)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "币安披露黑客通过虚假面试与供应链攻击窃取63亿美元加密货币",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "币安 (Binance)"
+        ],
+        "action": "黑客通过篡改Homebrew安装程序的供应链攻击及伪装求职面试的社会工程攻击入侵币安工程师设备，窃取价值63亿美元加密货币",
+        "target_objects": [
+          "币安钱包基础设施",
+          "工程师笔记本电脑",
+          "Homebrew安装程序",
+          "加密货币资产"
+        ],
+        "event_time": "2026-06-01",
+        "location": "全球",
+        "factual_summary": "币安官方博客披露初步调查报告：2026年6月黑客通过篡改热门AI编程工具的Homebrew安装程序对钱包开发运维团队工程师实施供应链攻击；9月又通过虚假求职面试（冒充项目总监与CEO两轮视频面试）诱使另一名工程师下载含恶意代码的代码仓库，最终窃取价值63亿美元的加密货币。攻击采用复杂代码混淆和规避检测技术。",
+        "metrics": [
+          {
+            "metric_name": "被盗加密货币价值",
+            "value": "63亿美元",
+            "scope_note": "币安官方披露的初步调查数据"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "工程师A": "币安钱包开发运维团队工程师（匿名）",
+          "工程师B": "币安软件工程师（匿名）"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "币安 (Binance)"
+        ],
+        "targets_normalized": [
+          "币安钱包基础设施",
+          "工程师笔记本电脑",
+          "Homebrew安装程序",
+          "加密货币资产"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-04T06:07:00Z",
+    "title": "币安称黑客通过虚假工作面试入侵工程师笔记本电脑"
+  },
+  {
+    "item_id": "ITEM-20261104-011",
+    "quality_flags": [],
+    "quality_reason": "正文为客观诉讼事件报道，无标题党、软文或广告成分，事实清晰。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "纽约时报等出版商起诉Brave抓取版权内容并提供给AI公司",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "The New York Times",
+          "Daily News",
+          "Chicago Tribune",
+          "Orlando Sentinel",
+          "Brave Software",
+          "Anthropic",
+          "Perplexity",
+          "Mistral",
+          "xAI",
+          "Cohere"
+        ],
+        "action": "在曼哈顿联邦法院提起诉讼，指控Brave未经许可抓取超过300亿网页建立索引数据库并提供给AI公司，同时通过Paywall blocker功能帮助用户绕过数百家新闻媒体付费墙",
+        "target_objects": [
+          "Brave Index（Brave索引数据库）",
+          "Brave Paywall blocker功能",
+          "Brave广告拦截与自有广告业务",
+          "Anthropic",
+          "Perplexity",
+          "Mistral",
+          "xAI",
+          "Cohere"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "《纽约时报》《芝加哥论坛报》《奥兰多哨兵报》等出版商在曼哈顿联邦法院起诉Brave Software，指控其未经许可抓取网站内容建立Brave Index索引数据库，并将该数据库提供给Anthropic、Perplexity、Mistral、xAI和Cohere等AI公司，同时通过Paywall blocker功能帮助用户绕过数百家新闻媒体付费墙。",
+        "metrics": [
+          {
+            "metric_name": "Brave Index索引网页规模",
+            "value": "超过300亿网页",
+            "scope_note": "Brave声称其索引规模超过300亿网页"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Brave Index": "Brave索引数据库",
+          "Paywall blocker": "付费墙绕过功能"
+        },
+        "candidate_event_ids": [
+          "EVT-003"
+        ],
+        "actors_normalized": [
+          "The New York Times",
+          "Daily News",
+          "Chicago Tribune",
+          "Orlando Sentinel",
+          "Brave",
+          "Anthropic",
+          "Perplexity",
+          "Mistral",
+          "xAI",
+          "Cohere"
+        ],
+        "targets_normalized": [
+          "Brave Index（Brave索引数据库）",
+          "Brave Paywall blocker功能",
+          "Brave广告拦截与自有广告业务",
+          "Anthropic",
+          "Perplexity",
+          "Mistral",
+          "xAI",
+          "Cohere"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-03T16:58:29Z",
+    "title": "纽约时报等起诉 Brave 绕过付费墙抓取内容并提供给 AI 公司"
+  },
+  {
+    "item_id": "ITEM-20261104-012",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Google针对K-12学校AI功能默认关闭政策，无标题党或广告问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google宣布K-12学校禁用AI功能将同步关闭搜索服务",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Google"
+        ],
+        "action": "宣布美国K-12学校学生使用的软件将默认关闭所有AI功能，若学校禁用AI则学生将无法使用搜索服务",
+        "target_objects": [
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom",
+          "Google Search",
+          "AI Overviews"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Google负责教育的副总裁Chris Phillips表示，搜索与AI已深度融合，学校若选择禁用AI功能，学生将无法使用搜索服务。此举旨在回应教育工作者和家长希望对孩子AI互动有更多掌控权的诉求。美国K-12学校广泛使用Gmail、Docs、Classroom及Chromebook等Google产品。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-034"
+        ],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom",
+          "Google Search",
+          "AI Overviews"
+        ]
+      }
+    ],
+    "source": "Solidot",
+    "published_at": "2026-11-03T16:33:42Z",
+    "title": "Google 将对拒绝 AI 的美国学校关闭搜索"
+  },
+  {
+    "item_id": "ITEM-20261104-013",
+    "quality_flags": [],
+    "quality_reason": "GitHub Release页面，内容为langchain-typesafe包首次发布及迭代记录，无噪音问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "LangChain发布langchain-typesafe 0.0.1正式版本",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "LangChain"
+        ],
+        "action": "发布langchain-typesafe 0.0.1正式版本，包含AutoModeMiddleware、ModelRouterMiddleware等实验性中间件功能",
+        "target_objects": [
+          "langchain-typesafe 0.0.1",
+          "AutoModeMiddleware",
+          "ModelRouterMiddleware",
+          "classifier questions invocation-scoped"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "LangChain发布langchain-typesafe包的0.0.1正式版本，该包此前经历了多个alpha迭代版本（0.0.1a2、0.0.1a3），包含实验性AutoModeMiddleware和ModelRouterMiddleware中间件功能，以及classifier questions invocation-scoped等特性。",
+        "metrics": [
+          {
+            "metric_name": "版本号",
+            "value": "0.0.1",
+            "scope_note": "langchain-typesafe首个正式版本"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "langchain-typesafe": "LangChain类型安全包"
+        },
+        "candidate_event_ids": [
+          "EVT-014"
+        ],
+        "actors_normalized": [
+          "LangChain"
+        ],
+        "targets_normalized": [
+          "langchain-typesafe 0.0.1",
+          "AutoModeMiddleware",
+          "ModelRouterMiddleware",
+          "classifier questions invocation-scoped"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (langchain-ai/langchain)",
+    "published_at": "2026-11-04T00:11:25Z",
+    "title": "langchain-ai/langchain Release langchain-typesafe==0.0.1: langchain-typesafe==0.0.1"
+  },
+  {
+    "item_id": "ITEM-20261104-014",
+    "quality_flags": [],
+    "quality_reason": "GitHub官方Release页面，内容为llama.cpp版本更新b12110，将版本号升级至0.9.0，属正常技术发布信息。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "llama.cpp发布b12110版本并将版本号升级至0.9.0",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "ggml-org",
+          "llama.cpp"
+        ],
+        "action": "发布b12110版本，将项目版本号从先前版本升级至0.9.0",
+        "target_objects": [
+          "llama.cpp b12110",
+          "llama.cpp 0.9.0"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "llama.cpp官方GitHub仓库发布b12110版本，核心变更为将项目版本号升级至0.9.0，同时提供macOS Apple Silicon、macOS Intel及iOS XCFramework等多平台预编译二进制下载。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "ggml-org/llama.cpp": "llama.cpp",
+          "b12110": "llama.cpp b12110版本"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "ggml-org",
+          "llama.cpp"
+        ],
+        "targets_normalized": [
+          "llama.cpp b12110",
+          "llama.cpp 0.9.0"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (ggml-org/llama.cpp)",
+    "published_at": "2026-11-04T12:52:04Z",
+    "title": "ggml-org/llama.cpp Release b12110: b12110"
+  },
+  {
+    "item_id": "ITEM-20261104-015",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道OpenAI将数据中心更名为「算力园区」并推出Grid Protectors计划，属于已有事件EVT-011的媒体报道角度延伸，无标题党或公关稿特征。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI将数据中心更名为「算力园区」并推出Grid Protectors计划",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "在Grid Protectors Program公告中首次将数据中心（data center）改称为「算力园区（compute campus）」，以缓解公众对数据中心能耗与噪音的政治反弹",
+        "target_objects": [
+          "AI Compute Campuses (AI算力园区)",
+          "Grid Protectors Program",
+          "数据中心",
+          "Effingham County, Georgia站点"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "OpenAI在11月2日发布的Grid Protectors Program公告中首次使用「compute campuses」替代「data centers」，首个站点位于佐治亚州Effingham County，旨在应对极端天气下AI基础设施对当地电网的压力。批评者认为OpenAI应正面解决公众对数据中心的担忧而非进行品牌重塑。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "compute campuses": "AI算力园区",
+          "data centers": "数据中心"
+        },
+        "candidate_event_ids": [
+          "EVT-007",
+          "EVT-011"
+        ],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "AI Compute Campuses (AI算力园区)",
+          "Grid Protectors计划",
+          "数据中心",
+          "Effingham County, Georgia站点"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-04T01:52:37Z",
+    "title": "OpenAI is quietly renaming data centers 'compute campuses'"
+  },
+  {
+    "item_id": "ITEM-20261104-016",
+    "quality_flags": [],
+    "quality_reason": "HN社区讨论帖，揭示Gemini订阅用户聊天历史默认用于训练且无法单独退出，属实质性问题披露，非标题党或广告。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google Gemini被曝默认使用用户聊天历史训练模型且订阅用户无法单独退出",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Google"
+        ],
+        "action": "Google Gemini默认将用户保存的聊天历史用于模型训练，个人订阅用户无法单独选择退出，仅能关闭聊天历史或使用临时会话；人工审核员可能阅读这些对话记录",
+        "target_objects": [
+          "Gemini聊天历史",
+          "Gemini个人订阅账户",
+          "Gemini临时会话",
+          "人工审核机制"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "HN社区用户指出，Google Gemini个人订阅用户的全部保存聊天历史默认被用于模型训练，且没有独立退出选项，用户只能完全关闭聊天历史或使用临时会话。Google官方支持页面明确警告不要输入机密信息，并承认人工审核员可能阅读这些记录。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Gemini app activity": "Gemini应用活动记录",
+          "chat history": "聊天历史"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Gemini聊天历史",
+          "Gemini个人订阅账户",
+          "Gemini临时会话",
+          "人工审核机制"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-04T10:10:27Z",
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
+  },
+  {
+    "item_id": "ITEM-20261104-017",
+    "quality_flags": [],
+    "quality_reason": "内容为硬件评测，事实清晰，无标题党或广告嫌疑",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Nvidia RTX Spark笔记本Linux下GPU锁频导致推理速度降至35%",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Nvidia",
+          "MSI",
+          "Asus",
+          "Dell"
+        ],
+        "action": "RTX Spark笔记本在Linux系统下因无法读取电源管理固件导致GPU锁频至约780MHz，推理速度从约65 tokens/s降至不足14 tokens/s",
+        "target_objects": [
+          "Nvidia RTX Spark",
+          "MSI Prestige N16 Flip AI Plus",
+          "Asus ProArt",
+          "Dell XPS",
+          "GPU电源管理固件",
+          "Linux内核驱动"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "Nvidia RTX Spark笔记本（搭载与DGX Spark相同GPU设计）出厂预装Windows on ARM，在Linux下GPU因固件锁频问题被限制在约780MHz，导致120B参数模型推理速度从Windows下的约65 tokens/s骤降至不足14 tokens/s（约35%）。原因在于Linux当前无法读取相关电源管理固件。",
+        "metrics": [
+          {
+            "metric_name": "Linux下GPU锁频",
+            "value": "约780 MHz",
+            "scope_note": "RTX Spark笔记本插入电源后Linux下的GPU频率"
+          },
+          {
+            "metric_name": "Windows下GPU频率",
+            "value": "2 GHz+",
+            "scope_note": "同硬件在Windows下的正常频率"
+          },
+          {
+            "metric_name": "Linux下推理速度",
+            "value": "不足14 tokens/s",
+            "scope_note": "120B参数模型在Linux下的推理速度"
+          },
+          {
+            "metric_name": "Windows下推理速度",
+            "value": "约65 tokens/s",
+            "scope_note": "120B参数模型在Windows下的推理速度"
+          },
+          {
+            "metric_name": "统一内存配置",
+            "value": "最高128GB",
+            "scope_note": "CPU与GPU共享统一内存"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "RTX Spark platform": "Nvidia RTX Spark平台",
+          "DGX Spark": "Nvidia DGX Spark桌面单元",
+          "Windows on ARM": "Windows ARM版"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Nvidia",
+          "MSI",
+          "Asus",
+          "Dell"
+        ],
+        "targets_normalized": [
+          "Nvidia RTX Spark",
+          "MSI Prestige N16 Flip AI Plus",
+          "Asus ProArt",
+          "Dell XPS",
+          "GPU电源管理固件",
+          "Linux内核驱动"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-04T08:46:29Z",
+    "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux"
+  },
+  {
+    "item_id": "ITEM-20261104-018",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Google对K-12学校禁用AI功能连带关闭搜索服务的政策，无夸大或广告成分。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google宣布K-12学校禁用AI功能将同步关闭搜索服务",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Google"
+        ],
+        "action": "Google确认K-12学校管理员若选择关闭Gemini、NotebookLM、Gemini in Classroom等AI功能，Google Search及AI Overviews等搜索服务也将同步关闭",
+        "target_objects": [
+          "Google Search",
+          "AI Overviews",
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Google确认K-12学校管理员若选择关闭Gemini、NotebookLM、Gemini in Classroom等AI功能，Google Search及AI Overviews等搜索服务也将同步关闭。HN社区评论指出存在替代搜索引擎，部分用户认为这是教育领域摆脱Google依赖的机会。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-034"
+        ],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Google Search",
+          "AI Overviews",
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-04T04:40:06Z",
+    "title": "Google will cut off search access for students at schools that reject AI"
+  },
+  {
+    "item_id": "ITEM-20261104-019",
+    "quality_flags": [],
+    "quality_reason": "内容为一个开源编码Agent项目的介绍，无明显标题党、广告或旧闻问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "华为仓颉语言原生编码Agent cjh开源发布",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "华为",
+          "仓颉语言",
+          "yangyongzhen"
+        ],
+        "action": "用华为仓颉语言从零实现交互式编码代理cjh并开源发布，支持终端TUI与Web远程驱动",
+        "target_objects": [
+          "cjh",
+          "仓颉语言",
+          "coding agent harness",
+          "TUI",
+          "Web远程驱动"
+        ],
+        "event_time": "2026-11-04",
+        "location": "中国",
+        "factual_summary": "开发者yangyongzhen使用华为仓颉语言从零实现了交互式编码代理cjh，支持在终端中用自然语言描述任务，Agent自主规划、调用工具、观察结果并迭代直至完成，项目已在GitHub开源。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "cjh": "仓颉语言原生Coding Agent",
+          "coding agent harness": "编码代理框架"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "华为",
+          "仓颉语言",
+          "yangyongzhen"
+        ],
+        "targets_normalized": [
+          "仓颉语言原生Coding Agent",
+          "仓颉语言",
+          "编码代理框架",
+          "TUI",
+          "Web远程驱动"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-04T08:44:14Z",
+    "title": "仓颉语言原生 Coding Agent：cjh，一个文件就是整个开发团队"
+  }
+]

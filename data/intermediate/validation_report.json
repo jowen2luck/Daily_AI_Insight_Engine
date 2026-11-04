@@ -1,0 +1,112 @@
+{
+  "validated_at": "2026-11-04T16:30:45Z",
+  "overall_passed": true,
+  "summary": {
+    "total_raw_items": 99,
+    "total_final_events": 86,
+    "batch_event_counts": {
+      "BATCH-1 (2026-11-02)": 29,
+      "BATCH-2 (2026-11-03)": 71,
+      "BATCH-3 (2026-11-04)": 86
+    },
+    "multi_source_merged_events_count": 18,
+    "cross_lingual_events_count": 10,
+    "metric_corrected_events_count": 3
+  },
+  "checks": [
+    {
+      "check_id": "VAL-01",
+      "name": "数据覆盖率与事件五元组 Schema 完整性校验",
+      "passed": true,
+      "details": "已处理资讯 99/99 条；最终事件实体 86 个，Schema 错误数: 0",
+      "errors": []
+    },
+    {
+      "check_id": "VAL-02",
+      "name": "分类体系、演进状态与质量标签枚举边界校验",
+      "passed": true,
+      "details": "全部 86 个事件的分类与状态均在预设枚举范围内，违规数: 0",
+      "errors": []
+    },
+    {
+      "check_id": "VAL-03",
+      "name": "溯源 Item ID 真实性与零幻觉引用校验",
+      "passed": true,
+      "details": "事件实体表共关联 94 条真实原始资讯 ID，幻觉/无效 ID 数: 0",
+      "errors": []
+    },
+    {
+      "check_id": "VAL-04",
+      "name": "纯商业峰会广告 (EVENT_AD) 识别与拦截校验",
+      "passed": true,
+      "details": "共识别并拦截 3 条纯活动广告 (['ITEM-20261102-026', 'ITEM-20261103-008', 'ITEM-20261103-009'])，混入事件表数量: 0",
+      "errors": []
+    },
+    {
+      "check_id": "VAL-05",
+      "name": "数据质量问题标签检出审计",
+      "passed": true,
+      "details": "各质量标签检出条目统计: UNVERIFIED_RUMOR: 2条, MULTI_TOPIC_DIGEST: 4条, PR_PROMOTION: 19条, EXAGGERATED_TITLE: 3条, EVENT_AD: 3条, STALE_NEWS: 8条",
+      "flagged_items": {
+        "UNVERIFIED_RUMOR": [
+          "ITEM-20261102-023",
+          "ITEM-20261103-036"
+        ],
+        "MULTI_TOPIC_DIGEST": [
+          "ITEM-20261102-005",
+          "ITEM-20261103-026",
+          "ITEM-20261103-050",
+          "ITEM-20261104-005"
+        ],
+        "PR_PROMOTION": [
+          "ITEM-20261102-007",
+          "ITEM-20261102-015",
+          "ITEM-20261102-019",
+          "ITEM-20261102-020",
+          "ITEM-20261103-021",
+          "ITEM-20261103-022",
+          "ITEM-20261103-023",
+          "ITEM-20261103-024",
+          "ITEM-20261103-025",
+          "ITEM-20261103-027",
+          "ITEM-20261103-028",
+          "ITEM-20261103-029",
+          "ITEM-20261103-030",
+          "ITEM-20261103-031",
+          "ITEM-20261103-044",
+          "ITEM-20261103-050",
+          "ITEM-20261104-002",
+          "ITEM-20261104-003",
+          "ITEM-20261104-004"
+        ],
+        "EXAGGERATED_TITLE": [
+          "ITEM-20261103-022",
+          "ITEM-20261103-045",
+          "ITEM-20261103-049"
+        ],
+        "EVENT_AD": [
+          "ITEM-20261102-026",
+          "ITEM-20261103-008",
+          "ITEM-20261103-009"
+        ],
+        "STALE_NEWS": [
+          "ITEM-20261102-012",
+          "ITEM-20261103-012",
+          "ITEM-20261103-023",
+          "ITEM-20261103-024",
+          "ITEM-20261103-025",
+          "ITEM-20261103-042",
+          "ITEM-20261103-043",
+          "ITEM-20261104-010"
+        ]
+      }
+    },
+    {
+      "check_id": "VAL-06",
+      "name": "跨批次事件实体演进与中英文跨源归并校验",
+      "passed": true,
+      "details": "三批次事件实体规模演进: Batch1(29) -> Batch2(71) -> Batch3(86)；多源归并/演进事件: 18 个 (['EVT-002', 'EVT-003', 'EVT-010', 'EVT-011', 'EVT-015', 'EVT-016', 'EVT-024', 'EVT-026', 'EVT-033', 'EVT-034', 'EVT-035', 'EVT-036', 'EVT-039', 'EVT-041', 'EVT-042', 'EVT-061', 'EVT-070', 'EVT-076'])；中英跨语种对齐事件: 10 个 (['EVT-002', 'EVT-003', 'EVT-016', 'EVT-024', 'EVT-026', 'EVT-034', 'EVT-035', 'EVT-039', 'EVT-041', 'EVT-042'])；数据口径修正/对齐事件: 3 个 (['EVT-015', 'EVT-016', 'EVT-061'])",
+      "errors": []
+    }
+  ]
+}

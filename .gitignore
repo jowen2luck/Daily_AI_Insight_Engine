@@ -1,0 +1,30 @@
+# Secrets & Environment Variables
+.env
+*.key
+*.pem
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Temporary Probe & Prototype Directories (Non-deliverables)
+prototype_test/
+data/raw_probe/
+data/staging/
+scripts/archive_probe/
+*.bak
+*.tmp
+
+# Original Assessment Prompt File
+AI应用笔试题-AI舆情分析日报系统-V2.md
+
+# OS / IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,4 @@
+# 本项目核心流水线（数据采集、清洗、LLM 上下文感知抽取、跨批次事件归并、自动校验）
+# 全部基于 Python 3.10+ 标准库实现（urllib, json, re, hashlib, concurrent.futures），零外部強依赖即可一键运行。
+# 下方为明日可视化图表生成所需的可选依赖：
+matplotlib>=3.8.0

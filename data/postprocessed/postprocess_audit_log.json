@@ -1,0 +1,36 @@
+{
+  "timestamp_normalized_count": 99,
+  "geekpark_fulltext_repaired": [
+    {
+      "item_id": "ITEM-20261102-005",
+      "title": "传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+      "old_length": 1902,
+      "new_length": 4089
+    },
+    {
+      "item_id": "ITEM-20261103-024",
+      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
+      "old_length": 1858,
+      "new_length": 4966
+    },
+    {
+      "item_id": "ITEM-20261103-025",
+      "title": "心言巴布「Bubbo 1」：一台机器人，如何成为家人",
+      "old_length": 1665,
+      "new_length": 8358
+    },
+    {
+      "item_id": "ITEM-20261103-026",
+      "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
+      "old_length": 1881,
+      "new_length": 5991
+    },
+    {
+      "item_id": "ITEM-20261104-005",
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "old_length": 2000,
+      "new_length": 5256
+    }
+  ],
+  "tc_banner_cleaned_count": 16
+}

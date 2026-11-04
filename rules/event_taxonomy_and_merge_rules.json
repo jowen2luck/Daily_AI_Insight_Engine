@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "description": "AI 舆情分析日报系统 - 事件分类体系、数据质量标签、实体别名映射与跨批次归并演进规则",
+  "event_categories": [
+    {
+      "id": "CAT-01",
+      "label": "产品与模型发布 (Product & Model Launch)",
+      "scope": "大模型、多模态模型、AI Agent、操作系统级 AI 功能（如 Apple Intelligence / Siri）、AI 搜索引擎及核心应用的正式发布、Beta 测试或停服更新。"
+    },
+    {
+      "id": "CAT-02",
+      "label": "投融资与IPO财报 (Corporate & Financial/IPO)",
+      "scope": "AI 企业的 IPO 招股书披露（如 S-1 文件）、季度财报营收与亏损数据、风险投资融资、重大并购重组及高管人事变动。"
+    },
+    {
+      "id": "CAT-03",
+      "label": "算力基建与能源 (Infrastructure & Energy)",
+      "scope": "AI 数据中心建设、GPU/ASIC 算力集群部署、电力供应瓶颈（如喷气涡轮机发电、电网保护计划）、光通信互连及云算力采购承诺。"
+    },
+    {
+      "id": "CAT-04",
+      "label": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+      "scope": "前沿模型安全风险（如 RSI 递归自我改进阈值、负责任扩展政策 RSP）、网页抓取版权诉讼、数据抓取退出协议（robots.txt / IETF）、AI 欺诈案件及各国监管政策。"
+    },
+    {
+      "id": "CAT-05",
+      "label": "开源生态与技术突破 (Open-Source & Research)",
+      "scope": "开源权重模型、形式化验证/模型身份证明工具、学术基准测试（Benchmark）、算法架构创新（如世界模型、视频扩散潜动作学习、现代模拟计算）及研究论文。"
+    },
+    {
+      "id": "CAT-06",
+      "label": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+      "scope": "企业级 AI 落地的成本与效率实证（如自托管开源模型替代商业 API）、AI 搜索对传统互联网流量的冲击、AI 自动化引发的裁员及行业商业模式演变。"
+    }
+  ],
+  "quality_flags": {
+    "EXAGGERATED_TITLE": "标题夸大/标题党/悬念隐去主语（正文为常规披露或第三方测评，标题刻意制造恐慌或蹭名人噱头）",
+    "PR_PROMOTION": "商业公关软文/授权通稿（文末含授权转载声明，或通篇单方面宣传某机构获奖/产品而缺乏独立信源）",
+    "EVENT_AD": "纯线下展会/峰会售票促销广告（无实质行业新闻事件，直接拦截不进入事件实体表）",
+    "STALE_NEWS": "旧闻新发/滞后报道（正文中核心事件实际发生日期早于文章发布日期超过 3 天以上）",
+    "UNVERIFIED_RUMOR": "未证实传闻或正文自我证伪（如标题宣称模型权重泄露，正文承认极可能是假仓库）",
+    "MULTI_TOPIC_DIGEST": "多事件早报/晚报合集（单篇包含多个独立新闻小节，需按篇章结构权重与 AI 核心度拆解为独立原子事件并过滤非 AI 噪音）"
+  },
+  "event_tuple_schema": {
+    "required_fields": [
+      "event_title",
+      "category",
+      "actors",
+      "action",
+      "target_objects",
+      "event_time",
+      "location",
+      "factual_summary",
+      "metrics"
+    ],
+    "tuple_definition": {
+      "actors": "参与主体集合（标准化公司、机构、核心人物或模型名称）",
+      "action": "现实世界中发生的客观源头动作（区别于媒体的报道切入视角）",
+      "target_objects": "动作直接作用的具体标的物、产品、法案或文件列表",
+      "event_time": "事件实际发生日期（YYYY-MM-DD，区别于媒体发布日期 published_at）",
+      "location": "事件发生国家或地区",
+      "metrics": "量化数据口径列表（含 metric_name, value, scope_note）"
+    }
+  },
+  "merge_and_evolution_rules": {
+    "states": {
+      "NEW": "首次在当前批次出现的全新独立事件实体。",
+      "CORROBORATED": "多源交叉印证（同批次或跨批次不同媒体/中英文信源对同一客观源头动作的补充报道或不同侧面切入）。",
+      "ONGOING": "跨批次事态新进展（同一事件在后续日期出现官方回应、正式落地或事态升级）。",
+      "CORRECTED": "数据口径修正或辟谣（后续报道提供更精确的官方数据修正早期粗略约数，或澄清/证伪早期传闻）。"
+    },
+    "core_principles": [
+      "Rule 1 - 客观源头动作聚合原则（防漏合）：当两条事件指向同一主体在同一时间窗口内发生的同一个客观源头动作时，即使不同媒体聚焦报道了该动作的不同侧面（如财务数据 vs 安全条款 vs 内部成本），均归并为同一事件实体。",
+      "Rule 2 - 同主体异动作隔离原则（防误合）：即使主体（actors）完全相同，只要客观源头动作（action）与作用标的（target_objects）属于不同独立事件，严禁合并，必须新建独立事件实体。",
+      "Rule 3 - 上下文感知抽取与两级召回：Stage 1 抽取时注入当前事件实体表极简五元组索引，识别正文隐蔽关联与跨语种概念对应；Stage 2 结合 LLM 候选推荐与标准化实体/标的交集进行精准对齐。",
+      "Rule 4 - 五元组渐进更新机制：事件合并时，actors 与 target_objects 执行标准化并集扩充，initial_event_time 与 latest_event_time 动态维护双时间锚点，metrics_ledger 保留全部历史口径并生成最新共识说明（metric_resolution_note）。"
+    ]
+  },
+  "initial_entity_aliases": {
+    "a社": "Anthropic",
+    "anthropic": "Anthropic",
+    "claude": "Anthropic Claude",
+    "claude ai": "Anthropic Claude",
+    "claude code": "Anthropic Claude Code",
+    "google": "Google",
+    "谷歌": "Google",
+    "alphabet": "Google",
+    "apple": "Apple",
+    "苹果": "Apple",
+    "apple智能": "Apple Intelligence",
+    "apple intelligence": "Apple Intelligence",
+    "alibaba": "Alibaba",
+    "阿里巴巴": "Alibaba",
+    "阿里": "Alibaba",
+    "通义千问": "Alibaba Qwen",
+    "千问": "Alibaba Qwen",
+    "千问大模型": "Alibaba Qwen",
+    "qwen": "Alibaba Qwen",
+    "openai": "OpenAI",
+    "xai": "xAI",
+    "马斯克": "Elon Musk",
+    "elon musk": "Elon Musk",
+    "grok": "xAI Grok",
+    "grok bot": "xAI Grok",
+    "the new york times": "The New York Times",
+    "new york times": "The New York Times",
+    "纽约时报": "The New York Times",
+    "《纽约时报》": "The New York Times",
+    "brave": "Brave",
+    "brave software": "Brave",
+    "brave浏览器": "Brave",
+    "revolut": "Revolut",
+    "glm": "Zhipu GLM",
+    "z.ai glm": "Zhipu GLM",
+    "智谱": "Zhipu AI",
+    "智谱ai": "Zhipu AI",
+    "zhipu": "Zhipu AI",
+    "ai算力园区": "AI Compute Campuses (AI算力园区)",
+    "compute campuses": "AI Compute Campuses (AI算力园区)",
+    "microsoft": "Microsoft",
+    "微软": "Microsoft",
+    "meta": "Meta",
+    "nvidia": "Nvidia",
+    "英伟达": "Nvidia",
+    "bytedance": "ByteDance",
+    "字节跳动": "ByteDance",
+    "火山引擎": "ByteDance Volcano Engine",
+    "volcano engine": "ByteDance Volcano Engine",
+    "baidu": "Baidu",
+    "百度": "Baidu",
+    "tencent": "Tencent",
+    "腾讯": "Tencent",
+    "intel": "Intel",
+    "英特尔": "Intel"
+  }
+}

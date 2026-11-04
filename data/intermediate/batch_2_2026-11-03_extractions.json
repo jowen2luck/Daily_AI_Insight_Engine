@@ -1,0 +1,2837 @@
+[
+  {
+    "item_id": "ITEM-20261103-001",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Anthropic开源系统FlashProve，无标题党、软文或广告成分，信源为TechCrunch AI博客文章。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic开发开源系统FlashProve验证AI模型输出身份",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "开发并发布开源系统FlashProve，通过密码学证明验证AI输出确实来自特定模型",
+        "target_objects": [
+          "FlashProve",
+          "可证明推理（provable inference）",
+          "AI模型身份验证",
+          "密码学证明"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Anthropic于周二发布博客文章，介绍开源系统FlashProve，该系统通过密码学证明（即可证明推理）让任何用户验证AI输出确实来自其所声称的特定模型，防止AI公司暗中替换模型以削减成本或虚增性能，也可用于验证第三方关于模型执行特定任务的声明。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "FlashProve": "AI模型身份验证系统",
+          "provable inference": "可证明推理"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "AI模型身份验证系统",
+          "可证明推理（provable inference）",
+          "AI模型身份验证",
+          "密码学证明"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T22:41:03Z",
+    "title": "Anthropic is working on a system to prove AI models’ identity"
+  },
+  {
+    "item_id": "ITEM-20261103-002",
+    "quality_flags": [],
+    "quality_reason": "正文为纽约时报报道的行业趋势分析，引用权威信源，无标题党或公关痕迹",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "AI数据中心因电网接入延迟转向改装退役喷气发动机发电",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "Microsoft",
+          "Nscale",
+          "Mitsubishi Power",
+          "Rystad Energy"
+        ],
+        "action": "数据中心运营商因电网接入排队时间过长，改用从退役飞机拆卸并改装为燃烧天然气的喷气发动机自行发电",
+        "target_objects": [
+          "退役喷气发动机",
+          "天然气发电",
+          "AI数据中心电力供应",
+          "电网接入排队"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "《纽约时报》报道，因电网接入和新涡轮机等待时间长达数年，部分AI数据中心运营商开始使用从退役飞机拆卸并改装为燃烧天然气的喷气发动机自行发电。Rystad Energy分析师Audun Martinsen表示，喷气发动机方案可在24个月内让数据中心运行，而北弗吉尼亚接入100兆瓦电网需约7年。微软上月因当地公用事业公司无法供电，退出成为Nscale英国Loughton数据中心的锚定客户。",
+        "metrics": [
+          {
+            "metric_name": "喷气发动机方案部署时间",
+            "value": "24个月",
+            "scope_note": "Rystad Energy分析师Audun Martinsen向《纽约时报》提供的估算"
+          },
+          {
+            "metric_name": "北弗吉尼亚电网接入100兆瓦所需时间",
+            "value": "约7年",
+            "scope_note": "国际能源署（IEA）数据"
+          },
+          {
+            "metric_name": "多数发电设备新增产能预计上线时间",
+            "value": "2031年",
+            "scope_note": "三菱动力（Mitsubishi Power）高管向彭博社透露"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "converted jet engines": "改装喷气发动机",
+          "jet-powered units": "喷气发动机发电装置"
+        },
+        "candidate_event_ids": [
+          "EVT-007",
+          "EVT-011"
+        ],
+        "actors_normalized": [
+          "Microsoft",
+          "Nscale",
+          "Mitsubishi Power",
+          "Rystad Energy"
+        ],
+        "targets_normalized": [
+          "退役喷气发动机",
+          "天然气发电",
+          "AI数据中心电力供应",
+          "电网接入排队"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T22:19:53Z",
+    "title": "Data centers are turning to old jet engines as the wait for power grows"
+  },
+  {
+    "item_id": "ITEM-20261103-003",
+    "quality_flags": [],
+    "quality_reason": "内容为独立融资新闻，标题与正文一致，无夸大或公关痕迹",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "AI推理服务商Fal完成16.5亿美元E+F轮融资估值160亿美元",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Fal",
+          "Bessemer Venture Partners",
+          "Nvidia",
+          "Sound Ventures",
+          "T. Rowe Price",
+          "Sequoia"
+        ],
+        "action": "完成Series E和Series F两轮合计16.5亿美元融资，最新Series F轮由Bessemer Venture Partners领投，Sequoia领投前轮",
+        "target_objects": [
+          "Fal公司",
+          "AI推理服务",
+          "Series E融资",
+          "Series F融资"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "总部位于旧金山的AI推理服务商Fal完成合计16.5亿美元E+F轮融资，最新一轮由Bessemer领投，英伟达、Sound Ventures及T. Rowe Price参投，估值从4月的80亿美元翻倍至160亿美元。Fal今年年化营收已突破8亿美元，受益于开源模型客户对推理服务需求的激增。",
+        "metrics": [
+          {
+            "metric_name": "Series F融资金额",
+            "value": "13亿美元",
+            "scope_note": "最新一轮，由Bessemer Venture Partners领投"
+          },
+          {
+            "metric_name": "E+F轮合计融资总额",
+            "value": "16.5亿美元",
+            "scope_note": "两轮同时宣布，Sequoia领投较早一轮"
+          },
+          {
+            "metric_name": "最新估值",
+            "value": "160亿美元",
+            "scope_note": "较2026年4月的80亿美元翻倍"
+          },
+          {
+            "metric_name": "年化营收",
+            "value": "超8亿美元",
+            "scope_note": "2026年早些时候突破"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Fal",
+          "Bessemer Venture Partners",
+          "Nvidia",
+          "Sound Ventures",
+          "T. Rowe Price",
+          "Sequoia"
+        ],
+        "targets_normalized": [
+          "Fal公司",
+          "AI推理服务",
+          "Series E融资",
+          "Series F融资"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T19:34:43Z",
+    "title": "AI inference startup Fal doubles its valuation to $16B as demand surges"
+  },
+  {
+    "item_id": "ITEM-20261103-004",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Netflix推出AI Discover标签页基于用户心情推荐影视内容",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Netflix"
+        ],
+        "action": "推出AI Discover标签页，基于用户心情、观看偏好和可用时间提供个性化影视推荐",
+        "target_objects": [
+          "AI Discover标签页",
+          "Netflix推荐系统",
+          "智能推荐引擎"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Netflix宣布推出AI Discover实验性功能标签页，用户可根据当前心情、观看偏好、可用时间等选择主题（如「轻松一下」「吓吓我」「家庭电影之夜」）获取个性化推荐。该功能由Netflix正在构建的新智能层驱动，可实时响应用户输入并持续学习。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Netflix"
+        ],
+        "targets_normalized": [
+          "AI Discover标签页",
+          "Netflix推荐系统",
+          "智能推荐引擎"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T18:42:16Z",
+    "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood"
+  },
+  {
+    "item_id": "ITEM-20261103-005",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Anthropic S-1/A招股书更新披露的财务数据，无标题党或公关痕迹",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic S-1/A更新文件披露算力成本占营收比例持续恶化",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "提交S-1/A修订文件，披露2026年Q3营收170亿美元及算力成本占营收比例从48%升至58%",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "算力成本",
+          "运营亏损",
+          "计算利润率"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Anthropic在S-1/A修订文件中披露，2026年Q3营收达170亿美元（上季度为115亿美元），但同期运营亏损扩大，算力成本占营收比例从上一季度的48%升至58%，计算利润率持续恶化。文件还显示自2025年初以来每美元算力支出的营收产出比虽稳步增长，但在本季度出现转折。",
+        "metrics": [
+          {
+            "metric_name": "Anthropic Q3营收",
+            "value": "170亿美元",
+            "scope_note": "2026年Q3，较上季度115亿美元增长约48%"
+          },
+          {
+            "metric_name": "算力成本占营收比例",
+            "value": "58%",
+            "scope_note": "2026年Q3，上一季度为48%"
+          },
+          {
+            "metric_name": "Anthropic Q2营收",
+            "value": "115亿美元",
+            "scope_note": "2026年Q2"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "compute margins": "计算利润率",
+          "compute costs": "算力成本"
+        },
+        "candidate_event_ids": [
+          "EVT-015",
+          "EVT-016",
+          "EVT-002"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "算力成本",
+          "运营亏损",
+          "计算利润率"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T17:07:01Z",
+    "title": "Anthropic is still grappling with the economics of compute"
+  },
+  {
+    "item_id": "ITEM-20261103-006",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Google针对K-12学校AI工具政策调整，无标题党或商业推广痕迹",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google宣布K-12学校可禁用AI工具但将无法使用搜索",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Google"
+        ],
+        "action": "宣布自明年起允许K-12学校管理员默认关闭Gemini、NotebookLM、Gemini in Classroom及Google搜索中的AI功能",
+        "target_objects": [
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom",
+          "Google Search",
+          "AI Overviews"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Google宣布计划自明年起默认对K-12学生禁用AI工具，除非学校管理员主动开启。由于AI功能已深度集成至Google搜索，选择完全禁用AI的学校将无法访问搜索引擎。Google教育副总裁Chris Phillips向纽约时报表示搜索与AI已深度整合。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom",
+          "Google Search",
+          "AI Overviews",
+          "K-12学生账户"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T16:30:34Z",
+    "title": "Google will let schools disable its AI tools, but not without sacrificing Search"
+  },
+  {
+    "item_id": "ITEM-20261103-007",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Apple要求约会应用及含色情内容的AI伴侣应用必须标注18+年龄分级",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Apple",
+          "Character.AI",
+          "Replika",
+          "xAI"
+        ],
+        "action": "调整App Store政策，要求所有提供约会或浪漫关系功能的应用以及含性/浪漫内容的AI伴侣应用必须标注18+年龄分级，开发者需自11月16日起更新内容描述符",
+        "target_objects": [
+          "App Store年龄分级政策",
+          "约会应用",
+          "AI伴侣应用",
+          "Character.AI",
+          "Replika",
+          "xAI 3D AI伴侣"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Apple宣布自11月16日起，所有提供约会或浪漫关系功能的应用及含性/浪漫内容的AI伴侣应用必须标注18+年龄分级，开发者需更新内容描述符。此举延续Apple近期推出的年龄验证技术和家长控制等儿童安全功能。此前AI伴侣应用（如Character.AI、Replika）及xAI的3D AI伴侣已累计下载2.2亿次。",
+        "metrics": [
+          {
+            "metric_name": "AI伴侣应用累计下载量",
+            "value": "2.2亿次",
+            "scope_note": "截至2026年夏季，Apple App Store与Google Play合计"
+          },
+          {
+            "metric_name": "新规生效日期",
+            "value": "2026-11-16",
+            "scope_note": "开发者须在此日期前更新应用年龄分级与内容描述符"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "AI companion apps": "AI伴侣应用",
+          "age assurance technology": "年龄验证技术",
+          "content descriptors": "内容描述符"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Apple",
+          "Character.AI",
+          "Replika",
+          "xAI"
+        ],
+        "targets_normalized": [
+          "App Store年龄分级政策",
+          "约会应用",
+          "AI伴侣应用",
+          "Character.AI",
+          "Replika",
+          "xAI 3D AI伴侣"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T15:38:27Z",
+    "title": "Apple restricts dating apps and AI companions to users 18 and up"
+  },
+  {
+    "item_id": "ITEM-20261103-008",
+    "quality_flags": [
+      "EVENT_AD"
+    ],
+    "quality_reason": "纯线下峰会售票促销广告，无实质科技新闻事件，标题为活动宣传而非新闻报道。",
+    "discarded_subtopics": [],
+    "extracted_events": [],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T14:30:00Z",
+    "title": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4"
+  },
+  {
+    "item_id": "ITEM-20261103-009",
+    "quality_flags": [
+      "EVENT_AD"
+    ],
+    "quality_reason": "纯TechCrunch Founder Summit线下峰会售票促销广告，无实质科技新闻事件",
+    "discarded_subtopics": [],
+    "extracted_events": [],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T14:00:00Z",
+    "title": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase"
+  },
+  {
+    "item_id": "ITEM-20261103-010",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Apple Watch AI功能进入测试，无明显标题党或广告成分。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Apple Watch AI音频智能功能进入开发者Beta测试",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple"
+        ],
+        "action": "在iOS 27.3开发者测试版中向Apple Watch Series 12推出Audio Intelligence四项AI功能",
+        "target_objects": [
+          "Apple Watch Series 12",
+          "Audio Intelligence",
+          "Live Rewind",
+          "Siri Recaps",
+          "iOS 27.3"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Apple于11月2日在iOS 27.3开发者测试版中向Apple Watch Series 12推出Audio Intelligence功能，包含重要声音识别、歌曲识别（整合Shazam）、Live Rewind（回听对话）和Siri Recaps（对话摘要）四项可选功能。该功能于9月Surprise and Shine硬件活动首次公布，率先面向开发者推送Beta版。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Audio Intelligence": "音频智能",
+          "Live Rewind": "实时回听",
+          "Siri Recaps": "Siri对话摘要"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Apple"
+        ],
+        "targets_normalized": [
+          "Apple Watch Series 12",
+          "音频智能",
+          "实时回听",
+          "Siri对话摘要",
+          "iOS 27.3",
+          "对话摘要功能",
+          "watchOS 27.3"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T07:20:00Z",
+    "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing"
+  },
+  {
+    "item_id": "ITEM-20261103-011",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google将AI个性化故事应用Dreambeans扩展至印度市场",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Google"
+        ],
+        "action": "在印度市场推出实验性AI应用Dreambeans并支持13种印度本地语言",
+        "target_objects": [
+          "Dreambeans",
+          "Google Calendar",
+          "Gemini",
+          "Gmail",
+          "Google Photos",
+          "Google Search",
+          "YouTube",
+          "Veo视频生成模型"
+        ],
+        "event_time": "2026-11-02",
+        "location": "印度",
+        "factual_summary": "Google将其AI个性化故事应用Dreambeans扩展至印度，这是该应用在美国以外的首个市场。Dreambeans利用用户连接的Google服务数据（包括日历、Gmail、相册、搜索和YouTube）自动生成个性化插图故事，无需用户输入提示词。该应用最初仅提供静态AI生成插图，近期新增使用Veo视频生成模型为部分故事添加动画的功能。",
+        "metrics": [
+          {
+            "metric_name": "支持语言数量",
+            "value": "13种印度本地语言",
+            "scope_note": "包括印地语、旁遮普语、泰米尔语、泰卢固语、孟加拉语及英语"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Dreambeans",
+          "Google Calendar",
+          "Gemini",
+          "Gmail",
+          "Google Photos",
+          "Google Search",
+          "YouTube",
+          "Veo视频生成模型"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-03T03:30:00Z",
+    "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses"
+  },
+  {
+    "item_id": "ITEM-20261103-012",
+    "quality_flags": [
+      "STALE_NEWS"
+    ],
+    "quality_reason": "事件实际发生日(2026-10-28)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google搜索业务增速放缓，AI搜索未能有效转化为收入增长",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Google",
+          "Alphabet"
+        ],
+        "action": "Alphabet发布Q3财报，披露Google搜索收入同比增长12%（低于上季度约17%），付费点击增长从13%降至8%，搜索查询量增速为五年来最快但未能转化为收入加速增长",
+        "target_objects": [
+          "Google搜索收入",
+          "付费点击增长",
+          "搜索查询量",
+          "AI搜索功能"
+        ],
+        "event_time": "2026-10-28",
+        "location": "美国",
+        "factual_summary": "Alphabet在Q3财报中披露，Google搜索收入同比增长12%，低于上季度的约17%；付费点击增长从13%放缓至8%。尽管搜索查询量以五年来最快速度增长（部分归因于AI功能），但该增长并未转化为搜索业务收入的加速增长，引发投资者对Google如何将AI变现的担忧。",
+        "metrics": [
+          {
+            "metric_name": "Google搜索收入同比增长率",
+            "value": "12%",
+            "scope_note": "2026年Q3同比"
+          },
+          {
+            "metric_name": "上季度搜索收入同比增长率",
+            "value": "约17%",
+            "scope_note": "2026年Q2同比"
+          },
+          {
+            "metric_name": "付费点击增长率",
+            "value": "8%",
+            "scope_note": "2026年Q3，上季度为13%"
+          },
+          {
+            "metric_name": "搜索查询量增速",
+            "value": "五年来最快",
+            "scope_note": "Alphabet Q3财报披露"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Google搜索收入",
+          "付费点击增长",
+          "搜索查询量",
+          "AI搜索功能"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T22:41:23Z",
+    "title": "Google hasn&#8217;t figured out how to make AI pay like its search engine"
+  },
+  {
+    "item_id": "ITEM-20261103-013",
+    "quality_flags": [],
+    "quality_reason": "内容客观，报道Nexus Mods平台关于AI生成内容披露政策的新规定，无标题党或公关痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Nexus Mods要求模组作者强制披露是否使用AI",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Nexus Mods"
+        ],
+        "action": "宣布要求所有新上传模组的作者强制声明是否在其作品中使用AI，并将AI标签在模组页面中更加突出显示",
+        "target_objects": [
+          "Nexus Mods平台",
+          "AI生成模组",
+          "AI辅助模组",
+          "模组AI标签"
+        ],
+        "event_time": "2026-11-04",
+        "location": "全球",
+        "factual_summary": "PC游戏最大模组网站Nexus Mods宣布，所有新上传模组的作者必须声明是否使用AI，被标记为「AI辅助」的模组还需公开解释AI的使用方式和位置。网站所有者Victor Folmann表示平台支持「人类创造力」但不会全面禁止AI生成模组。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Foledinho": "Victor Folmann",
+          "AI-assisted mods": "AI辅助模组",
+          "AI-generated mods": "AI生成模组"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Nexus Mods"
+        ],
+        "targets_normalized": [
+          "Nexus Mods平台",
+          "AI生成模组",
+          "AI辅助模组",
+          "模组AI标签"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-04T00:42:54Z",
+    "title": "The biggest modding site in PC gaming is taking a stance on AI"
+  },
+  {
+    "item_id": "ITEM-20261103-014",
+    "quality_flags": [],
+    "quality_reason": "内容为The Verge记者对AI泡沫问题的评论文章，引用了PIMCO CEO在香港金融峰会上的发言，属于正常新闻报道与评论，无标题党、广告或旧闻问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "PIMCO CEO警告AI市场将出现衰退和崩溃",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "PIMCO",
+          "Emmanuel Roman"
+        ],
+        "action": "PIMCO CEO Emmanuel Roman在香港全球金融领袖投资峰会上警告AI市场将出现衰退和崩溃",
+        "target_objects": [
+          "AI市场",
+          "AI泡沫"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国香港",
+        "factual_summary": "PIMCO（太平洋投资管理公司）CEO Emmanuel Roman在2026年香港全球金融领袖投资峰会上表示，AI市场将出现衰退，「然后事情会崩溃」。该言论被Bloomberg报道，引发The Verge记者对AI泡沫问题的讨论。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "PIMCO",
+          "Emmanuel Roman"
+        ],
+        "targets_normalized": [
+          "AI市场",
+          "AI泡沫"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T23:37:45Z",
+    "title": "Please stop asking me when the AI bubble will pop"
+  },
+  {
+    "item_id": "ITEM-20261103-015",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Apple Siri AI功能扩展，无标题夸大、广告或旧闻问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Apple向Siri AI开放第三方应用集成能力",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple"
+        ],
+        "action": "在iOS 27.3开发者预览版中允许第三方开发者将Siri AI集成至所有应用，新增app skills功能",
+        "target_objects": [
+          "Siri AI",
+          "iOS 27.3",
+          "第三方应用",
+          "app skills功能",
+          "Live Activity"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Apple在iOS 27.3开发者预览版中宣布开发者可将Siri AI的新功能集成至所有第三方应用，使语音助手能够利用用户个人上下文、处理自然语言提示并使用屏幕感知完成请求。同时新增app skills功能，允许开发者将多个任务组合为单一操作。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Apple"
+        ],
+        "targets_normalized": [
+          "Siri AI",
+          "iOS 27.3",
+          "第三方应用",
+          "app skills功能",
+          "Live Activity"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T20:19:55Z",
+    "title": "Apple starts giving Siri AI access to third-party apps"
+  },
+  {
+    "item_id": "ITEM-20261103-016",
+    "quality_flags": [],
+    "quality_flags_reason": "",
+    "quality_reason": "报道Apple Watch新beta功能，内容客观，无明显数据质量问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Apple Watch Audio Intelligence功能进入watchOS 27.3开发者Beta测试",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Apple"
+        ],
+        "action": "在watchOS 27.3开发者测试版中向Apple Watch推出Audio Intelligence功能，包含Siri Recap环境音摘要与Live Rewind实时回听转录",
+        "target_objects": [
+          "Apple Watch Series 12",
+          "Audio Intelligence",
+          "Siri Recap",
+          "Live Rewind",
+          "watchOS 27.3"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Apple在watchOS 27.3开发者Beta中推出Audio Intelligence功能，Siri Recap可通过环境监听生成对话摘要，Live Rewind可转录手表麦克风检测到的最近15秒音频。同时发布重新设计的Health应用，新增Insights标签页与个性化推荐，并扩展多语言支持。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Siri Recap": "对话摘要功能",
+          "Live Rewind": "实时回听转录功能",
+          "Audio Intelligence": "音频智能"
+        },
+        "candidate_event_ids": [
+          "EVT-036"
+        ],
+        "actors_normalized": [
+          "Apple"
+        ],
+        "targets_normalized": [
+          "Apple Watch Series 12",
+          "音频智能",
+          "对话摘要功能",
+          "实时回听",
+          "watchOS 27.3"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T18:52:30Z",
+    "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features"
+  },
+  {
+    "item_id": "ITEM-20261103-017",
+    "quality_flags": [],
+    "quality_reason": "正文为OpenAI高管在发布会上的公开数据披露，内容客观，无标题党或公关软文迹象。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI称ChatGPT搜索查询量已达Google的20%",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "OpenAI",
+          "Google"
+        ],
+        "action": "OpenAI消费者产品负责人Adam Fry在新闻发布会上宣布ChatGPT搜索查询量已达到Google的20%",
+        "target_objects": [
+          "ChatGPT搜索功能",
+          "Google搜索"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "OpenAI消费者产品负责人Adam Fry在周一的发布会上表示，ChatGPT的搜索查询量已达到Google搜索查询量的20%。OpenAI将搜索定义为用户输入导致网页搜索的查询，而非定义术语或简单操作指南等任务。Fry未说明Google搜索量数据来源。",
+        "metrics": [
+          {
+            "metric_name": "ChatGPT搜索查询量占Google比例",
+            "value": "20%",
+            "scope_note": "OpenAI自行定义搜索口径，Google搜索量数据来源未披露"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Ask Chat": "ChatGPT搜索"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "Google"
+        ],
+        "targets_normalized": [
+          "ChatGPT搜索功能",
+          "Google搜索"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T18:38:47Z",
+    "title": "OpenAI says ChatGPT is catching up to Google in search"
+  },
+  {
+    "item_id": "ITEM-20261103-018",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Netflix推出AI Discover标签页基于用户心情推荐影视内容",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Netflix"
+        ],
+        "action": "推出AI Discover标签页，基于用户心情、观看偏好和可用时间提供个性化影视推荐",
+        "target_objects": [
+          "AI Discover标签页",
+          "Netflix推荐系统",
+          "智能推荐引擎"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Netflix在其电视应用中推出AI Discover标签页，首个实验功能基于主题（如「Something Light」「Family Movie Night」「Quick Watches」）推荐影视内容，用户可反馈不喜欢某推荐且应用会记住该偏好。公司称该功能由一项新的智能层驱动，能响应用户反馈。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "AI Discover": "AI发现标签页",
+          "intelligence layer": "智能推荐层"
+        },
+        "candidate_event_ids": [
+          "EVT-033"
+        ],
+        "actors_normalized": [
+          "Netflix"
+        ],
+        "targets_normalized": [
+          "AI Discover标签页",
+          "Netflix推荐系统",
+          "智能推荐引擎"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T17:28:14Z",
+    "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab"
+  },
+  {
+    "item_id": "ITEM-20261103-019",
+    "quality_flags": [],
+    "quality_reason": "正文为The Verge对Google教育政策的独立报道，引用NYT信源，事实清晰，无标题党或公关痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Google宣布K-12学校禁用AI功能将同时关闭搜索服务",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Google"
+        ],
+        "action": "宣布K-12学校若管理员选择关闭Gemini等AI功能，Google Search将同步完全关闭，管理员无法单独关闭AI功能而保留搜索",
+        "target_objects": [
+          "Google Search",
+          "Gemini",
+          "Gemini Notebook",
+          "Gemini in Classroom",
+          "K-12学生账户"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Google向纽约时报确认，K-12学校管理员若选择关闭Gemini、Gemini Notebook、Gemini in Classroom等AI功能，Google Search将同步完全关闭，学生将看到搜索不可用的提示。Google教育副总裁Chris Phillips表示「搜索与AI深度整合」，管理员无法单独关闭AI而保留搜索。该政策源于Google此前将Gemini AI助手默认开启于Google Classroom的举措。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Gemini Notebook": "NotebookLM",
+          "Gemini in Classroom": "Gemini in Classroom"
+        },
+        "candidate_event_ids": [
+          "EVT-034"
+        ],
+        "actors_normalized": [
+          "Google"
+        ],
+        "targets_normalized": [
+          "Google Search",
+          "Gemini",
+          "NotebookLM",
+          "Gemini in Classroom",
+          "K-12学生账户"
+        ]
+      }
+    ],
+    "source": "The Verge AI",
+    "published_at": "2026-11-03T20:54:30Z",
+    "title": "Google is entirely disabling Search in schools that don&#8217;t want AI"
+  },
+  {
+    "item_id": "ITEM-20261103-020",
+    "quality_flags": [],
+    "quality_reason": "内容聚焦极智嘉发布自主智能仓计划，属于企业产品与战略发布，无明显标题党或软文痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "极智嘉发布24/7自主智能仓计划布局物理AI仓储",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "极智嘉"
+        ],
+        "action": "发布《24/7自主智能仓计划》，目标实现AI接管整座仓库、7×24小时自主运行与持续进化",
+        "target_objects": [
+          "自主智能仓",
+          "具身智能仓储",
+          "物理AI仓储系统"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "全球智能机器人头部企业极智嘉正式亮出《24/7自主智能仓计划》，目标是让AI接管整座仓库实现7×24小时自主运行，并在真实业务中持续学习、自主进化，将自主智能仓定位为物理AI时代的新一代生产力基础设施。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Geek+": "极智嘉",
+          "AMR": "自主移动机器人"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "极智嘉"
+        ],
+        "targets_normalized": [
+          "自主智能仓",
+          "具身智能仓储",
+          "物理AI仓储系统"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T13:57:11Z",
+    "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓"
+  },
+  {
+    "item_id": "ITEM-20261103-021",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文以海马云及其RunningHub产品为核心，引用其CEO/CTO观点、SimilarWeb数据及央视采访，属企业软文通稿，缺乏独立第三方信源。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "海马云旗下RunningHub访问量半年增长266%月Token消耗达9万亿",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "海马云",
+          "RunningHub"
+        ],
+        "action": "RunningHub平台访问量大幅增长并披露月度Token消耗量数据",
+        "target_objects": [
+          "RunningHub",
+          "AIGC创作平台",
+          "Token消耗量"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "海马云旗下AIGC平台RunningHub据SimilarWeb数据，2026年3月至9月全站访问量增长266%；CTO温健在央视采访中透露平台每月Token消耗量已达9万亿。文章以该公司为案例阐述AI垂直生产力系统路径。",
+        "metrics": [
+          {
+            "metric_name": "全站访问量增长率",
+            "value": "266%",
+            "scope_note": "SimilarWeb数据，2026年3月至9月，RunningHub海内外全站"
+          },
+          {
+            "metric_name": "月度Token消耗量",
+            "value": "9万亿",
+            "scope_note": "海马云CTO温健接受央视《焦点访谈》采访时透露"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "生产力发动机": "算力、Harness（Agent、上下文、工具链）与数据深度耦合的垂直AI系统"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "海马云",
+          "RunningHub"
+        ],
+        "targets_normalized": [
+          "RunningHub",
+          "AIGC创作平台",
+          "Token消耗量"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T11:13:49Z",
+    "title": "模型谁都买得到，拉开差距的是AI生产力系统"
+  },
+  {
+    "item_id": "ITEM-20261103-022",
+    "quality_flags": [
+      "EXAGGERATED_TITLE",
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "标题以「乔布斯心中的Siri」为噱头，正文为单一产品体验软文，缺乏独立信源与客观事件描述",
+    "discarded_subtopics": [],
+    "extracted_events": [],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T06:55:30Z",
+    "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri"
+  },
+  {
+    "item_id": "ITEM-20261103-023",
+    "quality_flags": [
+      "PR_PROMOTION",
+      "STALE_NEWS"
+    ],
+    "quality_reason": "文末标注「本文由中国电信人工智能研究院提供，量子位获授权转载」，系企业通稿软文，核心内容为TeleAI产品宣传。；事件实际发生日(2026-02-01)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "TeleAI推出隐私摄像头实现不存储视频画面的安全预警",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "TeleAI",
+          "中国电信"
+        ],
+        "action": "推出基于智传网AI Flow的隐私摄像头产品，通过端云协同推理架构在采集瞬间完成特征提取并销毁原始画面，实现对异常行为的文字描述预警",
+        "target_objects": [
+          "TeleAI隐私摄像头",
+          "智传网AI Flow",
+          "TeleAI智慧看护助手"
+        ],
+        "event_time": "2026-02-01",
+        "location": "中国",
+        "factual_summary": "中国电信人工智能研究院（TeleAI）于2026年2月推出隐私摄像头，基于自研智传网AI Flow技术，在公共卫生间等私密场景下不存储不传输原始视频，仅通过AI提取抽象特征向量进行行为识别与预警。该产品由TeleAI院长李学龙团队研发，还面向养老、校园、医院场景推出智慧看护助手。",
+        "metrics": [
+          {
+            "metric_name": "告警响应时间",
+            "value": "5秒内",
+            "scope_note": "老人跌倒或突发急症时向家人或看护发出告警"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "智传网": "AI Flow",
+          "词元流": "Token流（AI Flow技术范式）"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "TeleAI",
+          "中国电信"
+        ],
+        "targets_normalized": [
+          "TeleAI隐私摄像头",
+          "智传网AI Flow",
+          "TeleAI智慧看护助手"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T06:29:11Z",
+    "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间"
+  },
+  {
+    "item_id": "ITEM-20261103-024",
+    "quality_flags": [
+      "PR_PROMOTION",
+      "STALE_NEWS"
+    ],
+    "quality_reason": "全文为费莫一科技（PHYMI）产品发布及融资的正面报道，创始人访谈贯穿始终，无独立第三方信源，属企业公关稿。；事件实际发生日(2026-10-28)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "费莫一科技发布首款Physical Agent「行动伙伴Sagi」",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "费莫一科技 (PHYMI)"
+        ],
+        "action": "正式发布首款定位「行动伙伴」的Physical Agent机器人Sagi，采用四轮足+人形上身+随行背箱形态，搭载PHYMI BRAIN 1.0异步分频多模态架构",
+        "target_objects": [
+          "Sagi (萨其玛)",
+          "PHYMI BRAIN 1.0",
+          "PHYMI LINK",
+          "360°采集头环",
+          "Physical Agent"
+        ],
+        "event_time": "2026-10-28",
+        "location": "中国",
+        "factual_summary": "费莫一科技（PHYMI）于10月28日发布首款Physical Agent「Sagi」，定位「行动伙伴」，采用四轮足+人形上身+背箱的人马形态，搭载自研PHYMI BRAIN 1.0异步分频多模态架构与PHYMI LINK人机协作系统，主打开放动态真实场景中的长程移动与操作能力，开箱即用免部署。创始人刘念邱为元戎启行前技术合伙人，团队具备自动驾驶无图智驾技术基因。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Sagi": "萨其玛",
+          "Physical Agent": "行动伙伴",
+          "PHYMI BRAIN 1.0": "异步分频多模态架构",
+          "LINK": "人机协作实时交互系统"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "费莫一科技 (PHYMI)"
+        ],
+        "targets_normalized": [
+          "Sagi (萨其玛)",
+          "异步分频多模态架构",
+          "PHYMI LINK",
+          "360°采集头环",
+          "行动伙伴"
+        ]
+      },
+      {
+        "event_title": "费莫一科技完成近亿美元种子轮融资IDG资本领投",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "费莫一科技 (PHYMI)",
+          "IDG资本",
+          "云启资本",
+          "滴滴出行",
+          "复星锐正",
+          "耀途资本",
+          "禾赛科技"
+        ],
+        "action": "完成近亿美元种子轮融资，由IDG资本领投，云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技跟投",
+        "target_objects": [
+          "费莫一科技 (PHYMI)"
+        ],
+        "event_time": "2026-09-28",
+        "location": "中国",
+        "factual_summary": "费莫一科技（PHYMI）成立初期完成近亿美元种子轮融资，由IDG资本领投，云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技跟投。融资消息公布约一个月后即推出首款产品Sagi。",
+        "metrics": [
+          {
+            "metric_name": "融资金额",
+            "value": "近亿美元",
+            "scope_note": "种子轮，具体金额未披露精确数字"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "费莫一科技 (PHYMI)",
+          "IDG资本",
+          "云启资本",
+          "滴滴出行",
+          "复星锐正",
+          "耀途资本",
+          "禾赛科技"
+        ],
+        "targets_normalized": [
+          "费莫一科技 (PHYMI)"
+        ]
+      }
+    ],
+    "source": "极客公园",
+    "published_at": "2026-11-03T11:54:26Z",
+    "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」"
+  },
+  {
+    "item_id": "ITEM-20261103-025",
+    "quality_flags": [
+      "PR_PROMOTION",
+      "STALE_NEWS"
+    ],
+    "quality_reason": "全文为心言机器人Bubbo 1发布会及圆桌讨论的极客公园专题报道，含大量创始人及产品正面宣传内容，缺乏独立第三方信源验证。；事件实际发生日(2026-10-29)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "心言机器人发布具身家庭智能体巴布Bubbo 1",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "心言机器人"
+        ],
+        "action": "正式发布具身家庭智能体「巴布（Bubbo 1）」并在京东等官方渠道发售",
+        "target_objects": [
+          "巴布 Bubbo 1",
+          "Bubbo OS",
+          "Family Agent"
+        ],
+        "event_time": "2026-10-29",
+        "location": "中国",
+        "factual_summary": "心言机器人于2026年10月29日正式发布具身家庭智能体「巴布（Bubbo 1）」，基于自研Bubbo OS，搭载13类26个传感器、6个自由度和两块表情屏，主打主动感知与情感陪伴，售价9499元（前1000名7999元）。创始人任永亮表示产品定位为「家庭智能体」而非工具，核心目标是让机器人具备自主生存能力（自动回充）与持续进化能力。",
+        "metrics": [
+          {
+            "metric_name": "售价",
+            "value": "9499元（前1000名7999元）",
+            "scope_note": "官方渠道发售价格"
+          },
+          {
+            "metric_name": "传感器数量",
+            "value": "13类26个",
+            "scope_note": "用于多模态情感感知"
+          },
+          {
+            "metric_name": "自由度",
+            "value": "6个",
+            "scope_note": "机身运动自由度"
+          },
+          {
+            "metric_name": "中国60岁以上人口占比",
+            "value": "23%",
+            "scope_note": "截至2025年底，国家统计局原副局长贾楠引用数据"
+          },
+          {
+            "metric_name": "失能独居老人数量",
+            "value": "近4000万",
+            "scope_note": "相关部门推算数据"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "巴布": "Bubbo 1",
+          "心言机器人": "心言机器人"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "心言机器人"
+        ],
+        "targets_normalized": [
+          "巴布 Bubbo 1",
+          "Bubbo OS",
+          "Family Agent"
+        ]
+      }
+    ],
+    "source": "极客公园",
+    "published_at": "2026-11-03T07:11:52Z",
+    "title": "心言巴布「Bubbo 1」：一台机器人，如何成为家人"
+  },
+  {
+    "item_id": "ITEM-20261103-026",
+    "quality_flags": [
+      "MULTI_TOPIC_DIGEST"
+    ],
+    "quality_reason": "该条目为多事件科技早报合集，包含Anthropic IPO、Meta VR、苹果财报、Marvell收购、Grok Bot、奥尔特曼言论、李佳琦直播、机器人比赛、影之刃零、MacBook Pro、小米汽车、百代电影等十余个互不相关的独立新闻小节。",
+    "discarded_subtopics": [
+      "Meta调整VR硬件优先级（传统VR硬件业务调整，非AI核心事件）",
+      "苹果新CEO首份财报（传统消费电子财报，iPhone/Mac/服务营收，折叠屏供应瓶颈）",
+      "千问办公CEO陈宇森做客李佳琦直播间（高管直播带货卖卡，非AI技术事件）",
+      "首届CMG世界机器人登泰山大赛（传统机器人竞赛，宇树机器狗参赛）",
+      "《影之刃零》销量破400万份（传统游戏销量新闻）",
+      "苹果计划明年推出第二代触屏OLED MacBook Pro（纯硬件外观/芯片路线图，边缘快讯）",
+      "小米澎程N70推出11月限时购车政策（传统车企促销）",
+      "百代电影公司推出催眠实验（影视娱乐营销活动）"
+    ],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic更新S-1/A招股书披露Q3营收169.6亿美元及8954亿美元AI基础设施支出承诺",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "向美国证券交易委员会提交更新后的S-1/A招股文件，首次补充截至2026年9月底的第三季度财务数据",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "AI基础设施支出承诺"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic提交更新后的S-1/A招股文件，披露第三季度营收169.6亿美元，较第二季度增长47%，但增速低于第二季度的144%。第三季度营业亏损5.67亿美元，而第二季度曾实现9.74亿美元营业利润。同时披露约8954亿美元的AI基础设施相关支出承诺，涉及亚马逊、谷歌等合作伙伴。",
+        "metrics": [
+          {
+            "metric_name": "Q3营收",
+            "value": "169.6亿美元",
+            "scope_note": "2026年第三季度，较Q2增长47%"
+          },
+          {
+            "metric_name": "Q3营业亏损",
+            "value": "5.67亿美元",
+            "scope_note": "2026年第三季度，Q2为9.74亿美元营业利润"
+          },
+          {
+            "metric_name": "AI基础设施支出承诺",
+            "value": "8954亿美元",
+            "scope_note": "涉及亚马逊、谷歌等合作伙伴"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-016",
+          "EVT-015"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "AI基础设施支出承诺"
+        ]
+      },
+      {
+        "event_title": "Marvell宣布1150亿美元全股票收购Lumentum押注AI数据中心光互连",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Marvell",
+          "Lumentum"
+        ],
+        "action": "正式宣布以全股票交易方式收购光通信器件厂商Lumentum",
+        "target_objects": [
+          "Lumentum",
+          "AI数据中心光互连",
+          "定制AI芯片",
+          "光收发器",
+          "光路交换"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "美国芯片公司Marvell正式宣布以全股票交易方式收购光通信器件厂商Lumentum，交易隐含企业价值约1150亿美元，其中股权价值约1025亿美元。Lumentum股东每持有一股将获得4.5股Marvell股票。交易完成后Marvell原股东预计持有合并公司约67%股权，Lumentum股东持有约33%。交易预计在2028年上半年完成。",
+        "metrics": [
+          {
+            "metric_name": "交易企业价值",
+            "value": "1150亿美元",
+            "scope_note": "全股票交易，隐含企业价值"
+          },
+          {
+            "metric_name": "股权价值",
+            "value": "1025亿美元",
+            "scope_note": "交易股权价值"
+          },
+          {
+            "metric_name": "换股比例",
+            "value": "1:4.5",
+            "scope_note": "Lumentum股东每股获4.5股Marvell股票"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Marvell",
+          "Lumentum"
+        ],
+        "targets_normalized": [
+          "Lumentum",
+          "AI数据中心光互连",
+          "定制AI芯片",
+          "光收发器",
+          "光路交换"
+        ]
+      },
+      {
+        "event_title": "马斯克回应Grok Bot额度消耗过快称服务成本高到难以为继",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "SpaceX",
+          "Elon Musk"
+        ],
+        "action": "在X平台回应Grok Bot用户反馈每周额度消耗速度远超往常，表示该AI智能体的服务成本相对于收入而言高到难以为继",
+        "target_objects": [
+          "Grok Bot",
+          "Grok Bot用户每周使用限额",
+          "SpaceX Super Intelligence部门"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "SpaceX首席执行官马斯克在X平台回应Grok Bot用户反馈每周额度消耗过快的问题，表示该AI智能体的服务成本相对于收入而言高到难以为继。Grok Bot是SpaceX在8月推出的AI智能体，依托虚拟计算机替人完成购物等各类任务，分多个档位从免费版到每月200美元套餐不等，所有档位都设有每周重置的使用限额。SpaceX在上月财报中披露Grok Bot付费周活用户已达80万。",
+        "metrics": [
+          {
+            "metric_name": "Grok Bot付费周活用户",
+            "value": "80万",
+            "scope_note": "SpaceX上月财报披露"
+          },
+          {
+            "metric_name": "最高套餐月费",
+            "value": "200美元",
+            "scope_note": "约合1332元人民币"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-024"
+        ],
+        "actors_normalized": [
+          "SpaceX",
+          "Elon Musk"
+        ],
+        "targets_normalized": [
+          "xAI Grok",
+          "Grok Bot用户每周使用限额",
+          "SpaceX Super Intelligence部门"
+        ]
+      },
+      {
+        "event_title": "OpenAI CEO奥尔特曼称个人电脑浪费内存遭全网声讨",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "OpenAI",
+          "Sam Altman",
+          "Elon Musk"
+        ],
+        "action": "在访谈中称人们把内存装在个人电脑里而不是放在数据中心是一件很糟糕的事，引发全网尤其是玩家群体强烈不满",
+        "target_objects": [
+          "DRAM内存",
+          "个人电脑",
+          "数据中心"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI首席执行官奥尔特曼在与博主Cheeky Pint的访谈中称，人们把内存装在个人电脑里而不是放在数据中心是一件很糟糕的事，认为内存大部分时间利用率只有5%，资源放在云端才能实现利用率最大化。这番言论遭到大量嘲讽，马斯克也发文表态「民众也理应拥有属于自己的内存」。",
+        "metrics": [
+          {
+            "metric_name": "内存利用率",
+            "value": "5%",
+            "scope_note": "奥尔特曼称个人电脑内存大部分时间利用率"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "Sam Altman",
+          "Elon Musk"
+        ],
+        "targets_normalized": [
+          "DRAM内存",
+          "个人电脑",
+          "数据中心"
+        ]
+      }
+    ],
+    "source": "极客公园",
+    "published_at": "2026-11-03T00:40:51Z",
+    "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份"
+  },
+  {
+    "item_id": "ITEM-20261103-027",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "OpenAI官方博客宣传ChatGPT和Codex在工程领域的应用，属于企业产品推广内容，无独立信源或第三方评测。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI推广ChatGPT与Codex加速物理世界工程工作流",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "action": "发布官方博客文章展示ChatGPT和Codex在CAD设计、PCB设计、仿真等物理世界工程工作流中的应用",
+        "target_objects": [
+          "ChatGPT",
+          "Codex",
+          "CAD设计",
+          "PCB设计",
+          "工程仿真"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "OpenAI官方博客发布文章，介绍ChatGPT和Codex如何帮助工程师加速CAD、PCB设计、仿真等物理世界工程工作流，属于产品应用案例推广。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "ChatGPT",
+          "Codex"
+        ],
+        "targets_normalized": [
+          "ChatGPT",
+          "Codex",
+          "CAD设计",
+          "PCB设计",
+          "工程仿真"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-03T12:00:00Z",
+    "title": "Accelerating engineering for the physical world"
+  },
+  {
+    "item_id": "ITEM-20261103-028",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "OpenAI官方博客发布的客户案例宣传稿，通篇为Cisco采用OpenAI模型的安全合作推广内容，无独立信源。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Cisco与OpenAI合作将AI模型集成至企业安全防御体系",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Cisco",
+          "OpenAI"
+        ],
+        "action": "Cisco将网络智能与OpenAI模型结合，构建自适应企业安全防御体系",
+        "target_objects": [
+          "OpenAI模型",
+          "Cisco企业安全平台"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "OpenAI官方博客发布Cisco案例，Cisco通过结合网络智能与OpenAI模型来强化企业安全防御能力，构建更具适应性的防护体系。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Cisco",
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "OpenAI模型",
+          "Cisco企业安全平台"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-03T08:00:00Z",
+    "title": "How Cisco defends at machine speed with OpenAI"
+  },
+  {
+    "item_id": "ITEM-20261103-029",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "OpenAI官方博客推广客户案例，通篇为Heimstaden使用ChatGPT Enterprise和Codex的单方面宣传，无独立信源。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Heimstaden采用OpenAI ChatGPT Enterprise与Codex改造房产管理",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Heimstaden",
+          "OpenAI"
+        ],
+        "action": "采用ChatGPT Enterprise和Codex改造住宅物业管理流程，降低成本并赋能员工",
+        "target_objects": [
+          "ChatGPT Enterprise",
+          "Codex",
+          "物业管理流程"
+        ],
+        "event_time": "2026-11-03",
+        "location": "欧洲",
+        "factual_summary": "欧洲房地产公司Heimstaden使用OpenAI的ChatGPT Enterprise和Codex改造物业管理流程，降低成本并提升员工效率。该案例由OpenAI官方博客发布，属于客户成功故事推广。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Heimstaden",
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "ChatGPT Enterprise",
+          "Codex",
+          "物业管理流程"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-03T08:00:00Z",
+    "title": "Heimstaden is changing residential real estate management with AI"
+  },
+  {
+    "item_id": "ITEM-20261103-030",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "文末标注'Enterprise Article'且含'Upvote'社交推广元素，为Ai2机构发布的自我宣传技术博文",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Ai2发布StateBench长文档状态追踪基准测试",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "Ai2 (Allen Institute for Artificial Intelligence)"
+        ],
+        "action": "发布StateBench基准测试，用于评估语言模型在长文档中追踪实体状态变化的能力",
+        "target_objects": [
+          "StateBench",
+          "长上下文状态追踪",
+          "Gated DeltaNet",
+          "循环架构",
+          "混合架构"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Ai2发布StateBench基准，旨在测试语言模型在长文档中追踪实体状态变化（如代码变量赋值、小说角色位置与物品转移）的能力。该基准区分简单状态追踪（只需找到最新状态）与复杂链式追踪（需跟踪多步变化链），并关注不同架构（如Gated DeltaNet等循环/混合架构）在不同难度状态追踪任务上的表现差异。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Ai2": "Allen Institute for Artificial Intelligence",
+          "StateBench": "状态追踪基准测试",
+          "state tracking": "状态追踪"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Ai2 (Allen Institute for Artificial Intelligence)"
+        ],
+        "targets_normalized": [
+          "状态追踪基准测试",
+          "长上下文状态追踪",
+          "Gated DeltaNet",
+          "循环架构",
+          "混合架构"
+        ]
+      }
+    ],
+    "source": "HuggingFace Blog",
+    "published_at": "2026-11-03T17:15:21Z",
+    "title": "StateBench: Testing how language models track state changes over long documents"
+  },
+  {
+    "item_id": "ITEM-20261103-031",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "IBM Research官方博客文章，由企业自有研究团队发布，通篇宣传其Palette项目成果，无独立第三方信源",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "IBM Research发布Palette系统用20B小模型生成企业定制风格演示文稿",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "IBM Research"
+        ],
+        "action": "发布Palette系统，通过合成数据微调20B开源模型，使其能够按照企业设计语言生成幻灯片演示文稿",
+        "target_objects": [
+          "Palette系统",
+          "20B开源权重模型",
+          "IBM Design Language",
+          "PresentBench基准测试"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "IBM Research发布Palette系统，通过合成数据微调20B参数开源模型，使其能按企业自有设计语言生成幻灯片。该系统采用「设计师规划+编码员绘制」的分工方式，在PresentBench基准测试的三个领域中有两个排名第一。该系统可本地部署，适用于涉密内容场景。",
+        "metrics": [
+          {
+            "metric_name": "模型参数量",
+            "value": "20B",
+            "scope_note": "开源权重模型"
+          },
+          {
+            "metric_name": "PresentBench排名",
+            "value": "三个领域中两个第一",
+            "scope_note": "IBM测量的三个领域"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Palette": "IBM Research的幻灯片生成系统",
+          "IBM Design Language": "IBM设计语言"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "IBM Research"
+        ],
+        "targets_normalized": [
+          "Palette系统",
+          "20B开源权重模型",
+          "IBM设计语言",
+          "PresentBench基准测试"
+        ]
+      }
+    ],
+    "source": "HuggingFace Blog",
+    "published_at": "2026-11-03T16:35:36Z",
+    "title": "Palette: teaching a small model to build decks in your design language"
+  },
+  {
+    "item_id": "ITEM-20261103-032",
+    "quality_flags": [],
+    "quality_reason": "arXiv学术论文预印本，内容客观，无标题党或商业推广，属于正常学术发布。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "DreamX将视频扩散模型改造为通用潜在动作学习器",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "Chaehyun Kim"
+        ],
+        "action": "发布arXiv论文提出DreamX方法，将预训练视频扩散模型重新利用为通用潜在动作学习器",
+        "target_objects": [
+          "DreamX",
+          "视频扩散模型",
+          "潜在动作模型",
+          "LARY-Bench"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "研究团队提出DreamX方法，从预训练视频扩散模型中提取紧凑潜在动作表示，每帧压缩300倍（1200→4 tokens），实现跨具身（人类与机器人）、跨环境的动作迁移与零样本动作转移，在LARY-Bench上达到潜在动作模型的最优性能。",
+        "metrics": [
+          {
+            "metric_name": "视频帧压缩比",
+            "value": "300×（1200→4 tokens）",
+            "scope_note": "每帧潜在表示的token压缩"
+          },
+          {
+            "metric_name": "LARY-Bench性能",
+            "value": "state-of-the-art",
+            "scope_note": "潜在动作模型类别中的最优性能"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Chaehyun Kim"
+        ],
+        "targets_normalized": [
+          "DreamX",
+          "视频扩散模型",
+          "潜在动作模型",
+          "LARY-Bench"
+        ]
+      }
+    ],
+    "source": "arXiv cs.AI/cs.CL",
+    "published_at": "2026-11-03T18:59:56Z",
+    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner"
+  },
+  {
+    "item_id": "ITEM-20261103-033",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "arXiv论文提出「认知共生体」范式定义AI增强人类智能研究方向",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [],
+        "action": "发布arXiv论文提出「认知共生体」（cognitive symbiont）概念框架，定义AI增强人类智能（AHI）研究方向",
+        "target_objects": [
+          "认知共生体 (cognitive symbiont)",
+          "AI增强人类智能 (AHI)",
+          "认知差距 (cognitive gap)",
+          "共生循环 (symbiosis loop)",
+          "个人运行时 (personal runtime)"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "论文提出「认知共生体」概念，主张AI应作为终身嵌入式的私人伴侣，通过感知、记忆、理解、陪伴、行动与共同思考的闭环来增强人类智能，并指出其与传统具身机器人并列为Physical AI时代的两大方向。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "cognitive symbiont": "认知共生体",
+          "AI-augmented human intelligence (AHI)": "AI增强人类智能",
+          "cognitive gap": "认知差距",
+          "symbiosis loop": "共生循环",
+          "personal runtime": "个人运行时"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "认知共生体 (cognitive symbiont)"
+        ],
+        "targets_normalized": [
+          "认知共生体 (cognitive symbiont)",
+          "AI增强人类智能 (AHI)",
+          "认知差距 (cognitive gap)",
+          "共生循环 (symbiosis loop)",
+          "个人运行时 (personal runtime)"
+        ]
+      }
+    ],
+    "source": "arXiv cs.AI/cs.CL",
+    "published_at": "2026-11-03T18:59:52Z",
+    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence"
+  },
+  {
+    "item_id": "ITEM-20261103-034",
+    "quality_flags": [],
+    "quality_reason": "正常版本发布公告，无标题党或广告内容",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Ollama发布v0.40.15-rc0版本新增MiMo V2.6模型支持",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "Ollama"
+        ],
+        "action": "发布v0.40.15-rc0版本，新增MiMo V2.6模型支持并修复Linux平台MLX加载CUDA库问题",
+        "target_objects": [
+          "Ollama v0.40.15-rc0",
+          "MiMo V2.6",
+          "MLX",
+          "CUDA库"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Ollama发布v0.40.15-rc0候选版本，主要更新包括在Linux平台上进程内加载捆绑CUDA库以支持MLX，以及新增MiMo V2.6模型支持。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Ollama"
+        ],
+        "targets_normalized": [
+          "Ollama v0.40.15-rc0",
+          "MiMo V2.6",
+          "MLX",
+          "CUDA库"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (ollama/ollama)",
+    "published_at": "2026-11-03T22:52:31Z",
+    "title": "ollama/ollama Release v0.40.15-rc0: v0.40.15"
+  },
+  {
+    "item_id": "ITEM-20261103-035",
+    "quality_flags": [],
+    "quality_reason": "正常的GitHub Release发布记录，无标题党或公关推广内容",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Open WebUI发布v0.13.0版本新增标签页工作区功能",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Open WebUI"
+        ],
+        "action": "发布v0.13.0版本，新增标签页工作区功能，支持文件、多终端会话、工件、预览、语音通话和评论",
+        "target_objects": [
+          "Open WebUI v0.13.0",
+          "标签页工作区",
+          "多终端会话",
+          "工件预览"
+        ],
+        "event_time": "2026-11-03",
+        "location": "全球",
+        "factual_summary": "Open WebUI发布v0.13.0版本，核心新增标签页工作区功能，允许用户在聊天界面顶部打开包含文件、多个终端会话、工件、预览、语音通话和评论的工作区，支持通过+菜单添加标签、拖拽排序，并可直接在选定终端中创建和保存新文件。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Open WebUI"
+        ],
+        "targets_normalized": [
+          "Open WebUI v0.13.0",
+          "标签页工作区",
+          "多终端会话",
+          "工件预览"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (open-webui/open-webui)",
+    "published_at": "2026-11-03T12:23:16Z",
+    "title": "open-webui/open-webui Release v0.13.0: v0.13.0"
+  },
+  {
+    "item_id": "ITEM-20261103-036",
+    "quality_flags": [
+      "UNVERIFIED_RUMOR"
+    ],
+    "quality_reason": "HN帖子称Codex静默重新开启模型训练设置，但正文末尾承认此前已有类似报告，未提供官方确认或广泛验证，属于未证实传闻。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "用户报告OpenAI Codex疑似静默重新开启模型训练数据共享设置",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "OpenAI",
+          "Codex"
+        ],
+        "action": "用户发现Codex中「Improve the model for everyone」数据共享设置被静默重新启用",
+        "target_objects": [
+          "Codex数据共享设置",
+          "Improve the model for everyone",
+          "ChatGPT数据控制设置"
+        ],
+        "event_time": "2026-11-02",
+        "location": "全球",
+        "factual_summary": "HN用户发帖称公司同事发现Codex中此前手动关闭的模型训练数据共享选项被静默重新启用，无人主动重新开启。帖子末尾编辑承认该问题此前已有类似报告，但未获OpenAI官方确认，也未有广泛独立验证。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Improve the model for everyone": "模型训练数据共享选项"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "Codex"
+        ],
+        "targets_normalized": [
+          "Codex数据共享设置",
+          "模型训练数据共享选项",
+          "ChatGPT数据控制设置"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T14:53:41Z",
+    "title": "OpenAI seems to be silently re-enabling model training on Codex chats"
+  },
+  {
+    "item_id": "ITEM-20261103-037",
+    "quality_flags": [],
+    "quality_reason": "内容为Anthropic修订版S-1/A招股书中关于递归自我改进（RSI）风险的披露，属正常新闻报道，无标题党或公关稿特征。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic修订版S-1/A招股书披露接近递归自我改进阈值",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "提交修订版S-1/A注册声明，披露内部估计显示可能即将达到递归自我改进（RSI）定义阈值，并考虑更新负责任扩展政策",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "负责任扩展政策（Responsible Scaling Policy）",
+          "Anthropic IPO"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic于11月2日向SEC提交修订版S-1/A注册声明，披露其内部估计和预期显示公司可能即将达到自身对递归自我改进（RSI）的定义阈值，即AI系统可自主改进训练、触发能力加速循环。公司强调当前模型尚未跨越该阈值，并正考虑更新负责任扩展政策以确保人类对前沿模型开发的控制。招股书还坦承公司过去未能在开发速度显著加速发生前识别到该变化。",
+        "metrics": [
+          {
+            "metric_name": "Anthropic目标上市估值",
+            "value": "约2万亿美元",
+            "scope_note": "据英国《金融时报》8月报道，Anthropic目标估值约2万亿美元，计划以代码ANT在纳斯达克上市"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "recursive self-improvement": "递归自我改进（RSI）",
+          "Responsible Scaling Policy": "负责任扩展政策",
+          "dramatically accelerated progress attributable to AI": "归因于AI的显著加速进展"
+        },
+        "candidate_event_ids": [
+          "EVT-002",
+          "EVT-015",
+          "EVT-016"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "负责任扩展政策（Responsible Scaling Policy）",
+          "Anthropic IPO"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T13:26:43Z",
+    "title": "Anthropic's IPO Filing Warns It May Be 'Imminently' Close to RSI"
+  },
+  {
+    "item_id": "ITEM-20261103-038",
+    "quality_flags": [],
+    "quality_reason": "内容为Revolut自托管AI模型降低编程成本的实质性行业案例报道，无标题党或广告痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Revolut自托管GLM模型使AI编程推理成本降低约90%",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "Google Gemini"
+        ],
+        "action": "Revolut将AI编程工具默认模型从商业API服务（Claude等）切换为自托管Zhipu GLM-5.3模型，使用56块Nvidia B200 GPU本地部署，使推理成本降低约90%",
+        "target_objects": [
+          "GLM-5.3",
+          "Nvidia B200 GPU",
+          "AI编程推理成本",
+          "Claude Code",
+          "Gemini"
+        ],
+        "event_time": "2026-11-03",
+        "location": "英国",
+        "factual_summary": "英国金融科技公司Revolut在AI Engineer大会上披露，通过将AI编程工具默认模型从Claude等商业服务切换为自托管Zhipu GLM-5.3（部署于56块Nvidia B200 GPU），在不到一年内将AI编程推理成本降低约90%；同时工程师编码时间改善60%、交付前置时间改善70%，覆盖约2000名工程师。此前Revolut曾使用Gemini（2025年初）和Claude Code（2026年初），因商业API成本过高（工程师月均花费1000至10000美元且ROI不佳）而转向自托管。",
+        "metrics": [
+          {
+            "metric_name": "AI编程推理成本降幅",
+            "value": "约90%",
+            "scope_note": "切换自托管GLM-5.3后对比商业API（如Claude）的成本"
+          },
+          {
+            "metric_name": "编码时间改善",
+            "value": "60%",
+            "scope_note": "部署AI编程工具后工程师编码时间提升"
+          },
+          {
+            "metric_name": "交付前置时间改善",
+            "value": "70%",
+            "scope_note": "部署AI编程工具后lead time改善"
+          },
+          {
+            "metric_name": "覆盖工程师人数",
+            "value": "约2000名",
+            "scope_note": "Revolut内部AI编程工具推广范围"
+          },
+          {
+            "metric_name": "自托管GPU数量",
+            "value": "56块Nvidia B200",
+            "scope_note": "用于部署GLM-5.3模型的硬件规模"
+          },
+          {
+            "metric_name": "GLM-5.3每百万token价格",
+            "value": "$0.30",
+            "scope_note": "输入/输出token单价"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "GLM-5.1": "Zhipu GLM-5.1",
+          "GLM-5.3": "Zhipu GLM-5.3",
+          "self-hosted models": "自托管模型"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "Google Gemini",
+          "OpenAI Codex"
+        ],
+        "targets_normalized": [
+          "Zhipu GLM-5.3",
+          "Nvidia B200 GPU",
+          "AI编程推理成本",
+          "Anthropic Claude Code",
+          "Gemini",
+          "Zhipu GLM",
+          "OpenAI Codex",
+          "Google Gemini",
+          "Zhipu GLM模型"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T21:23:42Z",
+    "title": "British fintech Revolut slashes AI coding costs 10x by going self-hosted"
+  },
+  {
+    "item_id": "ITEM-20261103-039",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Revolut将AI编程工具从Claude Code切换为自托管GLM模型",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "Google Gemini"
+        ],
+        "action": "Revolut将约2000名软件工程师的默认AI编程工具从Anthropic Claude Code和OpenAI Codex切换为自托管的Z.ai开源权重模型GLM",
+        "target_objects": [
+          "Zhipu GLM",
+          "Nvidia B200 GPU",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "Google Gemini"
+        ],
+        "event_time": "2026-11-03",
+        "location": "英国",
+        "factual_summary": "Revolut将其约2000名工程师的默认AI编程工具从Claude Code和Codex切换为自托管的Z.ai开源权重模型GLM，使用约56块Nvidia B200 GPU提供服务，混合成本约每百万token 0.30美元，账单降至原先的约十分之一。Revolut报告编码时间缩短约60%、交付前置时间缩短约70%，但数据来自公司自身且未隔离模型切换与其他因素（如取消token限额）的影响。",
+        "metrics": [
+          {
+            "metric_name": "AI编程成本降幅",
+            "value": "约90%（账单降至原先约十分之一）",
+            "scope_note": "Revolut官方数据，对比切换前向Anthropic和OpenAI支付的费用"
+          },
+          {
+            "metric_name": "每百万token混合成本",
+            "value": "约0.30美元",
+            "scope_note": "自托管GLM模型，使用约56块Nvidia B200 GPU"
+          },
+          {
+            "metric_name": "编码时间缩短",
+            "value": "约60%",
+            "scope_note": "Revolut自测数据，约2000名工程师样本，未隔离其他变量"
+          },
+          {
+            "metric_name": "交付前置时间缩短",
+            "value": "约70%",
+            "scope_note": "从领取任务到合并代码，Revolut自测数据"
+          },
+          {
+            "metric_name": "GPU数量",
+            "value": "约56块Nvidia B200",
+            "scope_note": "用于自托管GLM模型推理服务"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Z.ai": "Zhipu AI（智谱）",
+          "GLM": "Zhipu GLM"
+        },
+        "candidate_event_ids": [
+          "EVT-061"
+        ],
+        "actors_normalized": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "Google Gemini"
+        ],
+        "targets_normalized": [
+          "Zhipu GLM",
+          "Nvidia B200 GPU",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "Google Gemini"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T20:57:15Z",
+    "title": "Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%"
+  },
+  {
+    "item_id": "ITEM-20261103-040",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道xAI在密西西比州安装改装喷气发动机为数据中心供电，与EVT-031同一事件链条，无标题党或广告问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "xAI在密西西比州数据中心安装八台改装喷气发动机供电",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "xAI"
+        ],
+        "action": "在密西西比州数据中心安装八台从退役飞机拆卸并改装为燃烧天然气的喷气发动机，用于自行发电为数据中心供电",
+        "target_objects": [
+          "改装喷气发动机",
+          "天然气发电",
+          "xAI密西西比州数据中心",
+          "AI数据中心电力供应"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "xAI在密西西比州数据中心安装了八台从退役飞机拆卸并改装为燃烧天然气的喷气发动机，以绕过电网接入排队问题自行发电。HN社区评论指出此举与电动车推广争论相关，并质疑「足够15000户家庭用电」这类对比的实际意义。",
+        "metrics": [
+          {
+            "metric_name": "改装喷气发动机数量",
+            "value": "8台",
+            "scope_note": "xAI密西西比州数据中心安装数量"
+          },
+          {
+            "metric_name": "等效家庭供电户数",
+            "value": "约15000户",
+            "scope_note": "社区评论引用，指这些发动机正常情况下的供电能力，被质疑对比意义"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "converted jet engines": "改装喷气发动机",
+          "jet engines": "喷气发动机"
+        },
+        "candidate_event_ids": [
+          "EVT-031"
+        ],
+        "actors_normalized": [
+          "xAI"
+        ],
+        "targets_normalized": [
+          "改装喷气发动机",
+          "天然气发电",
+          "xAI密西西比州数据中心",
+          "AI数据中心电力供应"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T16:34:14Z",
+    "title": "xAI installs eight converted jet engines to power Mississippi data center"
+  },
+  {
+    "item_id": "ITEM-20261103-041",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Revolut将2000名工程师AI编程工具切换为自托管GLM模型",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "OpenAI Codex"
+        ],
+        "action": "将约2000名软件工程师的默认AI编程工具从Anthropic Claude Code和OpenAI Codex切换为自托管Zhipu GLM模型，将Claude Code和Codex列入例外名单",
+        "target_objects": [
+          "Zhipu GLM模型",
+          "Nvidia B200 GPU",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "AI编程推理成本"
+        ],
+        "event_time": "2026-11-03",
+        "location": "英国",
+        "factual_summary": "Revolut将约2000名软件工程师的默认AI编程工具从Anthropic Claude Code和OpenAI Codex切换为自托管Zhipu GLM模型。据AI运营负责人David Abitbol透露，公司部署56块Nvidia B200 GPU，混合推理成本为每百万token 30美分，约为此前支付给Anthropic和OpenAI费用的十分之一。HN社区讨论关注该成本数据的可复现性以及56块B200集群的部署难度。",
+        "metrics": [
+          {
+            "metric_name": "部署GPU数量",
+            "value": "56块Nvidia B200",
+            "scope_note": "用于自托管GLM模型的推理集群"
+          },
+          {
+            "metric_name": "混合推理成本",
+            "value": "每百万token 30美分",
+            "scope_note": "约为此前支付给Anthropic和OpenAI费用的十分之一"
+          },
+          {
+            "metric_name": "切换工程师人数",
+            "value": "约2000名",
+            "scope_note": "Revolut软件工程师团队"
+          },
+          {
+            "metric_name": "硬件投入估算",
+            "value": "约250万至300万美元",
+            "scope_note": "HN评论者估算的56块B200硬件成本"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "GLM": "Zhipu GLM",
+          "David Abitbol": "Revolut AI运营负责人"
+        },
+        "candidate_event_ids": [
+          "EVT-061"
+        ],
+        "actors_normalized": [
+          "Revolut",
+          "Zhipu GLM",
+          "Nvidia",
+          "Anthropic Claude Code",
+          "OpenAI Codex"
+        ],
+        "targets_normalized": [
+          "Zhipu GLM模型",
+          "Nvidia B200 GPU",
+          "Anthropic Claude Code",
+          "OpenAI Codex",
+          "AI编程推理成本"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T09:53:59Z",
+    "title": "Revolut moves to self-hosted GLM"
+  },
+  {
+    "item_id": "ITEM-20261103-042",
+    "quality_flags": [
+      "STALE_NEWS"
+    ],
+    "quality_reason": "HN帖子分享生成式AI数学基础教材，内容客观无夸大或广告成分；事件实际发生日(2026-05-28)早于发布日超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "arXiv发布生成式AI数学基础教材涵盖PCA到扩散模型推导",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "Tianhua Chen"
+        ],
+        "action": "在arXiv发布题为《The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer》的数学基础教材",
+        "target_objects": [
+          "生成式AI数学基础教材",
+          "PCA",
+          "概率PCA",
+          "变分自编码器",
+          "扩散模型",
+          "归一化流",
+          "自回归分解",
+          "GAN",
+          "Wasserstein GAN",
+          "能量模型"
+        ],
+        "event_time": "2026-05-28",
+        "location": "全球",
+        "factual_summary": "Tianhua Chen在arXiv发布生成式AI数学基础教材，系统推导从PCA、变分自编码器、扩散模型到归一化流、GAN及能量模型等主要生成模型家族的数学结构，面向数学基础扎实的研究者、从业者与学生。该教材经两次修订，v2版本于2026年9月8日更新。",
+        "metrics": [
+          {
+            "metric_name": "Hacker News得分",
+            "value": "358 pts",
+            "scope_note": "HN社区投票得分"
+          },
+          {
+            "metric_name": "HN评论数",
+            "value": "56",
+            "scope_note": "HN讨论区评论数"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Tianhua Chen"
+        ],
+        "targets_normalized": [
+          "生成式AI数学基础教材",
+          "PCA",
+          "概率PCA",
+          "变分自编码器",
+          "扩散模型",
+          "归一化流",
+          "自回归分解",
+          "GAN",
+          "Wasserstein GAN",
+          "能量模型"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T21:40:53Z",
+    "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
+  },
+  {
+    "item_id": "ITEM-20261103-043",
+    "quality_flags": [
+      "STALE_NEWS"
+    ],
+    "quality_reason": "正文核心事件为美国科技巨头AI相关表外债务数据，原文为日经新闻报道，实际数据披露时间早于HN转载发布日期超过3天",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "美国科技巨头AI相关表外债务半年增长90%达3.2万亿美元",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Google",
+          "Meta",
+          "Amazon",
+          "Microsoft"
+        ],
+        "action": "AI相关表外承诺与义务在六个月内增长约90%，总额达到约3.2万亿美元，占资产比例达80%",
+        "target_objects": [
+          "AI基础设施承诺",
+          "数据中心租赁承诺",
+          "电力采购义务",
+          "表外债务"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "据日经新闻报道，美国科技巨头因AI相关义务产生的表外债务在六个月内几乎翻倍至约3.2万亿美元，承诺与义务总额已达资产的80%，投资者对看似无止境的支出感到日益担忧。HN评论中有人指出该数据包含数十年期的数据中心租赁和电力支付承诺，即使AI完全失败，数据中心仍有其他用途，因此风险被夸大。",
+        "metrics": [
+          {
+            "metric_name": "AI相关表外债务总额",
+            "value": "约3.2万亿美元",
+            "scope_note": "六个月内增长约90%，包含数据中心租赁和电力支付等长期承诺"
+          },
+          {
+            "metric_name": "承诺与义务占资产比例",
+            "value": "80%",
+            "scope_note": "Google、Meta等科技巨头的AI相关承诺与义务占其总资产的比例"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "off-balance-sheet debt": "表外债务",
+          "AI-related obligations": "AI相关义务",
+          "commitments and obligations": "承诺与义务"
+        },
+        "candidate_event_ids": [
+          "EVT-016"
+        ],
+        "actors_normalized": [
+          "Google",
+          "Meta",
+          "Amazon",
+          "Microsoft"
+        ],
+        "targets_normalized": [
+          "AI基础设施承诺",
+          "数据中心租赁承诺",
+          "电力采购义务",
+          "表外债务"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-03T21:26:44Z",
+    "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months"
+  },
+  {
+    "item_id": "ITEM-20261103-044",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文为小米单方面获奖宣传与机器人业务成果通稿，无独立信源，通篇正面渲染。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "小米获2026世界互联网大会杰出贡献奖及具身基座模型领先科技奖",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "小米"
+        ],
+        "action": "小米集团及机器人团队在2026世界互联网大会乌镇峰会上分别获得「杰出贡献奖」创新突破类奖项和「领先科技奖」",
+        "target_objects": [
+          "2026世界互联网大会杰出贡献奖",
+          "2026世界互联网大会领先科技奖",
+          "面向规模化落地的通用机器人操作基座模型关键技术"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "小米集团在2026世界互联网大会乌镇峰会上获「杰出贡献奖」，其机器人业务「面向规模化落地的通用机器人操作基座模型关键技术」获「领先科技奖」。该奖项共有全球230余家企业申报，最终仅15家企业获奖。",
+        "metrics": [
+          {
+            "metric_name": "杰出贡献奖申报企业数",
+            "value": "230余家企业",
+            "scope_note": "覆盖近20个国家和地区"
+          },
+          {
+            "metric_name": "杰出贡献奖最终获奖企业数",
+            "value": "15家",
+            "scope_note": "经全球顶尖专家两轮评审"
+          },
+          {
+            "metric_name": "领先科技奖征集成果数",
+            "value": "430余项",
+            "scope_note": "来自43个国家和地区"
+          },
+          {
+            "metric_name": "领先科技奖入围数",
+            "value": "20个",
+            "scope_note": "由30位国内外顶尖专家遴选"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "小米"
+        ],
+        "targets_normalized": [
+          "2026世界互联网大会杰出贡献奖",
+          "2026世界互联网大会领先科技奖",
+          "面向规模化落地的通用机器人操作基座模型关键技术"
+        ]
+      },
+      {
+        "event_title": "小米人形机器人在汽车工厂完成8小时整班作业验证",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "小米"
+        ],
+        "action": "小米人形机器人在汽车工厂中控台侧盖板排序工站首次挑战8小时作业任务，实现异常自主纠偏与产线系统级协同",
+        "target_objects": [
+          "小米人形机器人",
+          "汽车工厂中控台侧盖板排序工站",
+          "Xiaomi-Robotics-1"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "小米披露其人形机器人在汽车工厂中控台侧盖板排序工站首次完成8小时整班作业，满足全天生产需求，并实现作业过程异常自主纠偏与产线系统级协同，初步完成产线级作业能力验证。",
+        "metrics": [
+          {
+            "metric_name": "连续作业时长",
+            "value": "8小时",
+            "scope_note": "首次挑战，满足工站全天生产需求"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "小米"
+        ],
+        "targets_normalized": [
+          "小米人形机器人",
+          "汽车工厂中控台侧盖板排序工站",
+          "Xiaomi-Robotics-1"
+        ]
+      },
+      {
+        "event_title": "小米具身基座模型在青年公寓启动试运营完成长程任务验证",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "小米"
+        ],
+        "action": "基于Xiaomi-Robotics-1预训练模型搭建Agent系统，在小米青年公寓完成连续超30分钟、覆盖3个房间、包含50+任务的长程任务验证",
+        "target_objects": [
+          "Xiaomi-Robotics-1",
+          "小米具身基座模型",
+          "小米青年公寓",
+          "Agent系统"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "小米具身基座模型在小米青年公寓正式启动试运营，基于Xiaomi-Robotics-1预训练模型搭建Agent系统，完成连续超30分钟、覆盖3个房间、包含50+任务的长程任务验证，探索家庭场景落地。",
+        "metrics": [
+          {
+            "metric_name": "长程任务连续时长",
+            "value": "超30分钟",
+            "scope_note": "覆盖3个房间"
+          },
+          {
+            "metric_name": "任务数量",
+            "value": "50+个",
+            "scope_note": "长程任务验证"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "小米"
+        ],
+        "targets_normalized": [
+          "Xiaomi-Robotics-1",
+          "小米具身基座模型",
+          "小米青年公寓",
+          "Agent系统"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T05:16:35Z",
+    "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”"
+  },
+  {
+    "item_id": "ITEM-20261103-045",
+    "quality_flags": [
+      "EXAGGERATED_TITLE"
+    ],
+    "quality_reason": "标题使用「紧急修改」「快控制不住了」等夸张表述，正文实为Anthropic常规招股书风险披露与财务数据更新，属标准IPO文件内容。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic更新S-1/A招股书披露接近RSI阈值并更新安全政策",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "提交修订版S-1/A注册声明，披露内部估计显示公司可能即将达到自身对递归自我改进（RSI）的阈值，并考虑更新负责任扩展政策",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "负责任扩展政策（Responsible Scaling Policy）",
+          "Anthropic IPO"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在修订版S-1/A招股书第29页披露，内部越来越多使用AI加速AI研发，可能导致模型能力提升速度超过安全对齐措施的开发速度，预判模型可能即将触达负责任扩展政策定义的「由AI驱动的大幅加速进展」阈值。公司强调目前在役模型仍在控制范围内，并将加强人类监督和安全评估。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "A社": "Anthropic",
+          "RSI": "递归自我改进（Recursive Self-Improvement）"
+        },
+        "candidate_event_ids": [
+          "EVT-002"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "负责任扩展政策（Responsible Scaling Policy）",
+          "Anthropic IPO"
+        ]
+      },
+      {
+        "event_title": "Anthropic招股书披露Q3营收1130亿元人民币及8954亿美元算力采购承诺",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic",
+          "Amazon",
+          "Google",
+          "SpaceX",
+          "Neoclouds"
+        ],
+        "action": "在修订版S-1/A招股书中披露2026年Q3财务数据及算力采购账单",
+        "target_objects": [
+          "Anthropic Q3营收",
+          "Anthropic S-1/A招股书",
+          "算力采购承诺",
+          "Neoclouds"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic披露2026年Q3单季营收约1130亿元人民币（约169.6亿美元），同比增长1127%。同时披露算力采购账单达8954亿美元，供应商包括亚马逊、谷歌、SpaceX及多家算力租赁新贵（Neoclouds）。账面巨亏主要来自可转换票据和衍生负债的公允价值变动会计准则减计，并非实际现金消耗。",
+        "metrics": [
+          {
+            "metric_name": "Q3营收",
+            "value": "约1130亿元人民币（约169.6亿美元）",
+            "scope_note": "2026年第三季度，同比增长1127%"
+          },
+          {
+            "metric_name": "算力采购承诺",
+            "value": "8954亿美元",
+            "scope_note": "招股书披露的累计算力采购账单"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "A社": "Anthropic",
+          "Neoclouds": "算力租赁新贵"
+        },
+        "candidate_event_ids": [
+          "EVT-015",
+          "EVT-016"
+        ],
+        "actors_normalized": [
+          "Anthropic",
+          "Amazon",
+          "Google",
+          "SpaceX",
+          "算力租赁新贵"
+        ],
+        "targets_normalized": [
+          "Anthropic Q3营收",
+          "Anthropic S-1/A招股书",
+          "算力采购承诺",
+          "算力租赁新贵"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T03:41:06Z",
+    "title": "A社紧急修改招股书！RSI我们快要控制不住了"
+  },
+  {
+    "item_id": "ITEM-20261103-046",
+    "quality_flags": [],
+    "quality_reason": "内容为学术论文综述发布报道，标题虽有渲染但未构成标题党，正文客观介绍研究背景与作者团队。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "北大联合IBM发布「现代模拟计算」综述论文重新定义领域",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "北京大学",
+          "IBM苏黎世研究院",
+          "Unconventional AI",
+          "孙仲",
+          "Abu Sebastian",
+          "Shahar Kvatinsky",
+          "Piergiulio Mannocci"
+        ],
+        "action": "在Nature旗下非传统计算期刊发表综述论文，提出「现代模拟计算」的定义框架并将其与传统模拟计算区分",
+        "target_objects": [
+          "现代模拟计算",
+          "模拟计算综述论文",
+          "存内计算",
+          "非传统计算"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "北京大学副教授孙仲联合IBM苏黎世研究院及硅谷初创公司Unconventional AI，在Nature旗下期刊发表综述论文，首次系统性提出「现代模拟计算」的定义框架，从三个维度将其与半个世纪前的传统模拟计算彻底区分。孙仲同时拟任模拟计算芯片公司安纳智芯首席科学家。",
+        "metrics": [
+          {
+            "metric_name": "Unconventional AI估值",
+            "value": "超过45亿美元",
+            "scope_note": "硅谷模拟计算初创公司，文中提及作为行业热度背景"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "孙仲": "北京大学人工智能研究院长聘副教授、安纳智芯首席科学家",
+          "Abu Sebastian": "IBM苏黎世研究院学者、IEEE Fellow",
+          "Unconventional AI": "硅谷模拟计算初创公司，估值超45亿美元"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "北京大学",
+          "IBM苏黎世研究院",
+          "硅谷模拟计算初创公司，估值超45亿美元",
+          "北京大学人工智能研究院长聘副教授、安纳智芯首席科学家",
+          "IBM苏黎世研究院学者、IEEE Fellow",
+          "Shahar Kvatinsky",
+          "Piergiulio Mannocci"
+        ],
+        "targets_normalized": [
+          "现代模拟计算",
+          "模拟计算综述论文",
+          "存内计算",
+          "非传统计算"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T03:16:23Z",
+    "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义"
+  },
+  {
+    "item_id": "ITEM-20261103-047",
+    "quality_flags": [],
+    "quality_reason": "内容为MIT研究团队发布GPT-6 Astra权重空间编程能力的实测结果，属前沿AI研究报道，无明显标题党或软文痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "MIT研究团队验证GPT-6 Astra可直接修改Qwen3.5权重提升数学能力6倍",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "MIT",
+          "OpenAI",
+          "Qwen"
+        ],
+        "action": "MIT研究团队利用GPT-6 Astra在权重空间中直接编辑Qwen3.5-0.8B模型权重，仅修改0.016%参数即实现MATH-500得分从7.9%提升至48.1%，指令执行能力提升3倍，并可从零生成小游戏网络权重",
+        "target_objects": [
+          "GPT-6 Astra",
+          "Qwen3.5-0.8B",
+          "Weight-Space Programming（权重空间编程）",
+          "MATH-500基准测试",
+          "PPO基线"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "MIT研究团队提出「权重空间编程」方法，让GPT-6 Astra直接分析并修改Qwen3.5-0.8B的全部权重。仅改动0.016%的权重，MATH-500得分从7.9%飙升至48.1%（约6倍），指令执行能力提升3倍；Astra还能从零生成小游戏网络权重，得分超过训练5亿步的PPO基线20倍。",
+        "metrics": [
+          {
+            "metric_name": "MATH-500得分提升",
+            "value": "7.9% → 48.1%（约6倍）",
+            "scope_note": "Qwen3.5-0.8B模型经Astra权重编辑后"
+          },
+          {
+            "metric_name": "权重修改比例",
+            "value": "0.016%",
+            "scope_note": "Qwen3.5-0.8B全部权重中被修改的比例"
+          },
+          {
+            "metric_name": "指令执行能力提升",
+            "value": "3倍",
+            "scope_note": "未经针对性优化即同步提升"
+          },
+          {
+            "metric_name": "小游戏网络权重生成得分",
+            "value": "超过PPO基线20倍",
+            "scope_note": "PPO基线训练了5亿步"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Weight-Space Programming": "权重空间编程",
+          "源神": "Qwen（通义千问）",
+          "GPT-6 Astra": "GPT-6 Astra"
+        },
+        "candidate_event_ids": [
+          "EVT-022"
+        ],
+        "actors_normalized": [
+          "MIT",
+          "OpenAI",
+          "Alibaba Qwen"
+        ],
+        "targets_normalized": [
+          "GPT-6 Astra",
+          "Qwen3.5-0.8B",
+          "Weight-Space Programming（权重空间编程）",
+          "MATH-500基准测试",
+          "PPO基线"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-03T01:57:30Z",
+    "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍"
+  },
+  {
+    "item_id": "ITEM-20261103-048",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "百度Apollo发布全模态世界模型Apollo World用于无人驾驶验证",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "百度",
+          "百度Apollo"
+        ],
+        "action": "在深圳百度AI Day·Apollo专场上首次披露面向物理AI的智能体驱动全模态世界模型Apollo World，并提出世界模型「2+3」判断标准",
+        "target_objects": [
+          "Apollo World",
+          "世界模型「2+3」判断标准",
+          "萝卜快跑",
+          "无人驾驶仿真测试"
+        ],
+        "event_time": "2026-11-03",
+        "location": "中国",
+        "factual_summary": "百度Apollo于深圳百度AI Day·Apollo专场首次公开面向物理AI的智能体驱动全模态世界模型Apollo World，强调模拟器忠实还原现实物理规律与行为因果，已用于萝卜快跑全球化测试与验证。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Apollo World": "全模态世界模型",
+          "萝卜快跑": "百度自动驾驶出行服务"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Baidu",
+          "百度Apollo"
+        ],
+        "targets_normalized": [
+          "全模态世界模型",
+          "世界模型「2+3」判断标准",
+          "百度自动驾驶出行服务",
+          "无人驾驶仿真测试"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-03T11:50:21Z",
+    "title": "AI 训练 AI！百度首次披露 Apollo World 世界模型，让无人驾驶突破“不可能三角”"
+  },
+  {
+    "item_id": "ITEM-20261103-049",
+    "quality_flags": [
+      "EXAGGERATED_TITLE"
+    ],
+    "quality_reason": "标题渲染「无限token重写98%遗留代码」极具冲击力，但正文仅披露Cisco高管在晚宴上口头表示给一位27岁工程师无限AI token用于代码重构，未提及98%这一具体数字来源，且事件本身为高管个人言论而非系统性工程成果披露。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Cisco高管称给27岁工程师无限AI token重构遗留代码",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Cisco",
+          "Jeetu Patel",
+          "Padmanabhan Krishnamurthy",
+          "EzDubs"
+        ],
+        "action": "Cisco总裁兼首席产品官Jeetu Patel在小型圆桌晚宴上表示，给予27岁工程师Padmanabhan Krishnamurthy无限量AI token，用于重构Cisco遗留代码",
+        "target_objects": [
+          "Cisco遗留代码",
+          "AI编程token",
+          "EzDubs"
+        ],
+        "event_time": "2026-11-03",
+        "location": "美国",
+        "factual_summary": "Cisco总裁兼首席产品官Jeetu Patel在晚宴上透露，给予27岁工程师Paddy（Padmanabhan Krishnamurthy，2023年联合创办实时翻译公司EzDubs，2025年被Cisco收购）无限量AI token用于重构Cisco遗留代码。正文未披露具体重构比例或量化成果，标题中「98%」数据来源不明。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Paddy": "Padmanabhan Krishnamurthy",
+          "EzDubs": "实时翻译公司"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Cisco",
+          "Jeetu Patel",
+          "Padmanabhan Krishnamurthy",
+          "实时翻译公司"
+        ],
+        "targets_normalized": [
+          "Cisco遗留代码",
+          "AI编程token",
+          "实时翻译公司"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-03T04:12:02Z",
+    "title": "思科给一个 27 岁工程师无限 token，让他重写 98% 的遗留代码"
+  },
+  {
+    "item_id": "ITEM-20261103-050",
+    "quality_flags": [
+      "MULTI_TOPIC_DIGEST",
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "社区周报合集含多个互不相关小节（压花器、二手显卡、AI平替讨论），且为社区内容推广性质",
+    "discarded_subtopics": [
+      "手工压花器制作宝可梦冰箱贴",
+      "二手TITAN V显卡购买与Steam游戏打折",
+      "社区Matrix周报重启与投稿渠道说明"
+    ],
+    "extracted_events": [],
+    "source": "少数派 SSPai",
+    "published_at": "2026-11-03T07:12:54Z",
+    "title": "社区速递 164 | 1500 元圆梦昔日卡皇与派友们做的 AI 平替"
+  }
+]

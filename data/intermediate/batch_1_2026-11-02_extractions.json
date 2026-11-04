@@ -1,0 +1,1726 @@
+[
+  {
+    "item_id": "ITEM-20261102-001",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Trajectory完成4500万美元A轮融资估值3亿美元",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Trajectory",
+          "Sequoia",
+          "Nvidia",
+          "Bessemer Venture Partners",
+          "Bain Capital Ventures"
+        ],
+        "action": "完成4500万美元A轮融资",
+        "target_objects": [
+          "Trajectory公司"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "成立约一年的AI初创公司Trajectory宣布完成4500万美元A轮融资，由红杉资本领投，英伟达、Bessemer Venture Partners和Bain Capital Ventures参投，公司估值达3亿美元。Trajectory由三位斯坦福校友创立，致力于通过持续学习方法让AI模型从反馈中自动改进，降低企业微调模型的技术门槛。",
+        "metrics": [
+          {
+            "metric_name": "融资金额",
+            "value": "4500万美元",
+            "scope_note": "A轮"
+          },
+          {
+            "metric_name": "公司估值",
+            "value": "3亿美元",
+            "scope_note": "A轮投后估值"
+          },
+          {
+            "metric_name": "团队规模",
+            "value": "18人",
+            "scope_note": "当前员工总数"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Trajectory",
+          "Sequoia",
+          "Nvidia",
+          "Bessemer Venture Partners",
+          "Bain Capital Ventures"
+        ],
+        "targets_normalized": [
+          "Trajectory公司"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T23:13:53Z",
+    "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts"
+  },
+  {
+    "item_id": "ITEM-20261102-002",
+    "quality_flags": [],
+    "quality_reason": "标题与正文一致，Anthropic S-1/A文件披露RSI风险，属正常科技新闻报道，无夸大或公关痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic在S-1/A文件中警告接近实现递归自我改进能力",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "在修订版S-1/A招股书文件中披露公司正接近实现递归自我改进（RSI）能力，并警告相关安全风险",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "Responsible Scaling Policy"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在周一提交的修订版S-1/A文件中披露，公司正接近开发出具备递归自我改进（RSI）能力的模型，即AI自我训练能力足以引发能力加速增长。Anthropic同时警告使用AI构建更强大AI可能带来重大安全风险，并称该问题已被纳入其「负责任扩展政策」（Responsible Scaling Policy）。该披露出现在市场关注其更新财务数据的同一份文件中。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "RSI": "递归自我改进（Recursive Self-Improvement）",
+          "S-1/A": "修订版S-1招股书",
+          "Responsible Scaling Policy": "负责任扩展政策"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "递归自我改进（RSI）",
+          "负责任扩展政策"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T22:14:50Z",
+    "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI"
+  },
+  {
+    "item_id": "ITEM-20261102-003",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "纽约时报等媒体起诉Brave浏览器涉嫌抓取版权内容并转售",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "The New York Times",
+          "Daily News",
+          "Chicago Tribune",
+          "Orlando Sentinel",
+          "Brave",
+          "Anthropic",
+          "Perplexity"
+        ],
+        "action": "在曼哈顿联邦法院提起诉讼，指控Brave使用未识别爬虫抓取超过300亿网页建立索引，绕过付费墙，并将内容非法分发给Anthropic、Perplexity等第三方AI客户",
+        "target_objects": [
+          "Brave浏览器",
+          "Brave爬虫索引（超300亿网页）",
+          "Brave付费墙绕过功能",
+          "Brave广告拦截与自有广告业务",
+          "Anthropic",
+          "Perplexity"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "纽约时报、每日新闻、芝加哥论坛报及奥兰多哨兵报分别在曼哈顿联邦法院起诉隐私浏览器Brave，指控其通过未识别爬虫抓取逾300亿网页构建索引、绕过付费墙、拦截出版商广告并销售自有广告，同时将抓取内容非法分发给Anthropic和Perplexity等AI客户。时报寻求禁令与赔偿，Brave暂未回应。",
+        "metrics": [
+          {
+            "metric_name": "Brave爬虫索引网页规模",
+            "value": "超过300亿",
+            "scope_note": "诉状称Brave使用未识别爬虫建立的网页索引总量"
+          },
+          {
+            "metric_name": "Brave累计融资额",
+            "value": "约2.5亿美元",
+            "scope_note": "据私募市场追踪机构数据，Brave自2015年成立以来的累计融资"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Brave": "Brave浏览器公司",
+          "AI 'fence'": "AI内容销赃者（诉状比喻，指Brave将抓取内容转售给AI公司）"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "The New York Times",
+          "Daily News",
+          "Chicago Tribune",
+          "Orlando Sentinel",
+          "Brave",
+          "Anthropic",
+          "Perplexity"
+        ],
+        "targets_normalized": [
+          "Brave",
+          "Brave爬虫索引（超300亿网页）",
+          "Brave付费墙绕过功能",
+          "Brave广告拦截与自有广告业务",
+          "Anthropic",
+          "Perplexity"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T19:19:17Z",
+    "title": "New York Times and other outlets sue web browser Brave over alleged content scraping"
+  },
+  {
+    "item_id": "ITEM-20261102-004",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "以色列初创公司42AI获6250万美元种子轮并发布行为世界模型",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "42AI"
+        ],
+        "action": "走出隐身模式并发布行为世界模型，同时完成种子轮融资",
+        "target_objects": [
+          "行为世界模型",
+          "42AI公司"
+        ],
+        "event_time": "2026-11-02",
+        "location": "以色列",
+        "factual_summary": "以色列初创公司42AI宣布完成6250万美元种子轮融资并走出隐身模式，同时发布一款声称能预测人类行为的行为世界模型。该模型已在数家金融券商试运行，用于预测交易员在波动市场条件下的反应。CEO Amit Gal-Or表示模型基于人的内在心理倾向进行概率预测，而非简单模式外推。",
+        "metrics": [
+          {
+            "metric_name": "种子轮融资金额",
+            "value": "6250万美元",
+            "scope_note": "42AI种子轮融资总额"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "behavioral world model": "行为世界模型"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "42AI"
+        ],
+        "targets_normalized": [
+          "行为世界模型",
+          "42AI公司"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T16:30:00Z",
+    "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’"
+  },
+  {
+    "item_id": "ITEM-20261102-005",
+    "quality_flags": [
+      "MULTI_TOPIC_DIGEST"
+    ],
+    "quality_reason": "本篇为多事件科技早报合集，包含苹果MacBook、谷歌AI搜索、OpenAI数据中心、赛力斯出海、游戏、充电器、AI助学金欺诈等十余个互不相关小节。",
+    "discarded_subtopics": [
+      "苹果CEO特努斯为AI布局辩护（高管表态，无实质事件）",
+      "苹果计划2027年淘汰非触控MacBook Pro（硬件产品线爆料，非AI核心）",
+      "赛力斯问界全面进入欧洲市场（传统车企出海，非AI内容）",
+      "《影之刃零》Steam峰值在线83万（传统游戏销量，非AI内容）",
+      "酷态科30号笔记本适配器发售（充电器配件，非AI内容）"
+    ],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI、谷歌、微软、Anthropic联合推行AI数据抓取退出标准",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "OpenAI",
+          "Google",
+          "Microsoft",
+          "Anthropic"
+        ],
+        "action": "联合宣布采用由Anthropic技术负责人向IETF提出的新标准，允许内容发布方通过robots.txt一次性向多家AI企业统一声明AI训练内容使用偏好",
+        "target_objects": [
+          "robots.txt",
+          "AI数据抓取退出标准",
+          "IETF标准提案"
+        ],
+        "event_time": "2026-11-01",
+        "location": "全球",
+        "factual_summary": "OpenAI、谷歌、微软和Anthropic宣布采用一项新标准，内容发布方可通过robots.txt文件一次性向多家AI企业统一声明AI训练内容使用偏好，无需逐家设置规则。该标准由Anthropic技术负责人Kevin Kelley向IETF提出。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Kevin Kelley": "Anthropic技术负责人"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "Google",
+          "Microsoft",
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "robots.txt",
+          "AI数据抓取退出标准",
+          "IETF标准提案"
+        ]
+      },
+      {
+        "event_title": "Google AI搜索模式被指切断网站流量致出版商受损",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "Google",
+          "Reddit"
+        ],
+        "action": "Google AI搜索模式直接生成答案摘要，不再像传统搜索那样为内容提供者导流，导致依赖搜索流量的出版商网站访问量迅速萎缩",
+        "target_objects": [
+          "Google AI Mode",
+          "Reddit",
+          "网络出版商流量"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Google AI搜索模式逐渐取代传统搜索结果页面，用户直接从AI生成摘要获取答案而非点击链接访问网站。Reddit CEO霍夫曼在Q3财报电话会议上表示Google仍在大量抓取Reddit内容，但AI搜索模式不再为Reddit带来相应访问量。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Google AI Mode": "Google AI搜索模式",
+          "Steve Huffman": "Reddit联合创始人兼CEO"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Google",
+          "Reddit"
+        ],
+        "targets_normalized": [
+          "Google AI搜索模式",
+          "Reddit",
+          "网络出版商流量"
+        ]
+      },
+      {
+        "event_title": "OpenAI计划将数据中心重新包装为「AI算力园区」发起公关宣传",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "OpenAI首席全球事务官Chris Lehane表示，计划在中期选举后发起大规模公关宣传活动，将数据中心重新包装为「AI算力园区」，并推动AI发展速度限制及全球标准制定",
+        "target_objects": [
+          "数据中心",
+          "AI算力园区"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI首席全球事务官Chris Lehane表示，公司计划在美国中期选举后发起大规模公关宣传活动，将数据中心重新包装为「AI算力园区」，并计划制定AI发展速度限制、推动美国参与全球标准制定。此前亚马逊和微软已宣布与地方政府谈判数据中心项目时不再使用保密协议。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "AI算力园区": "compute campuses",
+          "Chris Lehane": "OpenAI首席全球事务官"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "数据中心",
+          "AI Compute Campuses (AI算力园区)"
+        ]
+      },
+      {
+        "event_title": "赛迪研究院报告称中国AI推理数据量首次超过训练数据量",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "赛迪研究院"
+        ],
+        "action": "赛迪研究院发布《新域新质创新发展十大趋势》报告，披露中国AI推理数据量首次超过训练数据量，标志AI从模型训练研发阶段迈入规模化产业应用阶段",
+        "target_objects": [
+          "中国AI推理数据量",
+          "日均词元调用量",
+          "大模型迭代周期"
+        ],
+        "event_time": "2026-11-01",
+        "location": "中国",
+        "factual_summary": "赛迪研究院发布报告显示，截至2026年6月中国日均词元调用量超过175万亿，相比2024年初增长1000多倍，AI推理数据量首次超过训练数据量。顶尖大模型迭代周期从几个月压缩到几周甚至几天，标志中国AI从「喂模型」实验室阶段全面转入「用模型」产业落地阶段。",
+        "metrics": [
+          {
+            "metric_name": "日均词元调用量",
+            "value": "超过175万亿",
+            "scope_note": "截至2026年6月，相比2024年初增长1000多倍"
+          },
+          {
+            "metric_name": "大模型迭代周期",
+            "value": "几周甚至几天",
+            "scope_note": "顶尖大模型，过去为几个月"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "赛迪研究院": "中国电子信息产业发展研究院",
+          "CCID": "赛迪研究院英文缩写"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "中国电子信息产业发展研究院"
+        ],
+        "targets_normalized": [
+          "中国AI推理数据量",
+          "日均词元调用量",
+          "大模型迭代周期"
+        ]
+      },
+      {
+        "event_title": "美国司法部起诉跨国AI「幽灵学生」助学金欺诈网络涉案超3200万美元",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "美国司法部",
+          "FBI"
+        ],
+        "action": "美国司法部在内布拉斯加州、弗吉尼亚州和新泽西州起诉五名涉案人员，查扣超75万美元加密货币，揭露一个与肯尼亚相关的犯罪网络利用AI伪造学生身份骗取联邦助学金",
+        "target_objects": [
+          "联邦助学金",
+          "AI自动完成课程作业",
+          "虚假学生账户",
+          "加密货币资产"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "美国司法部公布一起涉及AI技术的教育资助欺诈案，一个与肯尼亚相关的犯罪网络利用被盗身份信息伪造学生身份，通过AI完成课程作业、模拟在线上课骗取联邦助学金。检方已在三州起诉五名涉案人员，查扣超75万美元加密货币。FBI确认类似计划造成损失超3200万美元，实际损失可能更高。",
+        "metrics": [
+          {
+            "metric_name": "已确认损失金额",
+            "value": "超过3200万美元",
+            "scope_note": "FBI确认的「幽灵学生」计划总损失，实际可能更高"
+          },
+          {
+            "metric_name": "查扣加密货币",
+            "value": "超过75万美元",
+            "scope_note": "本次案件查扣资产"
+          },
+          {
+            "metric_name": "单一被告接收欺诈退款",
+            "value": "约144万美元",
+            "scope_note": "通过700多笔退款"
+          },
+          {
+            "metric_name": "虚假学生账户数",
+            "value": "300多个",
+            "scope_note": "另一名涉案人员相关账户"
+          },
+          {
+            "metric_name": "涉案存款金额",
+            "value": "超过100万美元",
+            "scope_note": "另一名涉案人员相关资金流"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "幽灵学生": "利用AI伪造身份的虚假学生"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "美国司法部",
+          "FBI"
+        ],
+        "targets_normalized": [
+          "联邦助学金",
+          "AI自动完成课程作业",
+          "虚假学生账户",
+          "加密货币资产"
+        ]
+      }
+    ],
+    "source": "极客公园",
+    "published_at": "2026-11-02T00:27:02Z",
+    "title": "传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场"
+  },
+  {
+    "item_id": "ITEM-20261102-006",
+    "quality_flags": [],
+    "quality_reason": "OpenAI官方博客技术文章，介绍自研Git后端Pando，内容客观无噪音。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI发布Git兼容后端Pando以支撑Codex大规模开发",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "开发并发布Git兼容后端Pando",
+        "target_objects": [
+          "Pando",
+          "Codex"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI官方博客披露其构建了名为Pando的Git兼容后端，专为Codex带来的大规模开发工作流设计，以解决传统Git在超大规模代码库和自动化开发场景下的扩展瓶颈。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Pando": "OpenAI自研Git兼容后端"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "OpenAI自研Git兼容后端",
+          "Codex",
+          "Git基础设施",
+          "OpenAI内部代码仓库",
+          "AI辅助开发工作流"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-02T15:30:00Z",
+    "title": "Scaling Git at OpenAI"
+  },
+  {
+    "item_id": "ITEM-20261102-007",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "OpenAI官方博客发布的单方面企业公关宣传，无独立信源，旨在塑造企业支持电网可靠性的正面形象。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI推出Grid Protectors计划与电力公司合作保障AI算力园区电网稳定",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "推出Grid Protectors Program，与电力公司合作确保未来算力园区支持电网可靠性并保护消费者电价",
+        "target_objects": [
+          "Grid Protectors Program",
+          "AI算力园区",
+          "电网基础设施"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI官方博客宣布推出Grid Protectors Program，该计划将与电力公司合作，确保未来算力园区（compute campuses）的电力需求不会影响电网可靠性，并保护消费者电价。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "compute campuses": "AI算力园区",
+          "Grid Protectors Program": "Grid Protectors计划"
+        },
+        "candidate_event_ids": [
+          "EVT-007"
+        ],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "Grid Protectors计划",
+          "AI Compute Campuses (AI算力园区)",
+          "电网基础设施"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-02T15:00:00Z",
+    "title": "Introducing the Grid Protectors Program"
+  },
+  {
+    "item_id": "ITEM-20261102-008",
+    "quality_flags": [],
+    "quality_reason": "正文简短但事实清晰，无标题党、广告或旧闻问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI与Cathedral Systems合作开展内部安全强化冲刺",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "OpenAI",
+          "Cathedral Systems"
+        ],
+        "action": "准备并开展内部安全冲刺，利用AI测试和强化OpenAI的防御能力",
+        "target_objects": [
+          "OpenAI内部安全防御体系"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI宣布正在与Cathedral Systems合作准备下一轮内部安全冲刺，旨在使用AI技术测试并加强其安全防御体系。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI",
+          "Cathedral Systems"
+        ],
+        "targets_normalized": [
+          "OpenAI内部安全防御体系"
+        ]
+      }
+    ],
+    "source": "OpenAI Official Blog",
+    "published_at": "2026-11-02T18:00:00Z",
+    "title": "Preparing our next security sprint to harden OpenAI"
+  },
+  {
+    "item_id": "ITEM-20261102-009",
+    "quality_flags": [],
+    "quality_reason": "GitHub官方Release页面，内容客观，无标题党或广告成分。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "vLLM发布v0.33.0版本新增多款大模型支持",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "vLLM"
+        ],
+        "action": "发布v0.33.0版本，新增927个提交，支持多款新模型并升级至PyTorch 2.14.0",
+        "target_objects": [
+          "vLLM v0.33.0",
+          "Reflection Beam-1.0 (501B MoE, 23B active)",
+          "Yandex AliceAI-Foundation-80B-A3B",
+          "Recursive Flint (40B MoE, 2.5B active)",
+          "Muse Spark Open",
+          "Step-5 Preview",
+          "NVIDIA Alpamayo 2 Super",
+          "Nemotron-Labs Dory1.0-4B",
+          "Nemotron Parse 3.5",
+          "MiniCPM-OCR 1.0",
+          "Domyn Edge",
+          "ColUltraVBERT visual document retriever",
+          "PyTorch 2.14.0"
+        ],
+        "event_time": "2026-11-02",
+        "location": "全球",
+        "factual_summary": "vLLM发布v0.33.0版本，包含来自389位贡献者的927个提交（其中122位为新贡献者），新增支持Reflection Beam-1.0、Yandex AliceAI-Foundation-80B-A3B、Recursive Flint等多款新模型，并将底层升级至PyTorch 2.14.0。",
+        "metrics": [
+          {
+            "metric_name": "提交数量",
+            "value": "927",
+            "scope_note": "本次发布包含的总提交数"
+          },
+          {
+            "metric_name": "贡献者数量",
+            "value": "389",
+            "scope_note": "其中122位为新贡献者"
+          },
+          {
+            "metric_name": "新增模型数量",
+            "value": "12",
+            "scope_note": "本次发布新增支持的模型列表"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "vLLM"
+        ],
+        "targets_normalized": [
+          "vLLM v0.33.0",
+          "Reflection Beam-1.0 (501B MoE, 23B active)",
+          "Yandex AliceAI-Foundation-80B-A3B",
+          "Recursive Flint (40B MoE, 2.5B active)",
+          "Muse Spark Open",
+          "Step-5 Preview",
+          "NVIDIA Alpamayo 2 Super",
+          "Nemotron-Labs Dory1.0-4B",
+          "Nemotron Parse 3.5",
+          "MiniCPM-OCR 1.0",
+          "Domyn Edge",
+          "ColUltraVBERT visual document retriever",
+          "PyTorch 2.14.0"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (vllm-project/vllm)",
+    "published_at": "2026-11-02T10:10:05Z",
+    "title": "vllm-project/vllm Release v0.33.0rc3: v0.33.0"
+  },
+  {
+    "item_id": "ITEM-20261102-010",
+    "quality_flags": [],
+    "quality_reason": "正常版本发布记录，无标题党、广告或噪音问题",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "LangChain发布1.4.8版本并宣布即将终止Python 3.10支持",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "LangChain"
+        ],
+        "action": "发布langchain 1.4.8版本，并公告langchain-core 1.8.0与langchain 1.5.0将终止对Python 3.10的支持",
+        "target_objects": [
+          "langchain 1.4.8",
+          "langchain-core 1.8.0",
+          "langchain 1.5.0",
+          "Python 3.10"
+        ],
+        "event_time": "2026-11-02",
+        "location": "全球",
+        "factual_summary": "LangChain在GitHub发布1.4.8版本，主要包含langchain-core版本升级及多项依赖项（pyasn1、joserfc、authlib等）的安全更新。同时公告当前小版本为最后支持Python 3.10的版本，后续langchain-core 1.8.0和langchain 1.5.0将要求Python 3.11及以上。",
+        "metrics": [
+          {
+            "metric_name": "当前版本号",
+            "value": "1.4.8",
+            "scope_note": "langchain主包"
+          },
+          {
+            "metric_name": "终止Python 3.10支持的版本",
+            "value": "langchain-core 1.8.0 / langchain 1.5.0",
+            "scope_note": "即将发布"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "LangChain"
+        ],
+        "targets_normalized": [
+          "langchain 1.4.8",
+          "langchain-core 1.8.0",
+          "langchain 1.5.0",
+          "Python 3.10"
+        ]
+      }
+    ],
+    "source": "GitHub Releases (langchain-ai/langchain)",
+    "published_at": "2026-11-02T15:45:02Z",
+    "title": "langchain-ai/langchain Release langchain==1.4.8: langchain==1.4.8"
+  },
+  {
+    "item_id": "ITEM-20261102-011",
+    "quality_flags": [],
+    "quality_reason": "内容为OpenAI官方工程博客讨论帖，HN社区高赞评论对工程实践有实质讨论，无标题党或广告特征。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI工程博客分享大规模Git系统扩展实践经验",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "发布工程博客文章，详细披露OpenAI内部如何扩展Git基础设施以支撑大规模代码仓库与AI辅助开发工作流",
+        "target_objects": [
+          "Git基础设施",
+          "OpenAI内部代码仓库",
+          "AI辅助开发工作流"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI工程团队发布博客文章分享其内部Git系统扩展的技术细节，涉及代码仓库规模、提交量等数据。HN社区高赞评论一方面质疑如此庞大的代码量是否构成资产而非负债，另一方面肯定LLM在创造真正新颖软件方面的作用，并赞扬文章纯工程视角、无AI营销套话。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-010"
+        ],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "Git基础设施",
+          "OpenAI内部代码仓库",
+          "AI辅助开发工作流"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T23:47:56Z",
+    "title": "Scaling Git at OpenAI"
+  },
+  {
+    "item_id": "ITEM-20261102-012",
+    "quality_flags": [
+      "STALE_NEWS"
+    ],
+    "quality_reason": "正文标注发布日期为2026年10月15日，早于文章发布日期2026-11-02超过3天，属旧闻新发",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic 2026年Q3营收增速显著放缓",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "向投资者披露2026年第三季度财务数据，Q3营收168亿美元，环比增速从Q2的141%降至45%",
+        "target_objects": [
+          "Anthropic Q3营收",
+          "Anthropic Q2营收",
+          "Anthropic Q1营收",
+          "CoreWeave"
+        ],
+        "event_time": "2026-10-15",
+        "location": "美国",
+        "factual_summary": "Anthropic向投资者披露2026年Q3营收168亿美元，Q2为116亿美元，Q1为48亿美元；Q3环比增长45%（52亿美元），低于Q2的141%（68亿美元），暗示7月至9月月度增长几乎停滞。分析认为这是neocloud提供商如CoreWeave股价崩跌的原因之一，因其曾以AI算力需求持续超预期增长为假设大举借债。HN社区评论质疑Anthropic订阅收入中补贴比例不明，认为数字意义有限。",
+        "metrics": [
+          {
+            "metric_name": "Q3营收",
+            "value": "168亿美元",
+            "scope_note": "Anthropic 2026年第三季度总营收"
+          },
+          {
+            "metric_name": "Q2营收",
+            "value": "116亿美元",
+            "scope_note": "Anthropic 2026年第二季度总营收"
+          },
+          {
+            "metric_name": "Q1营收",
+            "value": "48亿美元",
+            "scope_note": "Anthropic 2026年第一季度总营收"
+          },
+          {
+            "metric_name": "Q3环比增速",
+            "value": "+45%（+52亿美元）",
+            "scope_note": "Q3相对Q2的环比增长"
+          },
+          {
+            "metric_name": "Q2环比增速",
+            "value": "+141%（+68亿美元）",
+            "scope_note": "Q2相对Q1的环比增长"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "neocloud": "新型云算力提供商",
+          "CoreWeave": "CoreWeave"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic Q3营收",
+          "Anthropic Q2营收",
+          "Anthropic Q1营收",
+          "CoreWeave",
+          "Anthropic S-1/A招股书"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T22:33:20Z",
+    "title": "Anthropic's growth just flattened"
+  },
+  {
+    "item_id": "ITEM-20261102-013",
+    "quality_flags": [],
+    "quality_reason": "文章为观点评论文章，非标题党或广告；引用Anthropic IPO招股书披露的财务数据，与已有事件索引中EVT-015及EVT-002高度关联，属于对同一客观事件的媒体解读。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "评论文章呼吁SEC阻止Anthropic IPO以保护公众利益",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic",
+          "Matt Scherer",
+          "SEC"
+        ],
+        "action": "发表评论文章，援引Anthropic IPO招股书披露的财务数据，呼吁SEC阻止其IPO",
+        "target_objects": [
+          "Anthropic IPO",
+          "Anthropic招股书财务披露",
+          "近9000亿美元支出承诺",
+          "Anthropic Q3营收增速"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "评论员Matt Scherer援引Anthropic上周提交的IPO注册声明，指出其脚注披露近9000亿美元支出承诺（多延续至2030年代），且2026年财务数据未经正式审计，Q3营收增长近乎停滞，呼吁SEC阻止其IPO以保护工人、散户和退休人员。文章为观点评论，核心事实源自Anthropic IPO招股书披露。",
+        "metrics": [
+          {
+            "metric_name": "Anthropic支出承诺总额",
+            "value": "近9000亿美元",
+            "scope_note": "源自Anthropic最近财务披露脚注，多笔承诺延续至2030年代"
+          },
+          {
+            "metric_name": "Anthropic Q3营收增速",
+            "value": "增长近乎停滞（slowed to a crawl）",
+            "scope_note": "2026年第三季度，未经正式审计"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Brace for Impact报告": "Matt Scherer合著报告《Brace for Impact: Protecting people and the economy when the AI bubble bursts》"
+        },
+        "candidate_event_ids": [
+          "EVT-015",
+          "EVT-002"
+        ],
+        "actors_normalized": [
+          "Anthropic",
+          "Matt Scherer",
+          "SEC"
+        ],
+        "targets_normalized": [
+          "Anthropic IPO",
+          "Anthropic招股书财务披露",
+          "近9000亿美元支出承诺",
+          "Anthropic Q3营收增速",
+          "AI基础设施支出承诺",
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T22:30:47Z",
+    "title": "The SEC Should Block Anthropic's IPO to Protect the Public"
+  },
+  {
+    "item_id": "ITEM-20261102-014",
+    "quality_flags": [],
+    "quality_reason": "标题与正文一致，报道Anthropic IPO前披露9000亿美元AI支出承诺，无夸大或广告成分。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic在IPO前披露9000亿美元AI支出承诺",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "在IPO前披露9000亿美元AI支出承诺",
+        "target_objects": [
+          "Anthropic IPO",
+          "AI基础设施支出承诺"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在IPO前夕披露了高达9000亿美元的AI支出承诺，引发社区对资金来源和散户投资者承担成本的担忧。HN评论指出VC可能借此快速退出，机构投资者已通过能源、半导体和云计算领域重仓布局，同时质疑数据中心供电能力能否支撑如此规模支出。",
+        "metrics": [
+          {
+            "metric_name": "AI支出承诺总额",
+            "value": "9000亿美元",
+            "scope_note": "Anthropic在IPO前披露的AI基础设施相关支出承诺"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-002",
+          "EVT-015"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic IPO",
+          "AI基础设施支出承诺"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T19:36:37Z",
+    "title": "Anthropic reveals $900B AI spending commitments ahead of IPO"
+  },
+  {
+    "item_id": "ITEM-20261102-015",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "正文仅为HN帖子链接与2条评论引用，无独立信源核实，且评论含[dupe]标记指向重复提交",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic IPO招股书披露近9000亿美元AI基础设施支出承诺",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "在IPO前提交的注册声明中披露近9000亿美元AI基础设施支出承诺",
+        "target_objects": [
+          "Anthropic IPO",
+          "Anthropic招股书财务披露",
+          "近9000亿美元支出承诺",
+          "AI基础设施支出承诺"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在IPO前注册声明中披露近9000亿美元AI基础设施支出承诺，HN社区评论指出该帖子为重复提交[dupe]，并引用Axios存档链接作为原始信源。",
+        "metrics": [
+          {
+            "metric_name": "AI基础设施支出承诺总额",
+            "value": "近9000亿美元",
+            "scope_note": "Anthropic在IPO注册声明中披露的多笔长期支出承诺总额"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-016"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic IPO",
+          "Anthropic招股书财务披露",
+          "近9000亿美元支出承诺",
+          "AI基础设施支出承诺"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T18:15:01Z",
+    "title": "Anthropic's spending commitments surge to nearly $900B"
+  },
+  {
+    "item_id": "ITEM-20261102-016",
+    "quality_flags": [],
+    "quality_reason": "正文为Anthropic IPO招股书披露的客观财务数据，标题虽略有渲染但未脱离事实，无标题党或公关稿特征。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic内部AI使用零售价估值超过员工薪酬",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic",
+          "Claude"
+        ],
+        "action": "在IPO招股文件中披露内部AI使用量按零售价估值已超过员工月度薪酬总额，且9月内部AI使用量较1月增长超250倍",
+        "target_objects": [
+          "Anthropic IPO招股书",
+          "Claude内部AI使用量",
+          "员工薪酬",
+          "AI token"
+        ],
+        "event_time": "2026-11-01",
+        "location": "美国",
+        "factual_summary": "Anthropic在IPO文件中披露，按向客户收取的零售价格计算，公司内部Claude AI使用价值在4月已超过月度员工薪酬（不含股票奖励），9月内部AI使用量较1月激增超250倍。公司9月新增代码中超过90%由Claude编写，收入增速远超员工人数增速。需注意该数据为按零售价估值，并非实际现金支出超过薪资。",
+        "metrics": [
+          {
+            "metric_name": "内部AI使用量增长倍数",
+            "value": "超250倍（1月至9月）",
+            "scope_note": "按Anthropic向客户收取的零售价格估值，非实际现金支出"
+          },
+          {
+            "metric_name": "Claude编写代码占比",
+            "value": "超过90%",
+            "scope_note": "2026年9月Anthropic软件新增代码中由Claude编写的比例"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "AI token": "AI词元（衡量AI使用量的单位）",
+          "retail prices": "零售价格（指Anthropic向客户收取的价格）"
+        },
+        "candidate_event_ids": [
+          "EVT-016",
+          "EVT-015"
+        ],
+        "actors_normalized": [
+          "Anthropic",
+          "Anthropic Claude"
+        ],
+        "targets_normalized": [
+          "Anthropic IPO招股书",
+          "Claude内部AI使用量",
+          "员工薪酬",
+          "AI词元（衡量AI使用量的单位）"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T16:40:29Z",
+    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay"
+  },
+  {
+    "item_id": "ITEM-20261102-017",
+    "quality_flags": [],
+    "quality_reason": "HN讨论帖客观呈现Anthropic修订版S1招股书披露的Q3增长放缓数据，无标题党或噪音问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic修订版S1招股书披露Q3营收增速放缓",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "提交修订版S-1/A注册声明，披露2026年Q3财务数据及增长放缓情况",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "Anthropic Q2营收",
+          "Anthropic Q1营收"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在修订版S1/A招股书中披露Q3营收168亿美元，环比增速从Q2的141%显著下降。HN社区评论补充：截至Q3的9个月营收330亿美元，运营支出345亿美元，运营亏损12.5亿美元，资产1540亿美元对比现金负债1460亿美元，截至2026年9月30日历史净有形账面价值每股-68.47美元，员工持股均价2.91美元。社区还讨论Q3增长放缓原因包括政府对Mythos/Fable模型的禁令、Opus 5表现不佳、OpenAI模型更高token效率、以及更高比例算力投入等。",
+        "metrics": [
+          {
+            "metric_name": "Q3营收",
+            "value": "168亿美元",
+            "scope_note": "Anthropic 2026年Q3营收，环比增速从Q2的141%降至约19%"
+          },
+          {
+            "metric_name": "9个月累计营收",
+            "value": "330亿美元",
+            "scope_note": "截至2026年Q3的9个月总营收"
+          },
+          {
+            "metric_name": "9个月运营支出",
+            "value": "345亿美元",
+            "scope_note": "截至2026年Q3的9个月总运营支出"
+          },
+          {
+            "metric_name": "9个月运营亏损",
+            "value": "12.5亿美元",
+            "scope_note": "截至2026年Q3的9个月运营亏损"
+          },
+          {
+            "metric_name": "总资产",
+            "value": "1540亿美元",
+            "scope_note": "截至2026年9月30日"
+          },
+          {
+            "metric_name": "现金负债",
+            "value": "1460亿美元",
+            "scope_note": "截至2026年9月30日"
+          },
+          {
+            "metric_name": "每股净有形账面价值",
+            "value": "-68.47美元",
+            "scope_note": "截至2026年9月30日历史数据"
+          },
+          {
+            "metric_name": "员工持股均价",
+            "value": "2.91美元/股",
+            "scope_note": "员工股票平均行权价"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-015",
+          "EVT-016",
+          "EVT-017"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "Anthropic Q2营收",
+          "Anthropic Q1营收"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T15:50:36Z",
+    "title": "Anthropic's Amended S1 Filing Shows Slowing Q3 Growth"
+  },
+  {
+    "item_id": "ITEM-20261102-018",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道Anthropic修订版S-1财报数据，标题与正文一致，无标题党或公关痕迹。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Anthropic修订版S-1披露Q3营收170亿美元及8950亿美元支出承诺",
+        "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "在修订版S-1文件中报告2026年Q3营收约170亿美元，并披露约8950亿美元的AI基础设施支出承诺",
+        "target_objects": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "AI基础设施支出承诺"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Anthropic在修订版S-1/A文件中报告2026年Q3营收约170亿美元，同时披露约8950亿美元的AI基础设施支出承诺。HN社区评论指出该季度净亏损约230亿美元，但大部分源于可转换票据及衍生负债的公允价值变动。",
+        "metrics": [
+          {
+            "metric_name": "Q3营收",
+            "value": "约170亿美元",
+            "scope_note": "2026年第三季度"
+          },
+          {
+            "metric_name": "AI基础设施支出承诺",
+            "value": "约8950亿美元",
+            "scope_note": "多笔长期合同承诺总额"
+          },
+          {
+            "metric_name": "Q3净亏损",
+            "value": "约230亿美元",
+            "scope_note": "主要因可转换票据及衍生负债公允价值变动"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [
+          "EVT-015",
+          "EVT-016"
+        ],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Anthropic S-1/A招股书",
+          "Anthropic Q3营收",
+          "AI基础设施支出承诺"
+        ]
+      }
+    ],
+    "source": "Hacker News",
+    "published_at": "2026-11-02T14:38:45Z",
+    "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1"
+  },
+  {
+    "item_id": "ITEM-20261102-019",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文为商汤科技新产品软文推广，标题以「顶级AI翻车」为噱头，正文通篇单方面产品宣传，无独立信源评测。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "商汤科技发布多模态智能体模型日日新SenseNova 6.8 Flash",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "商汤科技"
+        ],
+        "action": "发布多模态智能体模型日日新SenseNova 6.8 Flash，主打委派智能功能",
+        "target_objects": [
+          "日日新SenseNova 6.8 Flash",
+          "多模态智能体模型"
+        ],
+        "event_time": "2026-11-02",
+        "location": "中国",
+        "factual_summary": "商汤科技发布日日新SenseNova 6.8 Flash多模态智能体模型，主打「委派智能」能力，用户只需给出目标，AI可自主完成网页、PPT、动态海报等全流程生成，限时免费开放。官方称可完成Gemini 4 Carbon难以处理的网页与UI生成任务。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "日日新SenseNova 6.8 Flash": "商汤科技多模态智能体模型",
+          "委派智能": "用户仅给目标，AI自主完成全流程"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "商汤科技"
+        ],
+        "targets_normalized": [
+          "商汤科技多模态智能体模型",
+          "多模态智能体模型"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-02T13:36:41Z",
+    "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！"
+  },
+  {
+    "item_id": "ITEM-20261102-020",
+    "quality_flags": [
+      "PR_PROMOTION"
+    ],
+    "quality_reason": "全文为上海仪电智算云Token工厂的产品能力宣传，通篇单方面介绍其产品优势，无独立信源或第三方验证，属商业公关稿。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "上海仪电发布仪电智算云Token工厂及数链生态",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "上海仪电",
+          "上海创智学院"
+        ],
+        "action": "联合发布「飞轮转・万象生」仪电智算数链生态，推出仪电智算云Token工厂，提供涵盖引擎层（高性能推理、弹性调度、异构算力纳管）与保障层（服务运营可信、自主生态可信、安全合规可信）的词元服务标准化产品体系",
+        "target_objects": [
+          "仪电智算云Token工厂",
+          "仪电智算数链生态",
+          "Token服务",
+          "异构算力纳管",
+          "全栈国产化交付"
+        ],
+        "event_time": "2026-11-02",
+        "location": "中国",
+        "factual_summary": "上海仪电与上海创智学院联合发布仪电智算数链生态，推出Token工厂产品，主打推理引擎优化、弹性调度、异构算力池化及三重可信保障（服务运营、自主生态、安全合规），旨在解决词元服务标准缺失、适配率低、责任边界不清等行业痛点。文章同时引用国家数据局数据称中国日均词元调用量从2024年初约1000亿次跃升至2026年6月超500万亿次。",
+        "metrics": [
+          {
+            "metric_name": "中国日均词元调用量（2024年初）",
+            "value": "约1000亿次",
+            "scope_note": "来源：国家数据局官网，文章引用"
+          },
+          {
+            "metric_name": "中国日均词元调用量（2026年6月）",
+            "value": "超过500万亿次",
+            "scope_note": "来源：国家数据局官网，文章引用；与EVT-008赛迪研究院报告数据口径可能相关"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Token工厂": "词元工厂/智算云词元生产与服务平台",
+          "词元": "Token"
+        },
+        "candidate_event_ids": [
+          "EVT-008"
+        ],
+        "actors_normalized": [
+          "上海仪电",
+          "上海创智学院"
+        ],
+        "targets_normalized": [
+          "仪电智算云Token工厂",
+          "仪电智算数链生态",
+          "Token服务",
+          "异构算力纳管",
+          "全栈国产化交付"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-02T07:47:38Z",
+    "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信"
+  },
+  {
+    "item_id": "ITEM-20261102-021",
+    "quality_flags": [],
+    "quality_reason": "内容为OpenAI更新模型准则的实质新闻，标题略有渲染但未达标题党程度，无其他质量问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI更新模型准则Model Spec强调忠于人类意图",
+        "category": "AI安全、合规与版权诉讼 (Safety, Regulation & Legal)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "发布更新版模型准则（Model Spec），列出5条核心价值观并强调AI应超越字面服从、忠于人类意图",
+        "target_objects": [
+          "OpenAI Model Spec（模型准则）",
+          "GPT模型行为准则",
+          "AI记忆功能使用规范"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI更新模型准则Model Spec，提出5条核心价值观：忠于人类、减少伤害、诚实透明、促进人的自主性、关怀。新准则明确指出死板按字面意思执行指令本身是失职，要求模型结合语境、记忆和用户历史判断真实意图，并强调记忆功能应在收益大于风险时使用。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "Model Spec": "模型准则",
+          "机器人三定律": "OpenAI模型准则核心价值观"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "OpenAI Model Spec（模型准则）",
+          "GPT模型行为准则",
+          "AI记忆功能使用规范"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-02T07:27:54Z",
+    "title": "OpenAI重写大模型法则，第一条：忠于人类！！"
+  },
+  {
+    "item_id": "ITEM-20261102-022",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "小米开源AI硬件HachimoDock集成Agent操控与智能家居联动",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "小米"
+        ],
+        "action": "开源发布AI硬件HachimoDock（哈基米机），集成个性化桌宠、语音操控Agent、智能家居联动及自定义组件创作功能",
+        "target_objects": [
+          "HachimoDock",
+          "哈基米机",
+          "AI Agent交互硬件",
+          "Codex",
+          "WorkBuddy"
+        ],
+        "event_time": "2026-11-02",
+        "location": "中国",
+        "factual_summary": "小米内部创新团队孵化并开源AI硬件HachimoDock，硬件自制成本约150元，集成个性化桌宠、语音操控电脑端Agent（如Codex、WorkBuddy）、智能家居联动等功能，因极低DIY成本和丰富玩法迅速走红，导致所用开发板和屏幕等元器件涨价缺货。",
+        "metrics": [
+          {
+            "metric_name": "硬件自制成本",
+            "value": "约150元",
+            "scope_note": "DIY自制成本"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "HachimoDock": "哈基米机"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "小米"
+        ],
+        "targets_normalized": [
+          "哈基米机",
+          "AI Agent交互硬件",
+          "Codex",
+          "WorkBuddy"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-02T06:08:04Z",
+    "title": "小米开源了个150元的AI小玩意，火到配件都涨价了"
+  },
+  {
+    "item_id": "ITEM-20261102-023",
+    "quality_flags": [
+      "UNVERIFIED_RUMOR"
+    ],
+    "quality_reason": "正文承认HuggingFace泄露权重「不太可能是真的」，属未证实传闻；GPT-6.2 Astra灰测与Claude Mythos 5.5均为短暂曝光/前端代码泄露，缺乏官方确认。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI GPT-6.2-Astra疑似开启灰度测试",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "部分用户模型列表中出现GPT-6.2-Astra，疑似开启灰度测试",
+        "target_objects": [
+          "GPT-6.2-Astra"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "部分用户发现其模型列表中出现GPT-6.2-Astra，推测OpenAI已开启灰度测试。该消息未经OpenAI官方确认，来源为社交媒体用户截图。",
+        "metrics": [],
+        "entity_aliases_discovered": {
+          "GPT-6.2-Astra": "GPT-6.2 Astra"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "GPT-6.2 Astra"
+        ]
+      },
+      {
+        "event_title": "Anthropic Claude Mythos 5.5疑似出现在官网前端代码后移除",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "Anthropic"
+        ],
+        "action": "Claude Mythos 5.5短暂出现在Anthropic官网前端代码中，数小时后被移除",
+        "target_objects": [
+          "Claude Mythos 5.5"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "Claude Mythos 5.5短暂出现在Anthropic官网前端代码中，数小时后被移除。据传该版本将包含生物学研究和网络安全相关能力。另有声称是Mythos泄露权重的仓库发布在HuggingFace，已被下载超5000次，但正文明确表示该权重「不太可能是真的」。",
+        "metrics": [
+          {
+            "metric_name": "HuggingFace泄露权重下载量",
+            "value": "超5000次",
+            "scope_note": "声称是Mythos泄露权重的仓库，正文认为极可能是假的"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Mythos 5.5": "Claude Mythos 5.5"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Anthropic"
+        ],
+        "targets_normalized": [
+          "Claude Mythos 5.5"
+        ]
+      }
+    ],
+    "source": "量子位 QbitAI",
+    "published_at": "2026-11-02T04:28:53Z",
+    "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光"
+  },
+  {
+    "item_id": "ITEM-20261102-024",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "SpaceX因成本过高限制Grok Bot用户使用额度",
+        "category": "行业应用与商业化冲击 (Industry Adoption & Market Impact)",
+        "actors": [
+          "SpaceX",
+          "Elon Musk"
+        ],
+        "action": "Elon Musk确认因Grok Bot服务成本相对收入不可持续地高，限制用户每周使用额度",
+        "target_objects": [
+          "Grok Bot",
+          "Grok Bot用户每周使用限额",
+          "SpaceX Super Intelligence部门"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "SpaceX CEO Elon Musk确认Grok Bot用户万圣节周末使用额度异常耗尽并非故障，而是因服务成本相对收入不可持续地高而主动限制。Grok Bot被定位为SpaceX新上市公司的成功故事，AI业务占公司收入52%，其更名后的Super Intelligence部门实现4.31亿美元利润，但因收购Cursor产生12亿美元一次性成本。",
+        "metrics": [
+          {
+            "metric_name": "AI业务占SpaceX收入比例",
+            "value": "52%",
+            "scope_note": "SpaceX提交的文件披露"
+          },
+          {
+            "metric_name": "Super Intelligence部门利润",
+            "value": "4.31亿美元",
+            "scope_note": "扣除收购Cursor相关一次性成本后"
+          },
+          {
+            "metric_name": "收购Cursor一次性成本",
+            "value": "12亿美元",
+            "scope_note": "导致Super Intelligence部门利润减少"
+          },
+          {
+            "metric_name": "用户周使用额度异常跳升",
+            "value": "从50%跳至100%",
+            "scope_note": "部分用户在X平台报告的异常情况"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "Super Intelligence": "SpaceX AI部门（原Grok Bot所属部门）"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "SpaceX",
+          "Elon Musk"
+        ],
+        "targets_normalized": [
+          "xAI Grok",
+          "Grok Bot用户每周使用限额",
+          "SpaceX Super Intelligence部门"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T16:23:21Z",
+    "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs"
+  },
+  {
+    "item_id": "ITEM-20261102-025",
+    "quality_flags": [],
+    "quality_reason": "内容客观，报道初创公司收购交易，无夸大标题、广告或旧闻问题",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Omen AI以1600万美元收购Aquatic Labs整合数据中心水冷监测技术",
+        "category": "算力基建与能源 (Infrastructure & Energy)",
+        "actors": [
+          "Omen AI",
+          "Aquatic Labs"
+        ],
+        "action": "Omen AI以1600万美元现金加股票方式收购竞争对手Aquatic Labs",
+        "target_objects": [
+          "Aquatic Labs",
+          "实时水质传感器技术",
+          "数据中心冷却水监测系统"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "数据中心水冷却监测初创公司Omen AI以1600万美元收购竞争对手Aquatic Labs，整合双方互补的实时水质传感器技术。Omen AI于2024年成立，今年6月完成3100万美元A轮融资，其传感器检测水中元素，Aquatic Labs传感器检测碱度，合并后将形成更完整的水冷监测方案。美国数据中心每年消耗170-190亿加仑冷却水，预计未来五年将增长三倍。",
+        "metrics": [
+          {
+            "metric_name": "收购金额",
+            "value": "1600万美元",
+            "scope_note": "现金加股票交易"
+          },
+          {
+            "metric_name": "Omen AI A轮融资金额",
+            "value": "3100万美元",
+            "scope_note": "2026年6月完成"
+          },
+          {
+            "metric_name": "美国数据中心年冷却水消耗量",
+            "value": "170-190亿加仑",
+            "scope_note": "当前年度数据"
+          },
+          {
+            "metric_name": "冷却水消耗量增长预期",
+            "value": "三倍",
+            "scope_note": "未来五年内"
+          }
+        ],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Omen AI",
+          "Aquatic Labs"
+        ],
+        "targets_normalized": [
+          "Aquatic Labs",
+          "实时水质传感器技术",
+          "数据中心冷却水监测系统"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T15:00:00Z",
+    "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition"
+  },
+  {
+    "item_id": "ITEM-20261102-026",
+    "quality_flags": [
+      "EVENT_AD"
+    ],
+    "quality_reason": "纯线下峰会售票促销广告，无实质科技新闻事件，仅宣传TechCrunch Founder Summit门票折扣及议程。",
+    "discarded_subtopics": [],
+    "extracted_events": [],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T14:00:00Z",
+    "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big"
+  },
+  {
+    "item_id": "ITEM-20261102-027",
+    "quality_flags": [],
+    "quality_reason": "内容客观报道OpenAI产品功能更新，无标题党、广告或旧闻问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "OpenAI合并ChatGPT的Chat与Work标签页并统一额度池",
+        "category": "产品与模型发布 (Product & Model Launch)",
+        "actors": [
+          "OpenAI"
+        ],
+        "action": "宣布合并ChatGPT桌面应用中的Chat与Work标签页，并将ChatGPT与Codex的token额度统一至同一分配池",
+        "target_objects": [
+          "ChatGPT桌面应用",
+          "Chat标签页",
+          "Work标签页",
+          "Codex",
+          "token额度池"
+        ],
+        "event_time": "2026-11-02",
+        "location": "美国",
+        "factual_summary": "OpenAI向用户发送邮件，宣布将ChatGPT中的Chat与Work标签页合并，用户可在同一界面中从探索想法到让ChatGPT完成实际任务。同时ChatGPT与Codex将共享同一token额度池，初期向部分用户开放以收集反馈。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "OpenAI"
+        ],
+        "targets_normalized": [
+          "ChatGPT桌面应用",
+          "Chat标签页",
+          "Work标签页",
+          "Codex",
+          "token额度池"
+        ]
+      }
+    ],
+    "source": "TechCrunch AI",
+    "published_at": "2026-11-02T13:57:53Z",
+    "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs"
+  },
+  {
+    "item_id": "ITEM-20261102-028",
+    "quality_flags": [],
+    "quality_reason": "内容聚焦开源工具版本更新，无标题党或噪音问题。",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "Cordonix发布0.0.5版本新增原生手机工具与Windows进程查询",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "Cordonix"
+        ],
+        "action": "发布Cordonix 0.0.5版本，新增原生手机工具与Windows进程查询功能",
+        "target_objects": [
+          "Cordonix 0.0.5",
+          "MCP stdio服务",
+          "AI编程代理本地工具运行时",
+          "Windows进程查询",
+          "原生手机工具"
+        ],
+        "event_time": "2026-11-02",
+        "location": "全球",
+        "factual_summary": "Cordonix（简称cdx）是一个面向AI编程代理的原生本地工具运行时，使用C11实现，通过MCP stdio服务和JSON命令行接口提供本地程序执行、内存文件工作区、严格编码处理等功能。0.0.5版本新增Windows原生手机工具与进程查询能力。",
+        "metrics": [
+          {
+            "metric_name": "版本号",
+            "value": "0.0.5",
+            "scope_note": "正式发布版本"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "cdx": "Cordonix"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "Cordonix"
+        ],
+        "targets_normalized": [
+          "Cordonix 0.0.5",
+          "MCP stdio服务",
+          "AI编程代理本地工具运行时",
+          "Windows进程查询",
+          "原生手机工具"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-02T12:47:49Z",
+    "title": "Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询"
+  },
+  {
+    "item_id": "ITEM-20261102-029",
+    "quality_flags": [],
+    "quality_reason": "内容为DeepSeek Harness团队技术架构分享，无标题党、广告或旧闻问题",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "DeepSeek Harness团队发布多任务Agent架构设计长文",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "DeepSeek",
+          "DeepSeek Harness团队"
+        ],
+        "action": "发布架构长文，阐述将Agent设计为「操作系统」以实现多任务并行管理的设计理念",
+        "target_objects": [
+          "DeepSeek Harness",
+          "多任务Agent架构",
+          "Session管理机制"
+        ],
+        "event_time": "2026-11-02",
+        "location": "中国",
+        "factual_summary": "DeepSeek Harness团队发布架构长文，提出「单任务的上限取决于模型能力，多任务的上限取决于人的注意力」的核心观点，观察到人类通常只能同时跟进3到5个活跃Session，现有Agent以单个Session为单位导致多任务管理受限，团队将Agent设计为「操作系统」以突破这一限制。",
+        "metrics": [
+          {
+            "metric_name": "人类同时跟进活跃Session数量",
+            "value": "3~5个",
+            "scope_note": "团队观察到的普通人注意力上限"
+          }
+        ],
+        "entity_aliases_discovered": {
+          "DeepSeek Harness": "DeepSeek Harness团队"
+        },
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "DeepSeek",
+          "DeepSeek Harness团队"
+        ],
+        "targets_normalized": [
+          "DeepSeek Harness团队",
+          "多任务Agent架构",
+          "Session管理机制"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-02T02:39:53Z",
+    "title": "DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力"
+  },
+  {
+    "item_id": "ITEM-20261102-030",
+    "quality_flags": [],
+    "quality_reason": "",
+    "discarded_subtopics": [],
+    "extracted_events": [
+      {
+        "event_title": "PostgreSQL 19因LLM辅助测试发现大量遗留Bug而推迟发布",
+        "category": "开源生态与技术突破 (Open-Source & Research)",
+        "actors": [
+          "PostgreSQL"
+        ],
+        "action": "因LLM辅助测试在后期阶段发现大量遗留Bug，导致多项重要功能被撤销并推迟发布",
+        "target_objects": [
+          "PostgreSQL 19",
+          "UPDATE/DELETE FOR PORTION OF",
+          "SQL Property Graph Queries (SQL/PGQ)",
+          "ALTER TABLE … MERGE/SPLIT PARTITION"
+        ],
+        "event_time": "2026-11-02",
+        "location": "全球",
+        "factual_summary": "PostgreSQL 19打破过去十年9月中至10月中的稳定发布节奏，推迟至11月发布。测试后期撤销了UPDATE/DELETE FOR PORTION OF、SQL/PGQ、ALTER TABLE … MERGE/SPLIT PARTITION等重要功能，原因是LLM辅助测试找出了大量遗留Bug。",
+        "metrics": [],
+        "entity_aliases_discovered": {},
+        "candidate_event_ids": [],
+        "actors_normalized": [
+          "PostgreSQL"
+        ],
+        "targets_normalized": [
+          "PostgreSQL 19",
+          "UPDATE/DELETE FOR PORTION OF",
+          "SQL Property Graph Queries (SQL/PGQ)",
+          "ALTER TABLE … MERGE/SPLIT PARTITION"
+        ]
+      }
+    ],
+    "source": "OSChina 开源中国",
+    "published_at": "2026-11-02T02:28:14Z",
+    "title": "Postgres 19 迟到了，原因是 LLM 找出了太多老 bug"
+  }
+]
