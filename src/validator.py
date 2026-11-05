@@ -12,6 +12,7 @@
 """
 
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -20,6 +21,7 @@ RULES_FILE = BASE_DIR / "rules" / "event_taxonomy_and_merge_rules.json"
 RAW_DIR = BASE_DIR / "data" / "raw"
 POSTPROCESSED_DIR = BASE_DIR / "data" / "postprocessed"
 INTERMEDIATE_DIR = BASE_DIR / "data" / "intermediate"
+OUTPUT_DIR = BASE_DIR / "outputs"
 
 
 def run_validation() -> dict:
@@ -227,6 +229,64 @@ def run_validation() -> dict:
         }
     )
 
+    # Check 7: 分析日报与可视化图表完整性及证据引用溯源校验
+    report_file = OUTPUT_DIR / "daily_report_2026-11-04.md"
+    fig1_file = OUTPUT_DIR / "figures" / "fig1_daily_overview_2026-11-04.png"
+    fig2_file = OUTPUT_DIR / "figures" / "fig2_cross_batch_changes.png"
+    report_errors = []
+    cited_evts = set()
+    cited_items = set()
+
+    if not report_file.exists():
+        report_errors.append("缺失最终分析日报文件 outputs/daily_report_2026-11-04.md")
+    if not fig1_file.exists() or fig1_file.stat().st_size == 0:
+        report_errors.append("缺失当日情况可视化图表 outputs/figures/fig1_daily_overview_2026-11-04.png")
+    if not fig2_file.exists() or fig2_file.stat().st_size == 0:
+        report_errors.append("缺失跨批次变化可视化图表 outputs/figures/fig2_cross_batch_changes.png")
+
+    event_map = {ev["event_id"]: ev for ev in final_events}
+    if report_file.exists():
+        rep_text = report_file.read_text(encoding="utf-8")
+        cited_evts = set(re.findall(r"EVT-\d{3}", rep_text))
+        cited_items = set(re.findall(r"ITEM-\d{8}-\d{3}", rep_text))
+
+        for eid in sorted(cited_evts):
+            if eid not in event_map:
+                report_errors.append(f"日报引用了不存在的事件 ID: {eid}")
+        for iid in sorted(cited_items):
+            if iid not in raw_item_map:
+                report_errors.append(f"日报引用了不存在的原始资讯 ID: {iid}")
+
+        # 校验 [EVT-xxx | ITEM-xxx ...] 绑定关系是否与事件表一致
+        bracket_blocks = re.findall(r"\[(EVT-\d{3}[^\]]+)\]", rep_text)
+        for blk in bracket_blocks:
+            blk_evts = re.findall(r"EVT-\d{3}", blk)
+            blk_items = re.findall(r"ITEM-\d{8}-\d{3}", blk)
+            if len(blk_evts) == 1 and blk_items:
+                ev_obj = event_map.get(blk_evts[0])
+                if ev_obj:
+                    valid_src = set(ev_obj.get("source_items", []))
+                    for bi in blk_items:
+                        if bi not in valid_src:
+                            report_errors.append(
+                                f"日报证据块 [{blk}] 中 {bi} 不属于 {blk_evts[0]} 的关联条目 {sorted(list(valid_src))}"
+                            )
+
+    c7_pass = (len(report_errors) == 0) and (len(cited_evts) >= 20) and (len(cited_items) >= 25)
+    all_passed = all_passed and c7_pass
+    checks.append(
+        {
+            "check_id": "VAL-07",
+            "name": "分析日报与可视化图表完整性及证据引用溯源校验",
+            "passed": c7_pass,
+            "details": (
+                f"日报及 2 张可视化图表已就绪；日报正文共引用 {len(cited_evts)} 个真实事件实体、"
+                f"{len(cited_items)} 条真实原始资讯，事件-条目绑定错误数: {len(report_errors)}"
+            ),
+            "errors": report_errors,
+        }
+    )
+
     report = {
         "validated_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "overall_passed": all_passed,
@@ -262,7 +322,7 @@ def run_validation() -> dict:
         "",
         "---",
         "",
-        "## 一、六项核心校验明细",
+        "## 一、七项核心校验明细",
         "",
         "| 校验编号 | 校验项名称 | 状态 | 校验详情 |",
         "| :--- | :--- | :---: | :--- |",

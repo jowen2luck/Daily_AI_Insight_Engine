@@ -13,9 +13,11 @@ env/
 .pytest_cache/
 
 # Temporary Probe & Prototype Directories (Non-deliverables)
+_archive_backup/
 prototype_test/
 data/raw_probe/
-data/staging/
+data/staging/filtered_3days.json
+data/staging/final_99_index.txt
 scripts/archive_probe/
 *.bak
 *.tmp

@@ -59,13 +59,19 @@ def main():
     ensure_postprocessed_data(force=args.force_postprocess)
 
     # Step 2: 三批次上下文感知抽取与事件实体归并
-    print("\n[Step 2/3] 启动三批次顺序结构化抽取与事件实体表增量归并...")
+    print("\n[Step 2/4] 启动三批次顺序结构化抽取与事件实体表增量归并...")
     from src.extractor_and_merger import run_extraction_and_merging
 
     merge_summary = run_extraction_and_merging()
 
-    # Step 3: 自动化程序校验
-    print("\n[Step 3/3] 启动自动化质量与一致性校验...")
+    # Step 3: 生成可视化图表与最终批次分析日报
+    print("\n[Step 3/4] 正在生成可视化图表与 2026-11-04 批次分析日报...")
+    from src.report_generator import generate_daily_report
+
+    rep_outputs = generate_daily_report()
+
+    # Step 4: 自动化程序校验
+    print("\n[Step 4/4] 启动自动化质量、跨批次演进与日报引用溯源校验...")
     from src.validator import run_validation
 
     val_report = run_validation()
@@ -75,11 +81,11 @@ def main():
     print(f"  全流程执行完毕！总耗时: {elapsed} 秒")
     print(f"  最终独立事件实体数: {merge_summary['total_events']} 个")
     print(f"  自动化校验总体结论: {'PASS (全部通过)' if val_report['overall_passed'] else 'WARN/FAIL'}")
-    print("  中间产物目录: data/intermediate/")
-    print("    - batch_1_2026-11-02_extractions.json / batch_1_2026-11-02_events.json")
-    print("    - batch_2_2026-11-03_extractions.json / batch_2_2026-11-03_events.json")
-    print("    - batch_3_2026-11-04_extractions.json / batch_3_2026-11-04_events.json")
-    print("    - validation_report.json / validation_report.md")
+    print("  核心交付产物:")
+    print(f"    - 最终分析日报: {rep_outputs['report_path']}")
+    print(f"    - 当日情况图表: {rep_outputs['fig1_path']}")
+    print(f"    - 跨批次变化图: {rep_outputs['fig2_path']}")
+    print("    - 校验报告: data/intermediate/validation_report.md")
     print("=" * 85)
 
 

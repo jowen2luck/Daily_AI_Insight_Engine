@@ -171,3 +171,88 @@ def call_llm_json(system_prompt: str, user_prompt: str, temperature: float = 0.0
             time.sleep(2 * (attempt + 1))
 
     raise RuntimeError("LLM API 调用在 5 次重试后仍失败。")
+
+
+def call_llm_markdown(system_prompt: str, user_prompt: str, temperature: float = 0.1) -> str:
+    """调用大模型生成结构化分析日报 Markdown 文本，并写入本地 SHA-256 确定性缓存"""
+    llm_base_url = os.environ.get("LLM_BASE_URL", "https://api.longcat.chat/openai/v1").rstrip("/")
+    llm_model = os.environ.get("LLM_MODEL", "LongCat-2.5-Preview")
+    llm_api_key = os.environ.get("LLM_API_KEY", "").strip()
+
+    cache_key = hashlib.sha256(f"MD||{llm_model}||{system_prompt}||{user_prompt}".encode("utf-8")).hexdigest()
+    with _CACHE_LOCK:
+        if cache_key in _LLM_CACHE:
+            cached_val = _LLM_CACHE[cache_key]
+            if isinstance(cached_val, dict) and "markdown" in cached_val:
+                return cached_val["markdown"]
+            if isinstance(cached_val, str):
+                return cached_val
+
+    if not llm_api_key or llm_api_key == "your_api_key_here":
+        raise RuntimeError(
+            "未命中本地缓存且未配置有效的 LLM_API_KEY。请在 .env 文件或环境变量中设置 LLM_API_KEY。"
+        )
+
+    url = f"{llm_base_url}/chat/completions"
+    payload = {
+        "model": llm_model,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "temperature": temperature,
+        "stream": True,
+        "enable_thinking": False,
+        "chat_template_kwargs": {"enable_thinking": False},
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {llm_api_key}",
+        "User-Agent": "DailyAIInsightEngine/2.0",
+    }
+
+    for attempt in range(5):
+        try:
+            data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+            req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+            chunks = []
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                for raw_line in resp:
+                    line = raw_line.decode("utf-8", errors="ignore").strip()
+                    if not line or not line.startswith("data:"):
+                        continue
+                    data_str = line[5:].strip()
+                    if data_str == "[DONE]":
+                        break
+                    try:
+                        chunk_json = json.loads(data_str)
+                        delta = chunk_json.get("choices", [{}])[0].get("delta", {})
+                        piece = delta.get("content")
+                        if piece:
+                            chunks.append(piece)
+                    except Exception:
+                        continue
+            content = "".join(chunks).strip()
+            if not content:
+                raise ValueError("Empty streaming response content")
+            if content.startswith("```markdown"):
+                content = content[len("```markdown") :].strip()
+                if content.endswith("```"):
+                    content = content[:-3].strip()
+            elif content.startswith("```"):
+                lines = content.splitlines()
+                if lines and lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                content = "\n".join(lines).strip()
+            with _CACHE_LOCK:
+                _LLM_CACHE[cache_key] = {"markdown": content}
+            save_cache()
+            return content
+        except Exception as e:
+            print(f"    [LLM Markdown Retry {attempt+1}/5] {e}")
+            payload["temperature"] = min(0.4, 0.1 * (attempt + 1))
+            time.sleep(2 * (attempt + 1))
+
+    raise RuntimeError("LLM Markdown 生成调用在 5 次重试后仍失败。")

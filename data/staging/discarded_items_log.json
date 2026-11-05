@@ -1,0 +1,1274 @@
+[
+  {
+    "date": "2026-11-02",
+    "source_name": "TechCrunch AI",
+    "lang": "en",
+    "title": "Web host Squarespace lays off 19% of its employees",
+    "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "鳄鱼为何免受毁灭恐龙的小行星的影响？",
+    "url": "https://www.solidot.org/story?sid=85777",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "小鼠研究显示阉割有助于长寿",
+    "url": "https://www.solidot.org/story?sid=85776",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "比利时瑞典超市冷冻冷藏设备遭遇网络攻击",
+    "url": "https://www.solidot.org/story?sid=85775",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OpenAI Official Blog",
+    "lang": "en",
+    "title": "Rewarding defenders with bigger bug bounties",
+    "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "discard_reason": "同源单日配额限流：OpenAI Official Blog 单日保留上限为 3 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OpenAI Official Blog",
+    "lang": "en",
+    "title": "LifeVal",
+    "url": "https://openai.com/index/lifeval",
+    "discard_reason": "同源单日配额限流：OpenAI Official Blog 单日保留上限为 3 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OpenAI Official Blog",
+    "lang": "en",
+    "title": "Qodo builds context into AI code review with Codex",
+    "url": "https://openai.com/index/qodo-codex-plugin",
+    "discard_reason": "同源单日配额限流：OpenAI Official Blog 单日保留上限为 3 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OpenAI Official Blog",
+    "lang": "en",
+    "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai",
+    "discard_reason": "同源单日配额限流：OpenAI Official Blog 单日保留上限为 3 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "GitHub Releases (langchain-ai/langchain)",
+    "lang": "en",
+    "title": "langchain-ai/langchain Release langchain-core==1.7.4: langchain-core==1.7.4",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "GitHub Releases (langchain-ai/langchain)",
+    "lang": "en",
+    "title": "langchain-ai/langchain Release langchain-anthropic==1.7.9: langchain-anthropic==1.7.9",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "GitHub Releases (langchain-ai/langchain)",
+    "lang": "en",
+    "title": "langchain-ai/langchain Release langchain-anthropic==1.7.8: langchain-anthropic==1.7.8",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "GPT-Rosalind-6 System Card Addendum",
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (71 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+    "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (188 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Developers are downgrading their AI on purpose – and it's working",
+    "url": "https://thenewstack.io/claude-code-developer-refusals/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (15 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+    "url": "https://momentic.ai/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (161 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+    "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (105 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "LLMs are not superhuman at reading and writing neural network weights",
+    "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Ask HN: What hardware are you using to run local LLMs?",
+    "url": "https://news.ycombinator.com/item?id=50337431",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (50 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "V100 SXM2 pinout and NVLink reference",
+    "url": "https://github.com/pigeon-labs-stack/v100-sxm2-reference",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Ask HN: Does anyone enjoy work anymore?",
+    "url": "https://news.ycombinator.com/item?id=50344065",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "2026达喀尔青奥会开幕 阿里巴巴技术支持非洲首个奥运赛事",
+    "url": "https://www.qbitai.com/2026/11/507556.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+    "url": "https://www.qbitai.com/2026/11/507150.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "小猫开源-在线考试系统发布 v6.5.0 版本",
+    "url": "https://www.oschina.net/news/503353",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "UJCMS 13.2.1 发布，多语言网站 AI 自动翻译",
+    "url": "https://www.oschina.net/news/503350",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Jync v1.10.0 · 性能曲线与 SAP HANA",
+    "url": "https://www.oschina.net/news/503345",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "开源数据库管理工具 CloudDM 发布新版本，支持团队多级审批工单",
+    "url": "https://www.oschina.net/news/503343",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Go 语言重构 Java 项目会提升了多少",
+    "url": "https://www.oschina.net/news/503342",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Excelize 开源基础库发布 2.11.1 版本更新",
+    "url": "https://www.oschina.net/news/503340",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": ":fire::fire: ApiGo 开源接口平台 Go 版本发布",
+    "url": "https://www.oschina.net/news/503339",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "C++ web框架 Paozhu 发布1.17.4版",
+    "url": "https://www.oschina.net/news/503335",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "novel-plus v6.3.2 发布，原创文学 CMS 系统",
+    "url": "https://www.oschina.net/news/503333",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "派评 | 近期值得关注的 App",
+    "url": "https://sspai.com/post/118240",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "TDS REVIEW｜Apple AirPods 5 半入耳降噪真无线耳机体验",
+    "url": "https://sspai.com/post/118122",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-02",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "Xnip 十周年：长截图的新生，也是新的起点",
+    "url": "https://sspai.com/post/115662",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "TechCrunch AI",
+    "lang": "en",
+    "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+    "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "TechCrunch AI",
+    "lang": "en",
+    "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+    "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "TechCrunch AI",
+    "lang": "en",
+    "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+    "discard_reason": "同源单日配额限流：TechCrunch AI 单日保留上限为 11 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "TechCrunch AI",
+    "lang": "en",
+    "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "discard_reason": "同源单日配额限流：TechCrunch AI 单日保留上限为 11 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "The Verge AI",
+    "lang": "en",
+    "title": "Those Jeff Bezos hair transplant photos are very fake",
+    "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "The Verge AI",
+    "lang": "en",
+    "title": "Indie games are missing launch dates because Steam is backed up",
+    "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Ars Technica AI",
+    "lang": "en",
+    "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+    "url": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+    "url": "https://www.qbitai.com/2026/11/507473.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+    "url": "https://www.qbitai.com/2026/11/507405.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "科学家发现 1.15 亿年前的恐龙红细胞",
+    "url": "https://www.solidot.org/story?sid=85785",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "Enlightenment 0.28.0 释出，初步支持 BSD",
+    "url": "https://www.solidot.org/story?sid=85783",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "全球加速发展核电",
+    "url": "https://www.solidot.org/story?sid=85782",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "Tor Browser 16.0 释出",
+    "url": "https://www.solidot.org/story?sid=85781",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "Swift 天文台将于 11 月 4 日重返大气层",
+    "url": "https://www.solidot.org/story?sid=85780",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "北欧将可能出现 40°C 高温",
+    "url": "https://www.solidot.org/story?sid=85779",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "国际空间站 PrK 模块因漏气被关闭",
+    "url": "https://www.solidot.org/story?sid=85778",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OpenAI Official Blog",
+    "lang": "en",
+    "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+    "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "discard_reason": "同源单日配额限流：OpenAI Official Blog 单日保留上限为 3 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "HuggingFace Blog",
+    "lang": "en",
+    "title": "CWE-bench v2: More coverage, quality, and transparency",
+    "url": "https://huggingface.co/blog/cwe-bench",
+    "discard_reason": "同源单日配额限流：HuggingFace Blog 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "HuggingFace Blog",
+    "lang": "en",
+    "title": "Transformers Model Integration Contracts",
+    "url": "https://huggingface.co/blog/transformers-mic",
+    "discard_reason": "同源单日配额限流：HuggingFace Blog 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+    "url": "https://arxiv.org/abs/2611.05373v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+    "url": "https://arxiv.org/abs/2611.05358v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+    "url": "https://arxiv.org/abs/2611.05355v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+    "url": "https://arxiv.org/abs/2611.05345v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "A Circuit for In-Context Learning",
+    "url": "https://arxiv.org/abs/2611.05344v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Weight-space programming for auditing clinical decision networks",
+    "url": "https://arxiv.org/abs/2611.05341v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
+    "url": "https://arxiv.org/abs/2611.05340v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
+    "url": "https://arxiv.org/abs/2611.05334v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+    "url": "https://arxiv.org/abs/2611.05320v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+    "url": "https://arxiv.org/abs/2611.05319v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
+    "url": "https://arxiv.org/abs/2611.05313v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "You don't need long context",
+    "url": "https://arxiv.org/abs/2611.05306v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+    "url": "https://arxiv.org/abs/2611.05304v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Personas Are Not People: Identity as State, Not Attribute",
+    "url": "https://arxiv.org/abs/2611.05292v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts",
+    "url": "https://arxiv.org/abs/2611.05290v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment",
+    "url": "https://arxiv.org/abs/2611.05287v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Beyond Accuracy: What Language-Subspace Interventions Capture, Remove, and Improve",
+    "url": "https://arxiv.org/abs/2611.05278v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "The Geometry of Ignorance: Detecting Suppressed Knowledge in LLMs through Activation Fragmentation",
+    "url": "https://arxiv.org/abs/2611.05272v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+    "url": "https://arxiv.org/abs/2611.05263v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Going Deeper With Memories",
+    "url": "https://arxiv.org/abs/2611.05255v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "ARLoop: Fully-Open Pre-trained Looped Transformers with Attention Residuals",
+    "url": "https://arxiv.org/abs/2611.05234v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "Fairness Metrics based on the AUC in Clinical Predictive AI",
+    "url": "https://arxiv.org/abs/2611.05222v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "arXiv cs.AI/cs.CL",
+    "lang": "en",
+    "title": "What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis",
+    "url": "https://arxiv.org/abs/2611.05181v1",
+    "discard_reason": "同源单日配额限流：arXiv cs.AI/cs.CL 单日保留上限为 2 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "GitHub Releases (ollama/ollama)",
+    "lang": "en",
+    "title": "ollama/ollama Release v0.40.14: v0.40.14",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
+    "url": "https://flipper.net/pages/flipper-one",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "There is no posttraining data commons",
+    "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+    "discard_reason": "相关性不足：综合信源未命中 AI 核心技术或实体关键词"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Tell HN: You now need a government id in order to create an Anthropic account",
+    "url": "https://news.ycombinator.com/item?id=50356209",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (17 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+    "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (84 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "url": "https://uncracked.city",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (84 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+    "url": "https://github.com/finic-ai/kairos",
+    "discard_reason": "相关性不足：综合信源未命中 AI 核心技术或实体关键词"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Itch.io Deletes 'Terabytes' of AI Slop in to Counter Surge in Game Uploads",
+    "url": "https://kotaku.com/itch-io-gen-ai-slop-terrabytes-deleted-claude-chagpt-steam-epic-2000752485",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (13 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: Remene – Understand your MRI and prepare questions for your doctor",
+    "url": "https://remene.si",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (11 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+    "url": "https://hackertv.org",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Getting hit with \"Prove you are a human\" at every other website",
+    "url": "https://news.ycombinator.com/item?id=50355959",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+    "url": "https://concepts.laxmena.com/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (41 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "AI agents hallucinate prices: LLM grounding with live data",
+    "url": "https://blog.apify.com/llm-grounding-with-live-data/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (15 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Open models can do 90 percent of agentic work at a twentieth of the cost",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-percent-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (27 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Mass attempted replication of old findings of LLMs with new models",
+    "url": "https://zou-group.github.io/llm-claims-shelf-life/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (29 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Stolen AI API keys generated nearly $1M in charges for a single company",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (12 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Why Every AI Model Will Ship as a Torrent",
+    "url": "https://pirateface.co/articles/one-model-one-swarm",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (21 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "The AI Boom May Be Sowing Seeds of Another Financial Crisis",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (73 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Google to cutoff Search Engine access to schools banning Gen. AI",
+    "url": "https://www.forbes.com/sites/maryroeloffs/2026/11/03/google-will-cut-off-search-engine-access-to-schools-banning-generative-ai/",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+    "url": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "How I use AI (Oct 2026)",
+    "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (198 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Trump says US will end military aid to Israel by the end of this year",
+    "url": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Google researchers demand freedom to tell the world what they know about AI",
+    "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (91 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Binance says hackers used fake job interviews, AI tool to steal $6.3B",
+    "url": "https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Trump wanted to give No Kings no air. Then, Meta suspended its Instagram",
+    "url": "https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Gitbook Breached",
+    "url": "https://news.ycombinator.com/item?id=50354336",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Silicon Valley dating now means spreadsheets, AI and $5K-a-month coaches",
+    "url": "https://www.techspot.com/news/114425-dating-silicon-valley-now-involves-spreadsheets-ai-analysis.html",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Google Will Turn Off Search for Schools That Reject A.I",
+    "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Quili AI",
+    "url": "https://www.quili.ai/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (98 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "AI is destroying my CS degree",
+    "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (124 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Pratt parsing is a black box",
+    "url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "macOS 27 does not support CoreStorage volumes",
+    "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Tell HN: Please Vote",
+    "url": "https://news.ycombinator.com/item?id=50353457",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Tiny Basic for Arduino",
+    "url": "https://dilshan.github.io/tiny-basic/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Octomind – open-source AI harness that saves your tokens, static rust",
+    "url": "https://github.com/Muvon/octomind",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (55 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Handles are the better pointers (2018)",
+    "url": "https://floooh.github.io/2018/06/17/handles-vs-pointers.html",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Microsoft fixes a Windows 11 annoyance as PC revenue declines",
+    "url": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: Bema: Work messaging built for humans",
+    "url": "https://getbema.app/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "uBlock Origin filter to block autoplay videos in TechCrunch",
+    "url": "https://cornfieldlabs.github.io/posts/ublock-stop-techcrunch-autoplay-video/post.html",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Nvidia – open-source auto-ontology",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "discard_reason": "同源单日配额限流：Hacker News 单日保留上限为 8 条，剔除超额次要条目以平衡多源分布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Show HN: I built a little browser game to practice Vim commands",
+    "url": "https://hjkl.duy.run",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+    "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+    "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
+    "url": "https://www.qbitai.com/2026/11/507339.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "量子位 QbitAI",
+    "lang": "zh",
+    "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+    "url": "https://www.qbitai.com/2026/11/507313.html",
+    "discard_reason": "非AI核心：传统新能源车底盘/体育赛事公益/泛科普晚会/常规奖项公关"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Nginx 配置没人敢动？这台服务器的 SSL 证书续期，我终于不用手动了",
+    "url": "https://www.oschina.net/news/503375",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "qModel 算法模型平台开源版 v1.4.3 版本发布：支持 API 获取输入参数，提升模型输出可读性",
+    "url": "https://www.oschina.net/news/503372",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Jync v1.11.0 · MongoDB 专属迁移",
+    "url": "https://www.oschina.net/news/503368",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "GFlow v1.4.1 发布：审批流转全程留痕、审批消息直达 IM、开放外部系统集成",
+    "url": "https://www.oschina.net/news/503364",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "ShopXO 免费开源商城系统 v6.9.3 版本已发布",
+    "url": "https://www.oschina.net/news/503357",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "DBPanel 1.1.3 发布：增强网站防护与版本化部署，新增空间清理",
+    "url": "https://www.oschina.net/news/503356",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "一眼的熟悉，满眼的惊喜：新款 iPad mini 首发体验",
+    "url": "https://sspai.com/post/118263",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "Disc Image Studio：你想不想在光盘上「画」点什么？",
+    "url": "https://sspai.com/post/118211",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-03",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "派早报：猛玛推出探境 3 直播相机、美团发布 LongCat-2.5 模型等",
+    "url": "https://sspai.com/post/118232",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "出生前后大脑会清理突变神经元",
+    "url": "https://www.solidot.org/story?sid=85792",
+    "discard_reason": "非AI领域：自然科学/生物医学/天文气候/传统工控新闻"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "Bethesda 宣布《上古卷轴VI：哨兵》",
+    "url": "https://www.solidot.org/story?sid=85790",
+    "discard_reason": "非AI领域：传统游戏娱乐/名人花边/传统建站裁员/泛安全基金募资"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Solidot",
+    "lang": "zh",
+    "title": "Fedora Linux 45 释出",
+    "url": "https://www.solidot.org/story?sid=85786",
+    "discard_reason": "非AI领域：传统操作系统/Linux发行版/底层固件常规更新"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "GitHub Releases (ggml-org/llama.cpp)",
+    "lang": "en",
+    "title": "ggml-org/llama.cpp Release b12109: b12109",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12109",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "GitHub Releases (ggml-org/llama.cpp)",
+    "lang": "en",
+    "title": "ggml-org/llama.cpp Release b12102: b12102",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12102",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "GitHub Releases (ggml-org/llama.cpp)",
+    "lang": "en",
+    "title": "ggml-org/llama.cpp Release b12101: b12101",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12101",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "GitHub Releases (ggml-org/llama.cpp)",
+    "lang": "en",
+    "title": "ggml-org/llama.cpp Release b12100: b12100",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12100",
+    "discard_reason": "同源高频小版本去重：同一 GitHub 仓库当日已保留核心 Release，剔除连续次要 Patch/Build"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Told to reboot a server, it destroyed systemd, destroyed containers, ran random",
+    "url": "https://github.com/openai/codex/issues/59060",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Running 17 Claude Code bots in a real company for $100/month",
+    "url": "https://botsinproduction.com/blog/what-10-claude-code-bots-cost-per-month/",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (13 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Giant canyon on Mars is still tectonically active",
+    "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "AI is forcing us to pay off 40 years of technical debt",
+    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (153 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (104 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "AI stocks slide as Texas governor result raises data center risks",
+    "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (43 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
+    "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
+    "discard_reason": "社区低热度/非核心事件帖过滤：HN 热度未达高赞阈值 (33 pts < 220) 且非多源重点追踪事件"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Incident with Pull Requests, Git Operations and Issues",
+    "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Tell HN: GitHub Is Down",
+    "url": "https://news.ycombinator.com/item?id=50363274",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Jelly Sheet",
+    "url": "https://mrdoob.github.io/codevember-2026/01/",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "Hacker News",
+    "lang": "en",
+    "title": "Not Getting Paid.",
+    "url": "https://tomaszdziurko1.substack.com/p/not-getting-paid",
+    "discard_reason": "非AI领域：Hacker News 泛科技/硬件/政治/编程杂谈/纯站点故障讨论"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "调问更新 10.19 ~ 11.3：测评计分能力全面升级，问卷设计与管理体验持续优化",
+    "url": "https://www.oschina.net/news/503394",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "PingWAF - 面向现代 Web 应用的高性能分布式安全防护平台",
+    "url": "https://www.oschina.net/p/pingwaf",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "qData 数据中台专业版 v3.0.1 发布：模型设计、版本管理与指标建模迎来多项升级！",
+    "url": "https://www.oschina.net/news/503390",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Jync v1.12.0 · 同步前检查、内容校验与诊断包",
+    "url": "https://www.oschina.net/news/503388",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Apache SeaTunnel 社区 2026 年 10 月贡献总结报告",
+    "url": "https://www.oschina.net/news/503381",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "OSChina 开源中国",
+    "lang": "zh",
+    "title": "Skyeye 云企业级AI+零代码智能制造系统-AI应用 - v4.1.10发布",
+    "url": "https://www.oschina.net/news/503380",
+    "discard_reason": "非AI领域：传统企业管理软件/CMS/数据库同步/报表商城日常版本发布"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "微诗：从诗入画、且唱且行，这款免费 app 把诗装进手机",
+    "url": "https://sspai.com/post/115819",
+    "discard_reason": "非AI领域：传统消费电子数码评测/普通工具App推荐"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "国行 Apple 智能上手：这些功能已经准备好",
+    "url": "https://sspai.com/post/118404",
+    "discard_reason": "相关性不足：综合信源未命中 AI 核心技术或实体关键词"
+  },
+  {
+    "date": "2026-11-04",
+    "source_name": "少数派 SSPai",
+    "lang": "zh",
+    "title": "派早报：Apple 智能国行版开放测试、拓竹发布 H3C 3D 打印机等",
+    "url": "https://sspai.com/post/118402",
+    "discard_reason": "相关性不足：综合信源未命中 AI 核心技术或实体关键词"
+  }
+]
