@@ -18,7 +18,7 @@
 | **`event_time`**<br>（事件实际发生日） | 事件五元组 | 区分“媒体发文日期”与“事件真正发生的日期”，用来抓出旧闻复盘（如 11 月发文讲 6 月份的黑客攻击）。 | 正文写“上周”、“今年6月”等相对时间时，AI 偷懒直接把文章的发布日期抄进 `event_time`，或者输出 `2026年6月` 等非标准格式。 | Prompt 明确传入文章发布日期作为换算基准，要求统一输出 `YYYY-MM-DD`（只写月份时统一补 `-01`），再由程序计算与发布日的天数差。 |
 | **`metrics` / `metrics_ledger`**<br>（量化数据台账） | 证据与台账层 | 记录报道中的关键数字及其统计前提，支撑后续识别“数据更正”（如 `9000亿 -> 8950亿 -> 8954亿`）和日报精确引用。 | 1. 只抄数字（如“降本90%”），漏掉数字背后的前提条件（如“基于56块B200自建集群”）；<br>2. 在 JSON 字符串里直接写未转义的英文双引号导致 JSON 解析报错。 | 1. 强制拆成 `metric_name`（指标名）、`value`（数值）、`scope_note`（统计前提说明）三个子字段，入库时由程序自动绑定 `item_id`；<br>2. 客户端内置 `robust_parse_json` 自动修复未转义引号。 |
 | **`candidate_event_ids` & `transition`** | 跨批次归并层 | 决定新报道是新建事件（`NEW`），还是并入旧事件并更新状态（`CORROBORATED` / `ONGOING` / `CORRECTED`）。 | 1. **同主体误合**：看都是“苹果”或“Anthropic”的新闻，就把不相关的两件事硬合在一起；<br>2. 分不清普通补充报道和真正的数据更正。 | Stage 2 明确给出“同源动作合并、同主体不同动作隔离”两条硬规则，要求 AI 必须先写合并理由（`reasoning`）再给结论，全部记录在 `merge_audit_log.json`。 |
-| **`source_items` & `timeline`**<br>（溯源证据链） | 事件实体表 | 保证每个事件、每次状态变化、日报里的每句结论都能精确查回原始数据编号 `ITEM-YYYYMMDD-XXX`。 | 让 AI 自己手写或汇总长串 `ITEM-ID` 时，容易漏写、编造不存在的编号，或在写日报时把 A 事件的 `ITEM-ID` 塞进 B 事件的括号里。 | 事件表里的 `source_items` 和 `timeline` 编号**全部由 Python 代码自动追加**，不让 AI 手写；AI 生成日报后，由程序自动核对修正错配括号并执行 `VAL-03 / VAL-07` 零幻觉校验。 |
+| **`source_items` & `timeline`**<br>（溯源证据链） | 事件实体表 | 保证每个事件、每次状态变化、日报里的每句结论都能精确查回原始数据编号 `ITEM-YYYYMMDD-XXX`。 | 让 AI 自己手写或汇总长串 `ITEM-ID` 时，容易漏写、编造不存在的编号，或在写日报时把 A 事件的 `ITEM-ID` 塞进 B 事件的括号里。 | 事件表里的 `source_items` 和 `timeline` 编号**全部由 Python 代码自动追加**，不让 AI 手写；AI 生成日报后，由程序自动核对修正错配括号并执行 `VAL-03 / VAL-07` 引用真实性校验。 |
 
 ---
 
@@ -44,8 +44,8 @@
 1. **第一步（中英文主体与概念对齐）**：通过 [`event_taxonomy_and_merge_rules.json`](file:///d:/Pcode/outside/data_vis/rules/event_taxonomy_and_merge_rules.json) 中的 `initial_entity_aliases` 及运行期动态积累的别名表（[`entity_aliases_snapshot.json`](file:///d:/Pcode/outside/data_vis/data/intermediate/entity_aliases_snapshot.json)），把中英文异名主体（如 `A社` $\leftrightarrow$ `Anthropic`、`苹果/Apple智能` $\leftrightarrow$ `Apple / Apple Intelligence`、`千问` $\leftrightarrow$ `Alibaba Qwen`）统一转为标准名；
 2. **第二步（Stage 1 带着历史事件索引读原文）**：抽取新文章时，将当前事件库中已有事件的极简五元组列表（`event_id + 主体 + 动作 + 标的`）一并传入。即使一篇是英文报道《The New York Times sues Brave...》（`ITEM-20261102-003`），另一篇是两天后的中文报道《纽约时报起诉 Brave 抓取内容提供给 AI 公司》（`ITEM-20261104-011`），模型也能在阅读时直接关联并输出候选编号 `EVT-003`；
 3. **第三步（Stage 2 严守两条合并边界）**：
-   - **同源动作合并（防漏合）**：只要两条报道指向同一主体在同一时间窗口内做的**同一个客观动作**（如 Anthropic 提交同一份 S-1/A 招股书披露财务与算力数据），即使各家媒体标题切入点不同，也归并为同一事件；
-   - **同主体不同动作隔离（防误合）**：如果主体相同（例如都是 Anthropic 或都是 Apple），但现实动作完全独立（如“Anthropic 提交 S-1 招股书 `EVT-016`” vs “Anthropic 开源 FlashProve 模型验证工具 `EVT-060`”），严格新建独立事件，绝不因为公司名相同而混为一谈。
+   - **准则 1：同源动作合并**：只要两条报道指向同一主体在同一时间窗口内做的**同一个客观动作**（如 Anthropic 提交同一份 S-1/A 招股书披露财务与算力数据），即使各家媒体标题切入点不同，也归并为同一事件；
+   - **准则 2：同主体不同动作隔离**：如果主体相同（例如都是 Anthropic 或都是 Apple），但现实动作完全独立（如“Anthropic 提交 S-1 招股书 `EVT-016`” vs “Anthropic 开源 FlashProve 模型验证工具 `EVT-060`”），严格新建独立事件，绝不因为公司名相同而混为一谈。
 
 ### 2. 新批次进来时如何增量更新（四态流转）？
 系统维护持久化的事件实体表，按 `Batch 1 (11-02)` $\rightarrow$ `Batch 2 (11-03)` $\rightarrow$ `Batch 3 (11-04)` 顺序增量更新每个事件的状态：
@@ -58,4 +58,4 @@
 1. **事先固化的外部规则配置**：分类体系、质量标签和实体别名全部事先定义在 [`rules/event_taxonomy_and_merge_rules.json`](file:///d:/Pcode/outside/data_vis/rules/event_taxonomy_and_merge_rules.json) 中，Prompt 从配置文件动态加载，不靠模型自由发挥；
 2. **零温度采样（`temperature = 0.0`）+ 关闭随机思考链（`"enable_thinking": False`）**：在结构化抽取与归并阶段固定使用 `temperature=0.0`，最大程度消除采样随机性；
 3. **归并时继承已有事件分类**：当新批次的后续报道并入已有事件（如 Batch 3 的 `ITEM-20261104-011` 并入 Batch 1 创建的 `EVT-003`）时，事件实体保持首发确定的分类不变，不会因为后续报道角度微调而发生分类跳变；
-4. **程序化前缀对齐 + SHA-256 本地确定性缓存（`data/cache/llm_cache.json`）**：代码层对分类字符串做确定性枚举对齐，并通过對 `(model, system_prompt, user_prompt)` 计算 SHA-256 哈希缓存响应，确保任何人在本地多次运行 `python run_pipeline.py` 都能 100% 得到完全一致的分类与归并结果。
+4. **程序化前缀对齐 + SHA-256 本地确定性缓存（`data/cache/llm_cache.json`）**：代码层对分类字符串做确定性枚举对齐，并通过对 `(model, system_prompt, user_prompt)` 计算 SHA-256 哈希缓存响应，保证多次运行结果的一致性。

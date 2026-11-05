@@ -144,9 +144,9 @@ def run_validation() -> dict:
     checks.append(
         {
             "check_id": "VAL-03",
-            "name": "溯源 Item ID 真实性与零幻觉引用校验",
+            "name": "溯源 Item ID 真实性与引用有效性校验",
             "passed": c3_pass,
-            "details": f"事件实体表共关联 {len(referenced_ids)} 条真实原始资讯 ID，幻觉/无效 ID 数: {len(hallucinated_ids)}",
+            "details": f"事件实体表共关联 {len(referenced_ids)} 条真实原始资讯 ID，无效 ID 数: {len(hallucinated_ids)}",
             "errors": hallucinated_ids,
         }
     )
