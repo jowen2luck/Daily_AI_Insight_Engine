@@ -1,6 +1,6 @@
 # 结构化 Schema 设计、事件分类体系与跨批次归并规则说明
 
-本文件说明系统的结构化抽取 Schema 设计理由、AI 填写各字段时的常见错误及防错方法、六大事件分类体系，以及跨批次增量归并规则（机器可读配置见 [`event_taxonomy_and_merge_rules.json`](file:///d:/Pcode/outside/data_vis/rules/event_taxonomy_and_merge_rules.json)）。
+本文件说明系统的结构化抽取 Schema 设计理由、AI 填写各字段时的常见错误及防错方法、六大事件分类体系，以及跨批次增量归并规则（机器可读配置见 [`event_taxonomy_and_merge_rules.json`](event_taxonomy_and_merge_rules.json)）。
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 1. 如何判断两条报道（含一中一英）说的是同一件事？
 系统通过 **“实体标准化 + 上下文感知抽取 + 五元组对齐”** 三步判断两条报道（包括英文首发与中文跟进）是否指向同一事件：
-1. **第一步（中英文主体与概念对齐）**：通过 [`event_taxonomy_and_merge_rules.json`](file:///d:/Pcode/outside/data_vis/rules/event_taxonomy_and_merge_rules.json) 中的 `initial_entity_aliases` 及运行期动态积累的别名表（[`entity_aliases_snapshot.json`](file:///d:/Pcode/outside/data_vis/data/intermediate/entity_aliases_snapshot.json)），把中英文异名主体（如 `A社` $\leftrightarrow$ `Anthropic`、`苹果/Apple智能` $\leftrightarrow$ `Apple / Apple Intelligence`、`千问` $\leftrightarrow$ `Alibaba Qwen`）统一转为标准名；
+1. **第一步（中英文主体与概念对齐）**：通过 [`event_taxonomy_and_merge_rules.json`](event_taxonomy_and_merge_rules.json) 中的 `initial_entity_aliases` 及运行期动态积累的别名表（[`entity_aliases_snapshot.json`](../data/intermediate/entity_aliases_snapshot.json)），把中英文异名主体（如 `A社` $\leftrightarrow$ `Anthropic`、`苹果/Apple智能` $\leftrightarrow$ `Apple / Apple Intelligence`、`千问` $\leftrightarrow$ `Alibaba Qwen`）统一转为标准名；
 2. **第二步（Stage 1 带着历史事件索引读原文）**：抽取新文章时，将当前事件库中已有事件的极简五元组列表（`event_id + 主体 + 动作 + 标的`）一并传入。即使一篇是英文报道《The New York Times sues Brave...》（`ITEM-20261102-003`），另一篇是两天后的中文报道《纽约时报起诉 Brave 抓取内容提供给 AI 公司》（`ITEM-20261104-011`），模型也能在阅读时直接关联并输出候选编号 `EVT-003`；
 3. **第三步（Stage 2 严守两条合并边界）**：
    - **准则 1：同源动作合并**：只要两条报道指向同一主体在同一时间窗口内做的**同一个客观动作**（如 Anthropic 提交同一份 S-1/A 招股书披露财务与算力数据），即使各家媒体标题切入点不同，也归并为同一事件；
@@ -55,7 +55,7 @@
 - **`CORRECTED`（信息更正）**：后续报道用精确数据修正了早期粗略约数（如 `EVT-016` 将算力承诺从“近 9000 亿 / 约 8950 亿”更正为精确值 **8954 亿美元**，并澄清 230 亿亏损系会计减计而非现金消耗），或澄清了统计前提。
 
 ### 3. 如何保证同一条资讯在不同批次、多次运行时得到一致的分类与结果？
-1. **事先固化的外部规则配置**：分类体系、质量标签和实体别名全部事先定义在 [`rules/event_taxonomy_and_merge_rules.json`](file:///d:/Pcode/outside/data_vis/rules/event_taxonomy_and_merge_rules.json) 中，Prompt 从配置文件动态加载，不靠模型自由发挥；
+1. **事先固化的外部规则配置**：分类体系、质量标签和实体别名全部事先定义在 [`rules/event_taxonomy_and_merge_rules.json`](event_taxonomy_and_merge_rules.json) 中，Prompt 从配置文件动态加载，不靠模型自由发挥；
 2. **零温度采样（`temperature = 0.0`）+ 关闭随机思考链（`"enable_thinking": False`）**：在结构化抽取与归并阶段固定使用 `temperature=0.0`，最大程度消除采样随机性；
 3. **归并时继承已有事件分类**：当新批次的后续报道并入已有事件（如 Batch 3 的 `ITEM-20261104-011` 并入 Batch 1 创建的 `EVT-003`）时，事件实体保持首发确定的分类不变，不会因为后续报道角度微调而发生分类跳变；
 4. **程序化前缀对齐 + SHA-256 本地确定性缓存（`data/cache/llm_cache.json`）**：代码层对分类字符串做确定性枚举对齐，并通过对 `(model, system_prompt, user_prompt)` 计算 SHA-256 哈希缓存响应，保证多次运行结果的一致性。
