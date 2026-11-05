@@ -1,5 +1,5 @@
 {
-  "validated_at": "2026-11-05T04:38:09Z",
+  "validated_at": "2026-11-05T04:41:09Z",
   "overall_passed": true,
   "summary": {
     "total_raw_items": 99,
@@ -46,8 +46,22 @@
       "check_id": "VAL-05",
       "name": "数据质量问题标签检出审计",
       "passed": true,
-      "details": "各质量标签检出条目统计: EXAGGERATED_TITLE: 3条, PR_PROMOTION: 19条, MULTI_TOPIC_DIGEST: 4条, UNVERIFIED_RUMOR: 2条, STALE_NEWS: 8条, EVENT_AD: 3条",
+      "details": "各质量标签检出条目统计: STALE_NEWS: 8条, UNVERIFIED_RUMOR: 2条, EXAGGERATED_TITLE: 3条, PR_PROMOTION: 19条, MULTI_TOPIC_DIGEST: 4条, EVENT_AD: 3条",
       "flagged_items": {
+        "STALE_NEWS": [
+          "ITEM-20261102-012",
+          "ITEM-20261103-012",
+          "ITEM-20261103-023",
+          "ITEM-20261103-024",
+          "ITEM-20261103-025",
+          "ITEM-20261103-042",
+          "ITEM-20261103-043",
+          "ITEM-20261104-010"
+        ],
+        "UNVERIFIED_RUMOR": [
+          "ITEM-20261102-023",
+          "ITEM-20261103-036"
+        ],
         "EXAGGERATED_TITLE": [
           "ITEM-20261103-022",
           "ITEM-20261103-045",
@@ -80,20 +94,6 @@
           "ITEM-20261103-050",
           "ITEM-20261104-005"
         ],
-        "UNVERIFIED_RUMOR": [
-          "ITEM-20261102-023",
-          "ITEM-20261103-036"
-        ],
-        "STALE_NEWS": [
-          "ITEM-20261102-012",
-          "ITEM-20261103-012",
-          "ITEM-20261103-023",
-          "ITEM-20261103-024",
-          "ITEM-20261103-025",
-          "ITEM-20261103-042",
-          "ITEM-20261103-043",
-          "ITEM-20261104-010"
-        ],
         "EVENT_AD": [
           "ITEM-20261102-026",
           "ITEM-20261103-008",
@@ -112,7 +112,7 @@
       "check_id": "VAL-07",
       "name": "分析日报与可视化图表完整性及证据引用溯源校验",
       "passed": true,
-      "details": "日报及 2 张可视化图表已就绪；日报正文共引用 39 个真实事件实体、45 条真实原始资讯，事件-条目绑定错误数: 0",
+      "details": "日报及 2 张可视化图表已就绪；日报正文共引用 38 个真实事件实体、42 条真实原始资讯，事件-条目绑定错误数: 0",
       "errors": []
     }
   ]
