@@ -22,6 +22,62 @@
 
 ---
 
+```
+【实体表 (Event Registry)】（整个系统的事件数据库）
+  │
+  ├── 包含很多行 ──> 【事件实体 (Event Entity)】（编号如 EVT-001, EVT-002）
+                       │
+                       ├── 1. 分类 (Category): 属于6大类的哪一类（如"投融资与财报"）
+                       ├── 2. 状态 (Status): 属于谁？就属于这个事件！代表它当前的进展
+                       │     （NEW -> CORROBORATED / ONGOING / CORRECTED）
+                       │
+                       ├── 3. 五元组 (Tuple): 证明它是什么事的唯一标识
+                       │     ├── actors: 主体（谁）
+                       │     ├── action: 客观动作（干了什么）
+                       │     ├── target_objects: 标的物（对什么干的）
+                       │     ├── event_time: 实际发生时间（哪天发生的）
+                       │     └── location: 地点（在哪）
+                       │
+                       ├── 4. 证据链 (Source & Timeline): 记录它被哪些文章报道过
+                       │     ├── source_items: [ITEM-001, ITEM-012, ...]
+                       │     └── timeline: 每次被报道的时间线追加
+                       │
+                       └── 5. 数据口径台账 (metrics_ledger): 记录不同报道提到的关键数字
+
+                       {
+  "event_id": "EVT-001",
+  "canonical_title": "Trajectory完成4500万美元A轮融资估值3亿美元",
+  "category": "投融资与IPO财报 (Corporate & Financial/IPO)",
+  "status": "NEW",
+
+  // --- 这里就是【五元组】 ---
+  "actors": ["Trajectory", "Sequoia", "Nvidia"],      // 主体（谁）
+  "action": "完成4500万美元A轮融资",                  // 客观源头动作（干了什么）
+  "target_objects": ["Trajectory公司"],              // 标的（针对什么）
+  "event_time": "2026-11-02",                         // 实际发生时间
+  "location": "美国",                                 // 地点
+  // ---------------------------
+
+  "synthesis_summary": "成立约一年的AI初创公司Trajectory宣布完成4500万美元A轮融资...",
+  
+  // 证据链：哪篇文章支撑的？
+  "source_items": ["ITEM-20261102-001"],
+  
+  // 数据口径台账：记录关键数字和前提
+  "metrics_ledger": [
+    {
+      "metric_name": "融资金额",
+      "value": "4500万美元",
+      "scope_note": "A轮"
+    },
+    {
+      "metric_name": "公司估值",
+      "value": "3亿美元",
+      "scope_note": "A轮投后估值"
+    }
+  ]
+}
+```
 ## 二、 六大事件分类体系 (`event_categories`)
 
 所有抽取的 AI 事件必须归入以下 6 个固定分类之一（由校验器 `VAL-02` 检查）：
